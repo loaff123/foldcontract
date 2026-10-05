@@ -1,0 +1,17 @@
+test_atomic_no_clobber_race (test_cli.CLITests.test_atomic_no_clobber_race) ... ok
+test_cannot_overwrite_input (test_cli.CLITests.test_cannot_overwrite_input) ... ok
+test_check_nonfeasible_assertion_not_proof (test_cli.CLITests.test_check_nonfeasible_assertion_not_proof) ... ok
+test_check_witness_and_reject_tampering (test_cli.CLITests.test_check_witness_and_reject_tampering) ... ok
+test_infeasible_exit (test_cli.CLITests.test_infeasible_exit) ... ok
+test_missing_file_error (test_cli.CLITests.test_missing_file_error) ... ok
+test_output_file_and_no_clobber (test_cli.CLITests.test_output_file_and_no_clobber) ... ok
+test_solve_stdout_and_valid_exit (test_cli.CLITests.test_solve_stdout_and_valid_exit) ... ok
+test_symlink_preserved_including_dangling (test_cli.CLITests.test_symlink_preserved_including_dangling) ... ok
+test_unknown_exit (test_cli.CLITests.test_unknown_exit) ... ok
+test_validate (test_cli.CLITests.test_validate) ... ok
+test_validation_error_exit (test_cli.CLITests.test_validation_error_exit) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.206s
+
+OK

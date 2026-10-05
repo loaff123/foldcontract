@@ -1,0 +1,113 @@
+test_all_named_requirements_checked_with_exact_observed_values (test_checker.CheckerTests.test_all_named_requirements_checked_with_exact_observed_values) ... ok
+test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) ... 
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'") ... FAIL
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'") ... FAIL
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="'ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé'") ... FAIL
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="'ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé'") ... FAIL
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="'\\ud800'") ... FAIL
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="'\\ud800'") ... FAIL
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="''") ... FAIL
+  test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="''") ... FAIL
+test_assignment_size_rejected_before_copying_or_iteration (test_checker.CheckerTests.test_assignment_size_rejected_before_copying_or_iteration) ... ok
+test_check_does_not_mutate_problem_report_or_assignment (test_checker.CheckerTests.test_check_does_not_mutate_problem_report_or_assignment) ... ok
+test_check_report_validates_only_feasible_matching_digest (test_checker.CheckerTests.test_check_report_validates_only_feasible_matching_digest) ... ok
+test_checker_rejects_forged_problem_objects (test_checker.CheckerTests.test_checker_rejects_forged_problem_objects) ... ok
+test_counts_near_admission_limit_are_exact (test_checker.CheckerTests.test_counts_near_admission_limit_are_exact) ... ok
+test_empty_partition_is_legal_without_explicit_requirements (test_checker.CheckerTests.test_empty_partition_is_legal_without_explicit_requirements) ... ok
+test_malformed_assignment_cannot_crash_or_be_admitted (test_checker.CheckerTests.test_malformed_assignment_cannot_crash_or_be_admitted) ... ok
+test_missing_extra_duplicate_and_unknown_partition_rejected (test_checker.CheckerTests.test_missing_extra_duplicate_and_unknown_partition_rejected) ... ok
+test_repeated_bounds_conjunction_keeps_individual_names (test_checker.CheckerTests.test_repeated_bounds_conjunction_keeps_individual_names) ... ok
+test_valid_witness_has_recomputed_exact_totals (test_checker.CheckerTests.test_valid_witness_has_recomputed_exact_totals) ... ok
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_GROUP' != 'INVALID_ENTRY'
+- UNKNOWN_GROUP
++ INVALID_ENTRY
+
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_PARTITION' != 'INVALID_ENTRY'
+- UNKNOWN_PARTITION
++ INVALID_ENTRY
+
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="'ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé'")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_GROUP' != 'INVALID_ENTRY'
+- UNKNOWN_GROUP
++ INVALID_ENTRY
+
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="'ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé'")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_PARTITION' != 'INVALID_ENTRY'
+- UNKNOWN_PARTITION
++ INVALID_ENTRY
+
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="'\\ud800'")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_GROUP' != 'INVALID_ENTRY'
+- UNKNOWN_GROUP
++ INVALID_ENTRY
+
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="'\\ud800'")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_PARTITION' != 'INVALID_ENTRY'
+- UNKNOWN_PARTITION
++ INVALID_ENTRY
+
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='group', value="''")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_GROUP' != 'INVALID_ENTRY'
+- UNKNOWN_GROUP
++ INVALID_ENTRY
+
+
+======================================================================
+FAIL: test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) (key='partition', value="''")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 152, in test_assignment_identifiers_are_bounded_without_echoing_invalid_values
+    self.assertEqual(result["violations"][0]["code"], "INVALID_ENTRY")
+AssertionError: 'UNKNOWN_PARTITION' != 'INVALID_ENTRY'
+- UNKNOWN_PARTITION
++ INVALID_ENTRY
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.017s
+
+FAILED (failures=8)

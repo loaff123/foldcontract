@@ -1,0 +1,8 @@
+Processing ./dist/foldcontract-0.1.0a1-py3-none-any.whl
+Installing collected packages: foldcontract
+  Attempting uninstall: foldcontract
+    Found existing installation: foldcontract 0.1.0a1
+    Uninstalling foldcontract-0.1.0a1:
+      Successfully uninstalled foldcontract-0.1.0a1
+Successfully installed foldcontract-0.1.0a1
+<temporary>

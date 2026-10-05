@@ -1,0 +1,5 @@
+{
+  "independence": "Cartesian oracle authored from INTERFACES.md, DESIGN.md and original dictionary inputs before reading production solver.py or prototype probe.py. Neither implementation was read or imported before this snapshot. Research report, protocol, review and data outputs were inspected.",
+  "initial_script_sha256": "2c226b487f982e631e667c600138deb01ebf808e8042047cc311b4dc5bc7bdc3",
+  "prototype_imports": false
+}

@@ -1,0 +1,203 @@
+test_boolean_float_negative_and_overflow_bounds_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_bounds_rejected) ... FAIL
+test_boolean_float_negative_and_overflow_counts_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_counts_rejected) ... FAIL
+test_bounds_outside_totals_and_inverted_are_admitted (test_model.ModelTests.test_bounds_outside_totals_and_inverted_are_admitted) ... FAIL
+test_canonical_digest_and_roundtrip_are_stable (test_model.ModelTests.test_canonical_digest_and_roundtrip_are_stable) ... FAIL
+test_default_bounds_match_measure_total (test_model.ModelTests.test_default_bounds_match_measure_total) ... FAIL
+test_depth_limit_precedes_json_recursion (test_model.ModelTests.test_depth_limit_precedes_json_recursion) ... FAIL
+test_dimension_limits_are_enforced (test_model.ModelTests.test_dimension_limits_are_enforced) ... FAIL
+test_duplicate_json_keys_rejected_at_any_level (test_model.ModelTests.test_duplicate_json_keys_rejected_at_any_level) ... FAIL
+test_ids_are_exact_and_not_unicode_normalized (test_model.ModelTests.test_ids_are_exact_and_not_unicode_normalized) ... FAIL
+test_input_size_utf8_and_syntax_are_strict (test_model.ModelTests.test_input_size_utf8_and_syntax_are_strict) ... FAIL
+test_invalid_ids_and_duplicate_ids_are_rejected (test_model.ModelTests.test_invalid_ids_and_duplicate_ids_are_rejected) ... FAIL
+test_json_numbers_reject_nonfinite_and_floats (test_model.ModelTests.test_json_numbers_reject_nonfinite_and_floats) ... FAIL
+test_matrix_shape_and_zero_rows_columns_are_rejected (test_model.ModelTests.test_matrix_shape_and_zero_rows_columns_are_rejected) ... FAIL
+test_maximum_dimensions_and_requirements_are_admitted (test_model.ModelTests.test_maximum_dimensions_and_requirements_are_admitted) ... FAIL
+test_maximum_id_byte_length_is_accepted (test_model.ModelTests.test_maximum_id_byte_length_is_accepted) ... FAIL
+test_measure_schema_and_references_are_strict (test_model.ModelTests.test_measure_schema_and_references_are_strict) ... FAIL
+test_no_requirements_adds_no_hidden_constraints (test_model.ModelTests.test_no_requirements_adds_no_hidden_constraints) ... FAIL
+test_normalizes_names_and_permuted_matrix (test_model.ModelTests.test_normalizes_names_and_permuted_matrix) ... FAIL
+test_numeric_token_limit_precedes_integer_allocation (test_model.ModelTests.test_numeric_token_limit_precedes_integer_allocation) ... FAIL
+test_repeated_constraints_remain_named_conjunction (test_model.ModelTests.test_repeated_constraints_remain_named_conjunction) ... FAIL
+test_unknown_and_missing_fields_are_rejected (test_model.ModelTests.test_unknown_and_missing_fields_are_rejected) ... FAIL
+test_version_and_top_level_types_are_strict (test_model.ModelTests.test_version_and_top_level_types_are_strict) ... FAIL
+
+======================================================================
+FAIL: test_boolean_float_negative_and_overflow_bounds_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_bounds_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_boolean_float_negative_and_overflow_counts_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_counts_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_bounds_outside_totals_and_inverted_are_admitted (test_model.ModelTests.test_bounds_outside_totals_and_inverted_are_admitted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_canonical_digest_and_roundtrip_are_stable (test_model.ModelTests.test_canonical_digest_and_roundtrip_are_stable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_default_bounds_match_measure_total (test_model.ModelTests.test_default_bounds_match_measure_total)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_depth_limit_precedes_json_recursion (test_model.ModelTests.test_depth_limit_precedes_json_recursion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_dimension_limits_are_enforced (test_model.ModelTests.test_dimension_limits_are_enforced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_duplicate_json_keys_rejected_at_any_level (test_model.ModelTests.test_duplicate_json_keys_rejected_at_any_level)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_ids_are_exact_and_not_unicode_normalized (test_model.ModelTests.test_ids_are_exact_and_not_unicode_normalized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_input_size_utf8_and_syntax_are_strict (test_model.ModelTests.test_input_size_utf8_and_syntax_are_strict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_invalid_ids_and_duplicate_ids_are_rejected (test_model.ModelTests.test_invalid_ids_and_duplicate_ids_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_json_numbers_reject_nonfinite_and_floats (test_model.ModelTests.test_json_numbers_reject_nonfinite_and_floats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_matrix_shape_and_zero_rows_columns_are_rejected (test_model.ModelTests.test_matrix_shape_and_zero_rows_columns_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_maximum_dimensions_and_requirements_are_admitted (test_model.ModelTests.test_maximum_dimensions_and_requirements_are_admitted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_maximum_id_byte_length_is_accepted (test_model.ModelTests.test_maximum_id_byte_length_is_accepted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_measure_schema_and_references_are_strict (test_model.ModelTests.test_measure_schema_and_references_are_strict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_no_requirements_adds_no_hidden_constraints (test_model.ModelTests.test_no_requirements_adds_no_hidden_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_normalizes_names_and_permuted_matrix (test_model.ModelTests.test_normalizes_names_and_permuted_matrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_numeric_token_limit_precedes_integer_allocation (test_model.ModelTests.test_numeric_token_limit_precedes_integer_allocation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_repeated_constraints_remain_named_conjunction (test_model.ModelTests.test_repeated_constraints_remain_named_conjunction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_unknown_and_missing_fields_are_rejected (test_model.ModelTests.test_unknown_and_missing_fields_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+======================================================================
+FAIL: test_version_and_top_level_types_are_strict (test_model.ModelTests.test_version_and_top_level_types_are_strict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 20, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("foldcontract.model"),
+AssertionError: unexpectedly None : The model admission API has not been implemented
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.001s
+
+FAILED (failures=22)

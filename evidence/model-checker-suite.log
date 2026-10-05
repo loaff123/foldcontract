@@ -1,0 +1,657 @@
+test_aggregates_rows_into_exact_canonical_counts (test_adapter.AggregateRowsTests.test_aggregates_rows_into_exact_canonical_counts) ... ok
+test_core_limits_apply_without_silent_truncation (test_adapter.AggregateRowsTests.test_core_limits_apply_without_silent_truncation) ... ok
+test_does_not_normalize_case_whitespace_or_unicode (test_adapter.AggregateRowsTests.test_does_not_normalize_case_whitespace_or_unicode) ... ok
+test_empty_rows_are_rejected (test_adapter.AggregateRowsTests.test_empty_rows_are_rejected) ... ok
+test_labels_and_groups_are_strictly_single_strings (test_adapter.AggregateRowsTests.test_labels_and_groups_are_strictly_single_strings) ... ok
+test_mismatched_source_lengths_are_rejected (test_adapter.AggregateRowsTests.test_mismatched_source_lengths_are_rejected) ... ok
+test_non_sequence_and_text_containers_are_rejected (test_adapter.AggregateRowsTests.test_non_sequence_and_text_containers_are_rejected) ... ok
+test_preserves_explicit_named_requirements (test_adapter.AggregateRowsTests.test_preserves_explicit_named_requirements) ... ok
+test_requirement_validation_remains_core_validation (test_adapter.AggregateRowsTests.test_requirement_validation_remains_core_validation) ... ok
+test_row_cap_is_checked_before_source_access (test_adapter.AggregateRowsTests.test_row_cap_is_checked_before_source_access) ... ok
+test_same_source_multiset_has_same_digest (test_adapter.AggregateRowsTests.test_same_source_multiset_has_same_digest) ... ok
+test_all_published_examples_are_strict_core_problems (test_adapter.ExampleTests.test_all_published_examples_are_strict_core_problems) ... ok
+test_explicit_preset_names_all_group_and_class_minima (test_adapter.KFoldProblemTests.test_explicit_preset_names_all_group_and_class_minima) ... ok
+test_impossible_minimum_is_well_formed_not_silently_relaxed (test_adapter.KFoldProblemTests.test_impossible_minimum_is_well_formed_not_silently_relaxed) ... ok
+test_invalid_preset_arguments_are_rejected (test_adapter.KFoldProblemTests.test_invalid_preset_arguments_are_rejected) ... ok
+test_max_length_labels_do_not_overflow_generated_requirement_ids (test_adapter.KFoldProblemTests.test_max_length_labels_do_not_overflow_generated_requirement_ids) ... ok
+test_zero_class_minimum_still_requests_one_group_per_fold (test_adapter.KFoldProblemTests.test_zero_class_minimum_still_requests_one_group_per_fold) ... ok
+test_all_splits_are_disjoint_groupwise_and_cover_all_rows (test_adapter.ReportCrossValidatorTests.test_all_splits_are_disjoint_groupwise_and_cover_all_rows) ... ok
+test_checks_actual_requirements_not_only_digest_or_totals (test_adapter.ReportCrossValidatorTests.test_checks_actual_requirements_not_only_digest_or_totals) ... ok
+test_does_not_mutate_source_rows_or_report (test_adapter.ReportCrossValidatorTests.test_does_not_mutate_source_rows_or_report) ... ok
+test_optional_protocol_has_no_sklearn_or_numpy_dependency (test_adapter.ReportCrossValidatorTests.test_optional_protocol_has_no_sklearn_or_numpy_dependency) ... ok
+test_original_row_order_with_canonical_partition_order (test_adapter.ReportCrossValidatorTests.test_original_row_order_with_canonical_partition_order) ... ok
+test_protocol_yields_checked_splits_and_does_not_inspect_features (test_adapter.ReportCrossValidatorTests.test_protocol_yields_checked_splits_and_does_not_inspect_features) ... ok
+test_rejects_changed_counts_and_group_mapping (test_adapter.ReportCrossValidatorTests.test_rejects_changed_counts_and_group_mapping) ... ok
+test_rejects_empty_test_even_when_every_train_would_be_nonempty (test_adapter.ReportCrossValidatorTests.test_rejects_empty_test_even_when_every_train_would_be_nonempty) ... ok
+test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness (test_adapter.ReportCrossValidatorTests.test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness) ... ok
+test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem (test_adapter.ReportCrossValidatorTests.test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem) ... ok
+test_requires_y_and_groups_for_every_split (test_adapter.ReportCrossValidatorTests.test_requires_y_and_groups_for_every_split) ... ok
+test_snapshots_report_assignment_against_later_mutation (test_adapter.ReportCrossValidatorTests.test_snapshots_report_assignment_against_later_mutation) ... ok
+test_source_reordering_is_allowed_and_new_indices_are_correct (test_adapter.ReportCrossValidatorTests.test_source_reordering_is_allowed_and_new_indices_are_correct) ... ok
+test_validates_report_before_exposing_a_validator (test_adapter.ReportCrossValidatorTests.test_validates_report_before_exposing_a_validator) ... ok
+test_all_splits_are_disjoint_groupwise_and_cover_all_rows (test_adapter.SplitIndicesTests.test_all_splits_are_disjoint_groupwise_and_cover_all_rows) ... ok
+test_checks_actual_requirements_not_only_digest_or_totals (test_adapter.SplitIndicesTests.test_checks_actual_requirements_not_only_digest_or_totals) ... ok
+test_does_not_mutate_source_rows_or_report (test_adapter.SplitIndicesTests.test_does_not_mutate_source_rows_or_report) ... ok
+test_original_row_order_with_canonical_partition_order (test_adapter.SplitIndicesTests.test_original_row_order_with_canonical_partition_order) ... ok
+test_rejects_changed_counts_and_group_mapping (test_adapter.SplitIndicesTests.test_rejects_changed_counts_and_group_mapping) ... ok
+test_rejects_empty_test_even_when_every_train_would_be_nonempty (test_adapter.SplitIndicesTests.test_rejects_empty_test_even_when_every_train_would_be_nonempty) ... ok
+test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness (test_adapter.SplitIndicesTests.test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness) ... ok
+test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem (test_adapter.SplitIndicesTests.test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem) ... ok
+test_source_reordering_is_allowed_and_new_indices_are_correct (test_adapter.SplitIndicesTests.test_source_reordering_is_allowed_and_new_indices_are_correct) ... ok
+test_all_named_requirements_checked_with_exact_observed_values (test_checker.CheckerTests.test_all_named_requirements_checked_with_exact_observed_values) ... ok
+test_check_does_not_mutate_problem_report_or_assignment (test_checker.CheckerTests.test_check_does_not_mutate_problem_report_or_assignment) ... ok
+test_check_report_validates_only_feasible_matching_digest (test_checker.CheckerTests.test_check_report_validates_only_feasible_matching_digest) ... ok
+test_counts_near_admission_limit_are_exact (test_checker.CheckerTests.test_counts_near_admission_limit_are_exact) ... ok
+test_empty_partition_is_legal_without_explicit_requirements (test_checker.CheckerTests.test_empty_partition_is_legal_without_explicit_requirements) ... ok
+test_malformed_assignment_cannot_crash_or_be_admitted (test_checker.CheckerTests.test_malformed_assignment_cannot_crash_or_be_admitted) ... ok
+test_missing_extra_duplicate_and_unknown_partition_rejected (test_checker.CheckerTests.test_missing_extra_duplicate_and_unknown_partition_rejected) ... ok
+test_repeated_bounds_conjunction_keeps_individual_names (test_checker.CheckerTests.test_repeated_bounds_conjunction_keeps_individual_names) ... ok
+test_valid_witness_has_recomputed_exact_totals (test_checker.CheckerTests.test_valid_witness_has_recomputed_exact_totals) ... ok
+test_atomic_no_clobber_race (test_cli.CLITests.test_atomic_no_clobber_race) ... FAIL
+test_cannot_overwrite_input (test_cli.CLITests.test_cannot_overwrite_input) ... FAIL
+test_check_nonfeasible_assertion_not_proof (test_cli.CLITests.test_check_nonfeasible_assertion_not_proof) ... FAIL
+test_check_witness_and_reject_tampering (test_cli.CLITests.test_check_witness_and_reject_tampering) ... FAIL
+test_infeasible_exit (test_cli.CLITests.test_infeasible_exit) ... FAIL
+test_missing_file_error (test_cli.CLITests.test_missing_file_error) ... FAIL
+test_output_file_and_no_clobber (test_cli.CLITests.test_output_file_and_no_clobber) ... FAIL
+test_solve_stdout_and_valid_exit (test_cli.CLITests.test_solve_stdout_and_valid_exit) ... FAIL
+test_symlink_preserved_including_dangling (test_cli.CLITests.test_symlink_preserved_including_dangling) ... FAIL
+test_unknown_exit (test_cli.CLITests.test_unknown_exit) ... FAIL
+test_validate (test_cli.CLITests.test_validate) ... FAIL
+test_validation_error_exit (test_cli.CLITests.test_validation_error_exit) ... FAIL
+test_explanation_budget_keeps_original_infeasibility (test_explain.ExplainTests.test_explanation_budget_keeps_original_infeasibility) ... ok
+test_named_core_independent_witnesses (test_explain.ExplainTests.test_named_core_independent_witnesses) ... ok
+test_original_unknown_and_feasible_have_no_infeasible_core (test_explain.ExplainTests.test_original_unknown_and_feasible_have_no_infeasible_core) ... ok
+test_shared_total_node_budget (test_explain.ExplainTests.test_shared_total_node_budget) ... ok
+test_boolean_float_negative_and_overflow_bounds_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_bounds_rejected) ... ok
+test_boolean_float_negative_and_overflow_counts_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_counts_rejected) ... ok
+test_bounds_outside_totals_and_inverted_are_admitted (test_model.ModelTests.test_bounds_outside_totals_and_inverted_are_admitted) ... ok
+test_canonical_digest_and_roundtrip_are_stable (test_model.ModelTests.test_canonical_digest_and_roundtrip_are_stable) ... ok
+test_default_bounds_match_measure_total (test_model.ModelTests.test_default_bounds_match_measure_total) ... ok
+test_depth_limit_precedes_json_recursion (test_model.ModelTests.test_depth_limit_precedes_json_recursion) ... ok
+test_dimension_limits_are_enforced (test_model.ModelTests.test_dimension_limits_are_enforced) ... ok
+test_duplicate_json_keys_rejected_at_any_level (test_model.ModelTests.test_duplicate_json_keys_rejected_at_any_level) ... ok
+test_ids_are_exact_and_not_unicode_normalized (test_model.ModelTests.test_ids_are_exact_and_not_unicode_normalized) ... ok
+test_input_size_utf8_and_syntax_are_strict (test_model.ModelTests.test_input_size_utf8_and_syntax_are_strict) ... ok
+test_invalid_ids_and_duplicate_ids_are_rejected (test_model.ModelTests.test_invalid_ids_and_duplicate_ids_are_rejected) ... ok
+test_json_numbers_reject_nonfinite_and_floats (test_model.ModelTests.test_json_numbers_reject_nonfinite_and_floats) ... ok
+test_matrix_shape_and_zero_rows_columns_are_rejected (test_model.ModelTests.test_matrix_shape_and_zero_rows_columns_are_rejected) ... ok
+test_maximum_dimensions_and_requirements_are_admitted (test_model.ModelTests.test_maximum_dimensions_and_requirements_are_admitted) ... ok
+test_maximum_id_byte_length_is_accepted (test_model.ModelTests.test_maximum_id_byte_length_is_accepted) ... ok
+test_measure_schema_and_references_are_strict (test_model.ModelTests.test_measure_schema_and_references_are_strict) ... ok
+test_no_requirements_adds_no_hidden_constraints (test_model.ModelTests.test_no_requirements_adds_no_hidden_constraints) ... ok
+test_normalizes_names_and_permuted_matrix (test_model.ModelTests.test_normalizes_names_and_permuted_matrix) ... ok
+test_numeric_token_limit_precedes_integer_allocation (test_model.ModelTests.test_numeric_token_limit_precedes_integer_allocation) ... ok
+test_repeated_constraints_remain_named_conjunction (test_model.ModelTests.test_repeated_constraints_remain_named_conjunction) ... ok
+test_unknown_and_missing_fields_are_rejected (test_model.ModelTests.test_unknown_and_missing_fields_are_rejected) ... ok
+test_version_and_top_level_types_are_strict (test_model.ModelTests.test_version_and_top_level_types_are_strict) ... ok
+test_actual_worker_memory_shortage (test_runtime.RuntimeTests.test_actual_worker_memory_shortage) ... FAIL
+test_admission_input_limit (test_runtime.RuntimeTests.test_admission_input_limit) ... FAIL
+test_bad_budget_types_rejected (test_runtime.RuntimeTests.test_bad_budget_types_rejected) ... FAIL
+test_child_exit_is_error_not_resource_unknown (test_runtime.RuntimeTests.test_child_exit_is_error_not_resource_unknown) ... FAIL
+test_explain_infeasible (test_runtime.RuntimeTests.test_explain_infeasible) ... FAIL
+test_feasible_has_independent_check_and_honest_scopes (test_runtime.RuntimeTests.test_feasible_has_independent_check_and_honest_scopes) ... FAIL
+test_hung_worker_observed_timeout (test_runtime.RuntimeTests.test_hung_worker_observed_timeout) ... FAIL
+test_invalid_json_is_validation_error (test_runtime.RuntimeTests.test_invalid_json_is_validation_error) ... FAIL
+test_malformed_protocol_is_error (test_runtime.RuntimeTests.test_malformed_protocol_is_error) ... FAIL
+test_os_kill_is_not_guessed_as_memory_exhaustion (test_runtime.RuntimeTests.test_os_kill_is_not_guessed_as_memory_exhaustion) ... FAIL
+test_output_limit_is_error_not_resource_success (test_runtime.RuntimeTests.test_output_limit_is_error_not_resource_success) ... FAIL
+test_parent_independently_rejects_false_witness (test_runtime.RuntimeTests.test_parent_independently_rejects_false_witness) ... FAIL
+test_runtime_does_not_accept_memory_limit_ack_mismatch (test_runtime.RuntimeTests.test_runtime_does_not_accept_memory_limit_ack_mismatch) ... FAIL
+test_stderr_is_bounded (test_runtime.RuntimeTests.test_stderr_is_bounded) ... FAIL
+test_timeout_cleanup_kills_worker_process_group (test_runtime.RuntimeTests.test_timeout_cleanup_kills_worker_process_group) ... FAIL
+test_unsupported_platform_is_not_claimed_enforced (test_runtime.RuntimeTests.test_unsupported_platform_is_not_claimed_enforced) ... FAIL
+test_validate_uses_worker (test_runtime.RuntimeTests.test_validate_uses_worker) ... FAIL
+test_zero_node_budget (test_runtime.RuntimeTests.test_zero_node_budget) ... FAIL
+test_zero_timeout_observed (test_runtime.RuntimeTests.test_zero_timeout_observed) ... FAIL
+test_320_small_cases_against_cartesian_enumeration (test_solver.SolverTests.test_320_small_cases_against_cartesian_enumeration) ... ok
+test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets) ... ok
+test_empty_requirements_and_zero_budget (test_solver.SolverTests.test_empty_requirements_and_zero_budget) ... ok
+test_fixed_budget_determinism (test_solver.SolverTests.test_fixed_budget_determinism) ... ok
+test_integer_extremes_and_forced_upper_exclusion (test_solver.SolverTests.test_integer_extremes_and_forced_upper_exclusion) ... ok
+test_odd_cycle_is_infeasible (test_solver.SolverTests.test_odd_cycle_is_infeasible) ... ok
+test_repeated_bounds_are_conjunction (test_solver.SolverTests.test_repeated_bounds_are_conjunction) ... ok
+
+======================================================================
+FAIL: test_atomic_no_clobber_race (test_cli.CLITests.test_atomic_no_clobber_race)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 84, in test_atomic_no_clobber_race
+    module = importlib.import_module("foldcontract.cli")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.cli'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 86, in test_atomic_no_clobber_race
+    self.fail("The atomic CLI writer is not implemented")
+AssertionError: The atomic CLI writer is not implemented
+
+======================================================================
+FAIL: test_cannot_overwrite_input (test_cli.CLITests.test_cannot_overwrite_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 70, in test_cannot_overwrite_input
+    self.assertEqual(p.returncode, 5, p.stderr + p.stdout)
+AssertionError: 1 != 5 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_check_nonfeasible_assertion_not_proof (test_cli.CLITests.test_check_nonfeasible_assertion_not_proof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 116, in test_check_nonfeasible_assertion_not_proof
+    self.assertEqual(p.returncode, 4, p.stderr + p.stdout)
+AssertionError: 1 != 4 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_check_witness_and_reject_tampering (test_cli.CLITests.test_check_witness_and_reject_tampering)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 101, in test_check_witness_and_reject_tampering
+    self.assertEqual(p.returncode, 0, p.stderr + p.stdout)
+AssertionError: 1 != 0 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_infeasible_exit (test_cli.CLITests.test_infeasible_exit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 44, in test_infeasible_exit
+    self.assertEqual(p.returncode, 2, p.stderr + p.stdout)
+AssertionError: 1 != 2 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_missing_file_error (test_cli.CLITests.test_missing_file_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 120, in test_missing_file_error
+    self.assertEqual(p.returncode, 5, p.stderr + p.stdout)
+AssertionError: 1 != 5 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_output_file_and_no_clobber (test_cli.CLITests.test_output_file_and_no_clobber)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 60, in test_output_file_and_no_clobber
+    self.assertEqual(p.returncode, 0, p.stderr + p.stdout)
+AssertionError: 1 != 0 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_solve_stdout_and_valid_exit (test_cli.CLITests.test_solve_stdout_and_valid_exit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 32, in test_solve_stdout_and_valid_exit
+    self.assertEqual(p.returncode, 0, p.stderr + p.stdout)
+AssertionError: 1 != 0 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_symlink_preserved_including_dangling (test_cli.CLITests.test_symlink_preserved_including_dangling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 78, in test_symlink_preserved_including_dangling
+    self.assertEqual(p.returncode, 5, p.stderr + p.stdout)
+AssertionError: 1 != 5 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_unknown_exit (test_cli.CLITests.test_unknown_exit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 49, in test_unknown_exit
+    self.assertEqual(p.returncode, 3, p.stderr + p.stdout)
+AssertionError: 1 != 3 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_validate (test_cli.CLITests.test_validate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 37, in test_validate
+    self.assertEqual(p.returncode, 0, p.stderr + p.stdout)
+AssertionError: 1 != 0 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_validation_error_exit (test_cli.CLITests.test_validation_error_exit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_cli.py", line 55, in test_validation_error_exit
+    self.assertEqual(p.returncode, 4, p.stderr + p.stdout)
+AssertionError: 1 != 4 : <python>/bin/python: No module named foldcontract.__main__; 'foldcontract' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_actual_worker_memory_shortage (test_runtime.RuntimeTests.test_actual_worker_memory_shortage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_admission_input_limit (test_runtime.RuntimeTests.test_admission_input_limit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_bad_budget_types_rejected (test_runtime.RuntimeTests.test_bad_budget_types_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_child_exit_is_error_not_resource_unknown (test_runtime.RuntimeTests.test_child_exit_is_error_not_resource_unknown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_explain_infeasible (test_runtime.RuntimeTests.test_explain_infeasible)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_feasible_has_independent_check_and_honest_scopes (test_runtime.RuntimeTests.test_feasible_has_independent_check_and_honest_scopes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_hung_worker_observed_timeout (test_runtime.RuntimeTests.test_hung_worker_observed_timeout)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_invalid_json_is_validation_error (test_runtime.RuntimeTests.test_invalid_json_is_validation_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_malformed_protocol_is_error (test_runtime.RuntimeTests.test_malformed_protocol_is_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_os_kill_is_not_guessed_as_memory_exhaustion (test_runtime.RuntimeTests.test_os_kill_is_not_guessed_as_memory_exhaustion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_output_limit_is_error_not_resource_success (test_runtime.RuntimeTests.test_output_limit_is_error_not_resource_success)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_parent_independently_rejects_false_witness (test_runtime.RuntimeTests.test_parent_independently_rejects_false_witness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_runtime_does_not_accept_memory_limit_ack_mismatch (test_runtime.RuntimeTests.test_runtime_does_not_accept_memory_limit_ack_mismatch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_stderr_is_bounded (test_runtime.RuntimeTests.test_stderr_is_bounded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_timeout_cleanup_kills_worker_process_group (test_runtime.RuntimeTests.test_timeout_cleanup_kills_worker_process_group)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_unsupported_platform_is_not_claimed_enforced (test_runtime.RuntimeTests.test_unsupported_platform_is_not_claimed_enforced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_validate_uses_worker (test_runtime.RuntimeTests.test_validate_uses_worker)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_zero_node_budget (test_runtime.RuntimeTests.test_zero_node_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+======================================================================
+FAIL: test_zero_timeout_observed (test_runtime.RuntimeTests.test_zero_timeout_observed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 22, in setUp
+    self.runtime = importlib.import_module("foldcontract.runtime")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foldcontract.runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 24, in setUp
+    self.fail("The supervised runtime API has not been implemented")
+AssertionError: The supervised runtime API has not been implemented
+
+----------------------------------------------------------------------
+Ran 113 tests in 0.304s
+
+FAILED (failures=31)

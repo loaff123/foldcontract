@@ -1,0 +1,68 @@
+test_320_small_cases_against_cartesian_enumeration (test_solver.SolverTests.test_320_small_cases_against_cartesian_enumeration) ... FAIL
+test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets) ... FAIL
+test_empty_requirements_and_zero_budget (test_solver.SolverTests.test_empty_requirements_and_zero_budget) ... FAIL
+test_fixed_budget_determinism (test_solver.SolverTests.test_fixed_budget_determinism) ... FAIL
+test_integer_extremes_and_forced_upper_exclusion (test_solver.SolverTests.test_integer_extremes_and_forced_upper_exclusion) ... FAIL
+test_odd_cycle_is_infeasible (test_solver.SolverTests.test_odd_cycle_is_infeasible) ... FAIL
+test_repeated_bounds_are_conjunction (test_solver.SolverTests.test_repeated_bounds_are_conjunction) ... FAIL
+
+======================================================================
+FAIL: test_320_small_cases_against_cartesian_enumeration (test_solver.SolverTests.test_320_small_cases_against_cartesian_enumeration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 36, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.solver'), 'solver feature missing')
+AssertionError: unexpectedly None : solver feature missing
+
+======================================================================
+FAIL: test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 36, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.solver'), 'solver feature missing')
+AssertionError: unexpectedly None : solver feature missing
+
+======================================================================
+FAIL: test_empty_requirements_and_zero_budget (test_solver.SolverTests.test_empty_requirements_and_zero_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 36, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.solver'), 'solver feature missing')
+AssertionError: unexpectedly None : solver feature missing
+
+======================================================================
+FAIL: test_fixed_budget_determinism (test_solver.SolverTests.test_fixed_budget_determinism)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 36, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.solver'), 'solver feature missing')
+AssertionError: unexpectedly None : solver feature missing
+
+======================================================================
+FAIL: test_integer_extremes_and_forced_upper_exclusion (test_solver.SolverTests.test_integer_extremes_and_forced_upper_exclusion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 36, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.solver'), 'solver feature missing')
+AssertionError: unexpectedly None : solver feature missing
+
+======================================================================
+FAIL: test_odd_cycle_is_infeasible (test_solver.SolverTests.test_odd_cycle_is_infeasible)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 36, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.solver'), 'solver feature missing')
+AssertionError: unexpectedly None : solver feature missing
+
+======================================================================
+FAIL: test_repeated_bounds_are_conjunction (test_solver.SolverTests.test_repeated_bounds_are_conjunction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 36, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.solver'), 'solver feature missing')
+AssertionError: unexpectedly None : solver feature missing
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (failures=7)

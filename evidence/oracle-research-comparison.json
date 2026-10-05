@@ -1,0 +1,108 @@
+{
+  "cases": 752,
+  "decided": 748,
+  "mismatches": [],
+  "unknown": [
+    {
+      "id": "medium-019",
+      "oracle": "infeasible"
+    },
+    {
+      "id": "medium-045",
+      "oracle": "infeasible"
+    },
+    {
+      "id": "stress-80-01",
+      "oracle": "feasible"
+    },
+    {
+      "id": "stress-80-04",
+      "oracle": "feasible"
+    }
+  ],
+  "groups": {
+    "small": {
+      "cases": 600,
+      "solver": {
+        "infeasible": 383,
+        "feasible": 217
+      },
+      "oracle": {
+        "infeasible": 383,
+        "feasible": 217
+      },
+      "solver_total_seconds": 0.04814888100463577,
+      "solver_max_seconds": 0.002217217999714194,
+      "oracle_total_seconds": 3.509262559004128,
+      "oracle_max_seconds": 0.13066895600013595
+    },
+    "medium": {
+      "cases": 120,
+      "solver": {
+        "feasible": 94,
+        "infeasible": 24,
+        "unknown": 2
+      },
+      "oracle": {
+        "feasible": 94,
+        "infeasible": 26
+      },
+      "solver_total_seconds": 11.355848546999823,
+      "solver_max_seconds": 4.9145463569998356,
+      "oracle_total_seconds": 0.5886017769985301,
+      "oracle_max_seconds": 0.27422677499998827,
+      "sgkf_no_shuffle_valid": 85,
+      "sgkf_any_17_valid": 87,
+      "solver_additional_valid": [
+        "medium-000",
+        "medium-012",
+        "medium-015",
+        "medium-020",
+        "medium-059",
+        "medium-101",
+        "medium-119"
+      ],
+      "sgkf_total_seconds": 5.353272484001536
+    },
+    "stress": {
+      "cases": 30,
+      "solver": {
+        "feasible": 28,
+        "unknown": 2
+      },
+      "oracle": {
+        "feasible": 30
+      },
+      "solver_total_seconds": 15.113983153999015,
+      "solver_max_seconds": 5.000172521999957,
+      "oracle_total_seconds": 1.696955535998768,
+      "oracle_max_seconds": 0.25866057700022793
+    },
+    "historical": {
+      "cases": 1,
+      "solver": {
+        "feasible": 1
+      },
+      "oracle": {
+        "feasible": 1
+      },
+      "solver_total_seconds": 7.681399983994197e-05,
+      "solver_max_seconds": 7.681399983994197e-05,
+      "oracle_total_seconds": 0.001044694000029267,
+      "oracle_max_seconds": 0.001044694000029267
+    },
+    "odd": {
+      "cases": 1,
+      "solver": {
+        "infeasible": 1
+      },
+      "oracle": {
+        "infeasible": 1
+      },
+      "solver_total_seconds": 4.660000013245735e-05,
+      "solver_max_seconds": 4.660000013245735e-05,
+      "oracle_total_seconds": 0.0008116880003399274,
+      "oracle_max_seconds": 0.0008116880003399274
+    }
+  }
+}

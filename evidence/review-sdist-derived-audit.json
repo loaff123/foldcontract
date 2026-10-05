@@ -1,0 +1,23 @@
+{
+  "sdist_sha256": "5d78190a7b785334a313db644fa07028a225b5e2fed31c9622617c0fe9aebaa5",
+  "derived_wheel_sha256": "956263afcf7e2b21005d8aa6a6483d93e3e5d10dc5c7f4f5c7523984da750c2c",
+  "source_files_matching_original_wheel": [
+    "foldcontract/__init__.py",
+    "foldcontract/__main__.py",
+    "foldcontract/adapter.py",
+    "foldcontract/checker.py",
+    "foldcontract/cli.py",
+    "foldcontract/explain.py",
+    "foldcontract/model.py",
+    "foldcontract/runtime.py",
+    "foldcontract/solver.py",
+    "foldcontract/worker.py"
+  ],
+  "metadata_matches_original_wheel": true,
+  "record_hashes_valid": true,
+  "offline_build_flags": [
+    "--no-index",
+    "--no-deps",
+    "--no-build-isolation"
+  ]
+}

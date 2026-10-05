@@ -1,0 +1,60 @@
+test_actual_worker_memory_shortage (test_runtime.RuntimeTests.test_actual_worker_memory_shortage) ... ok
+test_admission_input_limit (test_runtime.RuntimeTests.test_admission_input_limit) ... ok
+test_bad_budget_types_rejected (test_runtime.RuntimeTests.test_bad_budget_types_rejected) ... ok
+test_child_exit_is_error_not_resource_unknown (test_runtime.RuntimeTests.test_child_exit_is_error_not_resource_unknown) ... ok
+test_decided_results_require_bound_provenance (test_runtime.RuntimeTests.test_decided_results_require_bound_provenance) ... ok
+test_explain_infeasible (test_runtime.RuntimeTests.test_explain_infeasible) ... ok
+test_feasible_has_independent_check_and_honest_scopes (test_runtime.RuntimeTests.test_feasible_has_independent_check_and_honest_scopes) ... ok
+test_hung_worker_observed_timeout (test_runtime.RuntimeTests.test_hung_worker_observed_timeout) ... ok
+test_invalid_json_is_validation_error (test_runtime.RuntimeTests.test_invalid_json_is_validation_error) ... ok
+test_invalid_nonhashable_operation_and_huge_timeout (test_runtime.RuntimeTests.test_invalid_nonhashable_operation_and_huge_timeout) ... ok
+test_lexically_long_integer_rejected_before_json_decoder (test_runtime.RuntimeTests.test_lexically_long_integer_rejected_before_json_decoder) ... ok
+test_long_float_token_rejected_before_json_decoder (test_runtime.RuntimeTests.test_long_float_token_rejected_before_json_decoder) ... ok
+test_malformed_protocol_is_error (test_runtime.RuntimeTests.test_malformed_protocol_is_error) ... ok
+test_observed_timeout_includes_parent_verification (test_runtime.RuntimeTests.test_observed_timeout_includes_parent_verification) ... ok
+test_options_match_core_admission_caps (test_runtime.RuntimeTests.test_options_match_core_admission_caps) ... ok
+test_os_kill_is_not_guessed_as_memory_exhaustion (test_runtime.RuntimeTests.test_os_kill_is_not_guessed_as_memory_exhaustion) ... ok
+test_output_limit_is_error_not_resource_success (test_runtime.RuntimeTests.test_output_limit_is_error_not_resource_success) ... ok
+test_parent_independently_rejects_false_witness (test_runtime.RuntimeTests.test_parent_independently_rejects_false_witness) ... ok
+test_protocol_depth_and_integer_tokens_are_bounded (test_runtime.RuntimeTests.test_protocol_depth_and_integer_tokens_are_bounded) ... ok
+test_real_rlimit_blocks_allocation_after_bootstrap (test_runtime.RuntimeTests.test_real_rlimit_blocks_allocation_after_bootstrap) ... ok
+test_runtime_does_not_accept_memory_limit_ack_mismatch (test_runtime.RuntimeTests.test_runtime_does_not_accept_memory_limit_ack_mismatch) ... ok
+test_serialization_bound_reserves_cli_newline (test_runtime.RuntimeTests.test_serialization_bound_reserves_cli_newline) ... FAIL
+test_stderr_is_bounded (test_runtime.RuntimeTests.test_stderr_is_bounded) ... ok
+test_supervised_check_rejects_long_numeric_report_tokens (test_runtime.RuntimeTests.test_supervised_check_rejects_long_numeric_report_tokens) ... ok
+test_supervised_check_rejects_report_size_and_bad_json (test_runtime.RuntimeTests.test_supervised_check_rejects_report_size_and_bad_json) ... ok
+test_timeout_cleanup_kills_worker_process_group (test_runtime.RuntimeTests.test_timeout_cleanup_kills_worker_process_group) ... ok
+test_unknown_node_accounting_cannot_exceed_budget (test_runtime.RuntimeTests.test_unknown_node_accounting_cannot_exceed_budget) ... FAIL
+test_unsupported_platform_is_not_claimed_enforced (test_runtime.RuntimeTests.test_unsupported_platform_is_not_claimed_enforced) ... ok
+test_validate_uses_worker (test_runtime.RuntimeTests.test_validate_uses_worker) ... ok
+test_validation_summary_must_be_complete_and_match_input (test_runtime.RuntimeTests.test_validation_summary_must_be_complete_and_match_input) ... ok
+test_zero_node_budget (test_runtime.RuntimeTests.test_zero_node_budget) ... ok
+test_zero_timeout_observed (test_runtime.RuntimeTests.test_zero_timeout_observed) ... ok
+
+======================================================================
+FAIL: test_serialization_bound_reserves_cli_newline (test_runtime.RuntimeTests.test_serialization_bound_reserves_cli_newline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 201, in test_serialization_bound_reserves_cli_newline
+    self.assertLessEqual(len(json.dumps(result, separators=(",", ":")).encode()) + 1, self.runtime.OUTPUT_LIMIT)
+AssertionError: 8388609 not less than or equal to 8388608
+
+======================================================================
+FAIL: test_unknown_node_accounting_cannot_exceed_budget (test_runtime.RuntimeTests.test_unknown_node_accounting_cannot_exceed_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_runtime.py", line 189, in test_unknown_node_accounting_cannot_exceed_budget
+    self.assertEqual((r["status"], r["reason"]), ("ERROR", "WORKER_PROTOCOL"))
+AssertionError: Tuples differ: ('UNKNOWN', 'node_limit') != ('ERROR', 'WORKER_PROTOCOL')
+
+First differing element 0:
+'UNKNOWN'
+'ERROR'
+
+- ('UNKNOWN', 'node_limit')
++ ('ERROR', 'WORKER_PROTOCOL')
+
+----------------------------------------------------------------------
+Ran 32 tests in 1.734s
+
+FAILED (failures=2)

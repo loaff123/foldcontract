@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "groups": ["batch-a", "batch-b", "batch-c", "batch-d"],
+  "classes": ["blue", "red"],
+  "partitions": ["left", "right"],
+  "counts": [[2, 0], [0, 2], [1, 1], [1, 1]],
+  "requirements": [
+    {"id": "left-blue", "partition": "left", "measure": "class", "class": "blue", "lower": 1},
+    {"id": "left-red", "partition": "left", "measure": "class", "class": "red", "lower": 1},
+    {"id": "right-blue", "partition": "right", "measure": "class", "class": "blue", "lower": 1},
+    {"id": "right-red", "partition": "right", "measure": "class", "class": "red", "lower": 1},
+    {"id": "left-size", "partition": "left", "measure": "records", "lower": 3, "upper": 5},
+    {"id": "right-size", "partition": "right", "measure": "records", "lower": 3, "upper": 5}
+  ]
+}

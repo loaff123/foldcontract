@@ -1,0 +1,45 @@
+test_boolean_float_negative_and_overflow_bounds_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_bounds_rejected) ... ok
+test_boolean_float_negative_and_overflow_counts_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_counts_rejected) ... ok
+test_bounds_outside_totals_and_inverted_are_admitted (test_model.ModelTests.test_bounds_outside_totals_and_inverted_are_admitted) ... ok
+test_canonical_digest_and_roundtrip_are_stable (test_model.ModelTests.test_canonical_digest_and_roundtrip_are_stable) ... ok
+test_default_bounds_match_measure_total (test_model.ModelTests.test_default_bounds_match_measure_total) ... ok
+test_depth_limit_precedes_json_recursion (test_model.ModelTests.test_depth_limit_precedes_json_recursion) ... ok
+test_dimension_limits_are_enforced (test_model.ModelTests.test_dimension_limits_are_enforced) ... ok
+test_duplicate_json_keys_rejected_at_any_level (test_model.ModelTests.test_duplicate_json_keys_rejected_at_any_level) ... ok
+test_ids_are_exact_and_not_unicode_normalized (test_model.ModelTests.test_ids_are_exact_and_not_unicode_normalized) ... ok
+test_input_size_utf8_and_syntax_are_strict (test_model.ModelTests.test_input_size_utf8_and_syntax_are_strict) ... ok
+test_invalid_ids_and_duplicate_ids_are_rejected (test_model.ModelTests.test_invalid_ids_and_duplicate_ids_are_rejected) ... ok
+test_json_numbers_reject_nonfinite_and_floats (test_model.ModelTests.test_json_numbers_reject_nonfinite_and_floats) ... ok
+test_matrix_shape_and_zero_rows_columns_are_rejected (test_model.ModelTests.test_matrix_shape_and_zero_rows_columns_are_rejected) ... ok
+test_maximum_dimensions_and_requirements_are_admitted (test_model.ModelTests.test_maximum_dimensions_and_requirements_are_admitted) ... ok
+test_maximum_id_byte_length_is_accepted (test_model.ModelTests.test_maximum_id_byte_length_is_accepted) ... ok
+test_measure_schema_and_references_are_strict (test_model.ModelTests.test_measure_schema_and_references_are_strict) ... ok
+test_no_requirements_adds_no_hidden_constraints (test_model.ModelTests.test_no_requirements_adds_no_hidden_constraints) ... ok
+test_normalizes_names_and_permuted_matrix (test_model.ModelTests.test_normalizes_names_and_permuted_matrix) ... ok
+test_numeric_token_limit_precedes_integer_allocation (test_model.ModelTests.test_numeric_token_limit_precedes_integer_allocation) ... ok
+test_oversized_programmatic_object_rejected_before_key_copy (test_model.ModelTests.test_oversized_programmatic_object_rejected_before_key_copy) ... ok
+test_public_problem_revalidation_rejects_constructor_bypass (test_model.ModelTests.test_public_problem_revalidation_rejects_constructor_bypass) ... ok
+test_public_serialization_and_subsets_reject_forged_problem (test_model.ModelTests.test_public_serialization_and_subsets_reject_forged_problem) ... ok
+test_repeated_constraints_remain_named_conjunction (test_model.ModelTests.test_repeated_constraints_remain_named_conjunction) ... ok
+test_requirement_selection_bounds_iterable_consumption (test_model.ModelTests.test_requirement_selection_bounds_iterable_consumption) ... FAIL
+test_subset_validates_problem_before_inspecting_requirements (test_model.ModelTests.test_subset_validates_problem_before_inspecting_requirements) ... ok
+test_unknown_and_missing_fields_are_rejected (test_model.ModelTests.test_unknown_and_missing_fields_are_rejected) ... ok
+test_version_and_top_level_types_are_strict (test_model.ModelTests.test_version_and_top_level_types_are_strict) ... ok
+
+======================================================================
+FAIL: test_requirement_selection_bounds_iterable_consumption (test_model.ModelTests.test_requirement_selection_bounds_iterable_consumption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_model.py", line 293, in test_requirement_selection_bounds_iterable_consumption
+    self.model.with_requirements(p, excessive_ids())
+  File "<source>/src/foldcontract/model.py", line 287, in with_requirements
+    for name in iterator:
+                ^^^^^^^^
+  File "<source>/tests/test_model.py", line 290, in excessive_ids
+    self.fail("Selection read past its bounded overflow sentinel")
+AssertionError: Selection read past its bounded overflow sentinel
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.042s
+
+FAILED (failures=1)

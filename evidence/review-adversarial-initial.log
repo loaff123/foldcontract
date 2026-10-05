@@ -1,0 +1,55 @@
+test_adapter_preserves_reordered_rows_and_group_disjointness (test_release_review.AdmissionAndAdapterReview.test_adapter_preserves_reordered_rows_and_group_disjointness) ... ok
+test_escaped_delimiters_and_numerals_are_ordinary_ids (test_release_review.AdmissionAndAdapterReview.test_escaped_delimiters_and_numerals_are_ordinary_ids) ... ok
+test_lexical_preflight_runs_before_json_decoder (test_release_review.AdmissionAndAdapterReview.test_lexical_preflight_runs_before_json_decoder) ... ok
+test_named_conjunction_and_order_independence (test_release_review.AdmissionAndAdapterReview.test_named_conjunction_and_order_independence) ... ok
+test_1024_raw_schema_cases_and_4096_budget_runs (test_release_review.IndependentSolverReview.test_1024_raw_schema_cases_and_4096_budget_runs) ... ok
+test_128_cores_and_removal_witnesses_against_raw_oracle (test_release_review.IndependentSolverReview.test_128_cores_and_removal_witnesses_against_raw_oracle) ... ok
+test_extremely_large_deadline_is_validation_error (test_release_review.IndependentSolverReview.test_extremely_large_deadline_is_validation_error) ... ok
+test_infeasible_dataclass_bypass_rejected_before_search (test_release_review.IndependentSolverReview.test_infeasible_dataclass_bypass_rejected_before_search) ... ok
+test_input_hardlink_and_parent_symlink_aliases_cannot_be_clobbered (test_release_review.PublicationReview.test_input_hardlink_and_parent_symlink_aliases_cannot_be_clobbered) ... ok
+test_racing_symlink_output_wins_without_following (test_release_review.PublicationReview.test_racing_symlink_output_wins_without_following) ... ok
+test_bad_public_options_never_escape_structured_validation (test_release_review.SupervisorReview.test_bad_public_options_never_escape_structured_validation) ... ok
+test_explain_preserves_original_infeasible_after_reduction_timeout (test_release_review.SupervisorReview.test_explain_preserves_original_infeasible_after_reduction_timeout) ... FAIL
+test_malformed_infeasible_protocol_is_error (test_release_review.SupervisorReview.test_malformed_infeasible_protocol_is_error) ... 
+  test_malformed_infeasible_protocol_is_error (test_release_review.SupervisorReview.test_malformed_infeasible_protocol_is_error) (report={'status': 'INFEASIBLE', 'nodes': 0}) ... FAIL
+  test_malformed_infeasible_protocol_is_error (test_release_review.SupervisorReview.test_malformed_infeasible_protocol_is_error) (report={'status': 'INFEASIBLE', 'nodes': 1, 'reason': 'exhausted_search', 'engine_version': '0.1.0a1', 'problem_digest': 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}) ... FAIL
+test_report_depth_and_duplicate_keys_rejected (test_release_review.SupervisorReview.test_report_depth_and_duplicate_keys_rejected) ... ok
+test_unexpected_worker_exception_is_error_not_unknown (test_release_review.SupervisorReview.test_unexpected_worker_exception_is_error_not_unknown) ... ok
+
+======================================================================
+FAIL: test_explain_preserves_original_infeasible_after_reduction_timeout (test_release_review.SupervisorReview.test_explain_preserves_original_infeasible_after_reduction_timeout)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_release_review.py", line 218, in test_explain_preserves_original_infeasible_after_reduction_timeout
+    self.assertEqual(result["status"], "INFEASIBLE", result)
+AssertionError: 'UNKNOWN' != 'INFEASIBLE'
+- UNKNOWN
++ INFEASIBLE
+ : {'status': 'UNKNOWN', 'reason': 'TIMEOUT', 'nodes': 0, 'runtime': {'backend': 'linux_rlimit_as', 'memory': {'scope': 'worker_address_space', 'requested_mb': 512, 'limit_bytes': 536870912, 'enforced': True, 'parent_enforced': False, 'aggregate_process_tree_enforced': False, 'bootstrap_enforced': False}, 'wall_time': {'limit_seconds': 1, 'scope': 'parent_observed_operation', 'absolute_deadline_guaranteed': False, 'publication_included': False, 'includes': ['worker_startup', 'input_parsing', 'normalization', 'solve', 'worker_serialization', 'parent_protocol_decode', 'parent_verification', 'parent_serialization_check'], 'limitations': ['bounded_parent_steps_are_not_preempted', 'cleanup_and_os_scheduling_may_overrun', 'caller_input_creation_and_file_reading_excluded', 'caller_serialization_excluded']}, 'node_limit': 100000, 'explanation_check_limit': 1024, 'input_limit_bytes': 4194304, 'output_limit_bytes': 8388608, 'stderr_limit_bytes': 65536, 'parent_verification': {'performed': False, 'memory_enforced': False, 'input_and_output_byte_bounds_enforced': True}, 'process_cleanup': 'linux_worker_process_group; escaped_descendants_unsupported', 'unsupported': ['parent_memory_limit', 'aggregate_process_tree_memory_limit', 'interpreter_bootstrap_memory_limit', 'absolute_publication_deadline']}}
+
+======================================================================
+FAIL: test_malformed_infeasible_protocol_is_error (test_release_review.SupervisorReview.test_malformed_infeasible_protocol_is_error) (report={'status': 'INFEASIBLE', 'nodes': 0})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_release_review.py", line 204, in test_malformed_infeasible_protocol_is_error
+    self.assertEqual(runtime.run_bytes(DATA)["status"], "ERROR")
+AssertionError: 'INFEASIBLE' != 'ERROR'
+- INFEASIBLE
++ ERROR
+
+
+======================================================================
+FAIL: test_malformed_infeasible_protocol_is_error (test_release_review.SupervisorReview.test_malformed_infeasible_protocol_is_error) (report={'status': 'INFEASIBLE', 'nodes': 1, 'reason': 'exhausted_search', 'engine_version': '0.1.0a1', 'problem_digest': 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_release_review.py", line 204, in test_malformed_infeasible_protocol_is_error
+    self.assertEqual(runtime.run_bytes(DATA)["status"], "ERROR")
+AssertionError: 'INFEASIBLE' != 'ERROR'
+- INFEASIBLE
++ ERROR
+
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.811s
+
+FAILED (failures=3)

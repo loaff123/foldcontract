@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foldcontract"
+version = "0.1.0a1"
+description = "Explicit bounded integer contracts for group-disjoint dataset partitions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "FoldContract contributors"}]
+dependencies = []
+
+[project.scripts]
+foldcontract = "foldcontract.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

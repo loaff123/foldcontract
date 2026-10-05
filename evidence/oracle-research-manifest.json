@@ -1,0 +1,37 @@
+{
+  "description": "Retained research inputs and results. The protocol title is presentation-only normalized for publication; numerical data and methodology are unchanged. New production outputs are separate.",
+  "files": {
+    "oracle-frozen-cohort.json": {
+      "bytes": 246566,
+      "sha256": "766577906c518fe1fdd28d99603dbb5227c4235fcde267f9fc15b58c914fc4cf"
+    },
+    "oracle-research-cohort-freeze.json": {
+      "bytes": 138,
+      "sha256": "a112c472b5ea788247197dd9009d3c4442953806bacc2704ab32e3fa20df407c"
+    },
+    "oracle-research-comparison.json": {
+      "bytes": 2538,
+      "sha256": "72e7ec502003d3efc64733a06c3dd4009a483cf970bdcf280b32881e2c945a18"
+    },
+    "oracle-research-independent-summary.json": {
+      "bytes": 1192,
+      "sha256": "3bb720f9ea02568f97ae1b2dedbaa2d064abd6ae0312f1299e142e6298232cc2"
+    },
+    "oracle-research-independent.jsonl": {
+      "bytes": 144951,
+      "sha256": "32c4668c4bc85fbb259cd1b0ed55c35da0027b99a451b6caa7d9e001117ecad5"
+    },
+    "oracle-research-probe.jsonl": {
+      "bytes": 371413,
+      "sha256": "0ec14bb5d68a7b8ce3b1f9f97f9874e32e205b754628d42ae5bdec071b40229e"
+    },
+    "oracle-research-protocol.md": {
+      "bytes": 3497,
+      "sha256": "b3ca5b359b5c263ef2caf178c8d18711034124cb0f724f728ba53b3e5e289a4b"
+    },
+    "oracle-research-runtime.json": {
+      "bytes": 354,
+      "sha256": "cfc143712b51f4f316d21f3e6bea176ef65aed57bebdb9778cd2a9ccfcf8b8ed"
+    }
+  }
+}

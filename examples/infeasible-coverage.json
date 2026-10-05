@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "groups": ["ab", "bc", "ca"],
+  "classes": ["a", "b", "c"],
+  "partitions": ["left", "right"],
+  "counts": [[1, 1, 0], [0, 1, 1], [1, 0, 1]],
+  "requirements": [
+    {"id": "left-a", "partition": "left", "measure": "class", "class": "a", "lower": 1},
+    {"id": "left-b", "partition": "left", "measure": "class", "class": "b", "lower": 1},
+    {"id": "left-c", "partition": "left", "measure": "class", "class": "c", "lower": 1},
+    {"id": "right-a", "partition": "right", "measure": "class", "class": "a", "lower": 1},
+    {"id": "right-b", "partition": "right", "measure": "class", "class": "b", "lower": 1},
+    {"id": "right-c", "partition": "right", "measure": "class", "class": "c", "lower": 1}
+  ]
+}

@@ -1,0 +1,9 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: foldcontract
+  Building wheel for foldcontract (pyproject.toml): started
+  Building wheel for foldcontract (pyproject.toml): finished with status 'done'
+  Created wheel for foldcontract: filename=foldcontract-0.1.0a1-py3-none-any.whl size=30169 sha256=d24aecafc6e290f846bf9a63e1e932331efb371df2f5c6b9a6aaa36ae18ec193
+  Stored in directory: <temporary>
+Successfully built foldcontract

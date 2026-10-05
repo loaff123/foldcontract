@@ -1,0 +1,36 @@
+{
+  "cohort_sha256": "766577906c518fe1fdd28d99603dbb5227c4235fcde267f9fc15b58c914fc4cf",
+  "oracle_results_sha256": "32c4668c4bc85fbb259cd1b0ed55c35da0027b99a451b6caa7d9e001117ecad5",
+  "cases": 752,
+  "error_count": 0,
+  "validated_feasible_assignments": 342,
+  "groups": {
+    "small": {
+      "infeasible": 383,
+      "feasible": 217
+    },
+    "medium": {
+      "feasible": 94,
+      "infeasible": 26
+    },
+    "stress": {
+      "feasible": 30
+    },
+    "historical-28218": {
+      "feasible": 1
+    },
+    "odd-cycle": {
+      "infeasible": 1
+    }
+  },
+  "total_case_wall_seconds": 5.796676254001795,
+  "max_case_wall_seconds": 0.27422677499998827,
+  "notes": [
+    "Oracle written and tested without inspecting probe.py or its results.",
+    "Enumeration visits the Cartesian product without pruning or symmetry reduction.",
+    "MILP uses binary x[group,fold], one fold per group and direct additive bounds.",
+    "Feasible assignments are checked using exact Python integer accumulation.",
+    "MILP infeasibility uses floating-point HiGHS status 2, not a formal integer proof certificate.",
+    "Per-case MILP wall time includes matrix construction and first-call imports."
+  ]
+}

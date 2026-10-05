@@ -1,0 +1,41 @@
+[
+  {
+    "case": "maximum_admitted_validate",
+    "input_bytes": 529223,
+    "elapsed_seconds": 0.5975963620003313,
+    "status": "VALID",
+    "reason": null,
+    "parent_operation_python_allocation_peak_bytes": 3068118,
+    "worker_sampled_peak_bytes": {
+      "VmSize": 42516480,
+      "VmRSS": 15278080
+    },
+    "worker_processes_reaped": true
+  },
+  {
+    "case": "maximum_admitted_tiny_node_solve",
+    "input_bytes": 529223,
+    "elapsed_seconds": 0.1097685000004276,
+    "status": "UNKNOWN",
+    "reason": "node_limit",
+    "parent_operation_python_allocation_peak_bytes": 86131,
+    "worker_sampled_peak_bytes": {
+      "VmSize": 43044864,
+      "VmRSS": 16310272
+    },
+    "worker_processes_reaped": true
+  },
+  {
+    "case": "maximum_size_malformed",
+    "input_bytes": 4194304,
+    "elapsed_seconds": 0.4775932009997632,
+    "status": "VALIDATION_ERROR",
+    "reason": "INVALID_JSON",
+    "parent_operation_python_allocation_peak_bytes": 83908,
+    "worker_sampled_peak_bytes": {
+      "VmSize": 47353856,
+      "VmRSS": 20582400
+    },
+    "worker_processes_reaped": true
+  }
+]

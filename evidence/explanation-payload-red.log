@@ -1,0 +1,18 @@
+test_bounded_witness_payload_preserves_original_result (test_explain.ExplainTests.test_bounded_witness_payload_preserves_original_result) ... FAIL
+test_explanation_budget_keeps_original_infeasibility (test_explain.ExplainTests.test_explanation_budget_keeps_original_infeasibility) ... ok
+test_named_core_independent_witnesses (test_explain.ExplainTests.test_named_core_independent_witnesses) ... ok
+test_original_unknown_and_feasible_have_no_infeasible_core (test_explain.ExplainTests.test_original_unknown_and_feasible_have_no_infeasible_core) ... ok
+test_shared_total_node_budget (test_explain.ExplainTests.test_shared_total_node_budget) ... ok
+
+======================================================================
+FAIL: test_bounded_witness_payload_preserves_original_result (test_explain.ExplainTests.test_bounded_witness_payload_preserves_original_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_explain.py", line 59, in test_bounded_witness_payload_preserves_original_result
+    self.assertFalse(result['explanation']['minimal'])
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.033s
+
+FAILED (failures=1)

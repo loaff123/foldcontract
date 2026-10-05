@@ -1,0 +1,41 @@
+test_explanation_budget_keeps_original_infeasibility (test_explain.ExplainTests.test_explanation_budget_keeps_original_infeasibility) ... FAIL
+test_named_core_independent_witnesses (test_explain.ExplainTests.test_named_core_independent_witnesses) ... FAIL
+test_original_unknown_and_feasible_have_no_infeasible_core (test_explain.ExplainTests.test_original_unknown_and_feasible_have_no_infeasible_core) ... FAIL
+test_shared_total_node_budget (test_explain.ExplainTests.test_shared_total_node_budget) ... FAIL
+
+======================================================================
+FAIL: test_explanation_budget_keeps_original_infeasibility (test_explain.ExplainTests.test_explanation_budget_keeps_original_infeasibility)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_explain.py", line 8, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.explain'), 'explanation feature missing')
+AssertionError: unexpectedly None : explanation feature missing
+
+======================================================================
+FAIL: test_named_core_independent_witnesses (test_explain.ExplainTests.test_named_core_independent_witnesses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_explain.py", line 8, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.explain'), 'explanation feature missing')
+AssertionError: unexpectedly None : explanation feature missing
+
+======================================================================
+FAIL: test_original_unknown_and_feasible_have_no_infeasible_core (test_explain.ExplainTests.test_original_unknown_and_feasible_have_no_infeasible_core)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_explain.py", line 8, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.explain'), 'explanation feature missing')
+AssertionError: unexpectedly None : explanation feature missing
+
+======================================================================
+FAIL: test_shared_total_node_budget (test_explain.ExplainTests.test_shared_total_node_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_explain.py", line 8, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('foldcontract.explain'), 'explanation feature missing')
+AssertionError: unexpectedly None : explanation feature missing
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=4)

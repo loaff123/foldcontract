@@ -1,0 +1,88 @@
+running sdist
+running egg_info
+writing src/foldcontract.egg-info/PKG-INFO
+writing dependency_links to src/foldcontract.egg-info/dependency_links.txt
+writing entry points to src/foldcontract.egg-info/entry_points.txt
+writing top-level names to src/foldcontract.egg-info/top_level.txt
+reading manifest file 'src/foldcontract.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'src/foldcontract.egg-info/SOURCES.txt'
+running check
+creating foldcontract-0.1.0a1
+creating foldcontract-0.1.0a1/docs
+creating foldcontract-0.1.0a1/evidence
+creating foldcontract-0.1.0a1/examples
+creating foldcontract-0.1.0a1/src/foldcontract
+creating foldcontract-0.1.0a1/src/foldcontract.egg-info
+creating foldcontract-0.1.0a1/tests
+creating foldcontract-0.1.0a1/tools
+copying files to foldcontract-0.1.0a1...
+copying INTERFACES.md -> foldcontract-0.1.0a1
+copying LICENSE -> foldcontract-0.1.0a1
+copying MANIFEST.in -> foldcontract-0.1.0a1
+copying README.md -> foldcontract-0.1.0a1
+copying SECURITY.md -> foldcontract-0.1.0a1
+copying pyproject.toml -> foldcontract-0.1.0a1
+copying docs/ADAPTER.md -> foldcontract-0.1.0a1/docs
+copying docs/BUILD.md -> foldcontract-0.1.0a1/docs
+copying docs/DESIGN.md -> foldcontract-0.1.0a1/docs
+copying docs/EVALUATION.md -> foldcontract-0.1.0a1/docs
+copying docs/RESOURCES.md -> foldcontract-0.1.0a1/docs
+copying evidence/adapter-row-cap.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-adversarial-results.jsonl -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-adversarial-summary.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-artifact-manifest.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-authorship.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-frozen-cohort.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-prehardening-adversarial-results.jsonl -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-prehardening-adversarial-summary.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-prehardening-production-results.jsonl -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-prehardening-production-summary.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-production-results.jsonl -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-production-summary.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-research-cohort-freeze.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-research-comparison.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-research-independent-summary.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-research-independent.jsonl -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-research-manifest.json -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-research-probe.jsonl -> foldcontract-0.1.0a1/evidence
+copying evidence/oracle-research-runtime.json -> foldcontract-0.1.0a1/evidence
+copying evidence/review-corpus-summary.json -> foldcontract-0.1.0a1/evidence
+copying evidence/review-package-initial-audit.json -> foldcontract-0.1.0a1/evidence
+copying evidence/review-package-pre-final-audit.json -> foldcontract-0.1.0a1/evidence
+copying evidence/runtime-calibration.json -> foldcontract-0.1.0a1/evidence
+copying examples/feasible-coverage.json -> foldcontract-0.1.0a1/examples
+copying examples/infeasible-coverage-size.json -> foldcontract-0.1.0a1/examples
+copying examples/infeasible-coverage.json -> foldcontract-0.1.0a1/examples
+copying examples/unconstrained.json -> foldcontract-0.1.0a1/examples
+copying src/foldcontract/__init__.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/__main__.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/adapter.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/checker.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/cli.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/explain.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/model.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/runtime.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/solver.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract/worker.py -> foldcontract-0.1.0a1/src/foldcontract
+copying src/foldcontract.egg-info/PKG-INFO -> foldcontract-0.1.0a1/src/foldcontract.egg-info
+copying src/foldcontract.egg-info/SOURCES.txt -> foldcontract-0.1.0a1/src/foldcontract.egg-info
+copying src/foldcontract.egg-info/dependency_links.txt -> foldcontract-0.1.0a1/src/foldcontract.egg-info
+copying src/foldcontract.egg-info/entry_points.txt -> foldcontract-0.1.0a1/src/foldcontract.egg-info
+copying src/foldcontract.egg-info/top_level.txt -> foldcontract-0.1.0a1/src/foldcontract.egg-info
+copying tests/test_adapter.py -> foldcontract-0.1.0a1/tests
+copying tests/test_checker.py -> foldcontract-0.1.0a1/tests
+copying tests/test_cli.py -> foldcontract-0.1.0a1/tests
+copying tests/test_explain.py -> foldcontract-0.1.0a1/tests
+copying tests/test_independent_oracle.py -> foldcontract-0.1.0a1/tests
+copying tests/test_model.py -> foldcontract-0.1.0a1/tests
+copying tests/test_release_review.py -> foldcontract-0.1.0a1/tests
+copying tests/test_runtime.py -> foldcontract-0.1.0a1/tests
+copying tests/test_solver.py -> foldcontract-0.1.0a1/tests
+copying tools/calibrate_resources.py -> foldcontract-0.1.0a1/tools
+copying tools/reproduce_cohort.py -> foldcontract-0.1.0a1/tools
+Writing foldcontract-0.1.0a1/setup.cfg
+Creating tar archive
+removing 'foldcontract-0.1.0a1' (and everything under it)
+foldcontract-0.1.0a1.tar.gz

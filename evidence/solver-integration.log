@@ -1,0 +1,82 @@
+test_320_small_cases_against_cartesian_enumeration (test_solver.SolverTests.test_320_small_cases_against_cartesian_enumeration) ... ERROR
+test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets) ... ERROR
+test_empty_requirements_and_zero_budget (test_solver.SolverTests.test_empty_requirements_and_zero_budget) ... ERROR
+test_fixed_budget_determinism (test_solver.SolverTests.test_fixed_budget_determinism) ... ERROR
+test_integer_extremes_and_forced_upper_exclusion (test_solver.SolverTests.test_integer_extremes_and_forced_upper_exclusion) ... ERROR
+test_odd_cycle_is_infeasible (test_solver.SolverTests.test_odd_cycle_is_infeasible) ... ERROR
+test_repeated_bounds_are_conjunction (test_solver.SolverTests.test_repeated_bounds_are_conjunction) ... ERROR
+
+======================================================================
+ERROR: test_320_small_cases_against_cartesian_enumeration (test_solver.SolverTests.test_320_small_cases_against_cartesian_enumeration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 77, in test_320_small_cases_against_cartesian_enumeration
+    from foldcontract.solver import solve
+  File "<source>/src/foldcontract/solver.py", line 11, in <module>
+    from .checker import check_assignment
+ModuleNotFoundError: No module named 'foldcontract.checker'
+
+======================================================================
+ERROR: test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 63, in test_deadline_and_invalid_budgets
+    from foldcontract.solver import solve
+  File "<source>/src/foldcontract/solver.py", line 11, in <module>
+    from .checker import check_assignment
+ModuleNotFoundError: No module named 'foldcontract.checker'
+
+======================================================================
+ERROR: test_empty_requirements_and_zero_budget (test_solver.SolverTests.test_empty_requirements_and_zero_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 39, in test_empty_requirements_and_zero_budget
+    from foldcontract.solver import solve
+  File "<source>/src/foldcontract/solver.py", line 11, in <module>
+    from .checker import check_assignment
+ModuleNotFoundError: No module named 'foldcontract.checker'
+
+======================================================================
+ERROR: test_fixed_budget_determinism (test_solver.SolverTests.test_fixed_budget_determinism)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 72, in test_fixed_budget_determinism
+    from foldcontract.solver import solve
+  File "<source>/src/foldcontract/solver.py", line 11, in <module>
+    from .checker import check_assignment
+ModuleNotFoundError: No module named 'foldcontract.checker'
+
+======================================================================
+ERROR: test_integer_extremes_and_forced_upper_exclusion (test_solver.SolverTests.test_integer_extremes_and_forced_upper_exclusion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 58, in test_integer_extremes_and_forced_upper_exclusion
+    from foldcontract.solver import solve
+  File "<source>/src/foldcontract/solver.py", line 11, in <module>
+    from .checker import check_assignment
+ModuleNotFoundError: No module named 'foldcontract.checker'
+
+======================================================================
+ERROR: test_odd_cycle_is_infeasible (test_solver.SolverTests.test_odd_cycle_is_infeasible)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 47, in test_odd_cycle_is_infeasible
+    from foldcontract.solver import solve
+  File "<source>/src/foldcontract/solver.py", line 11, in <module>
+    from .checker import check_assignment
+ModuleNotFoundError: No module named 'foldcontract.checker'
+
+======================================================================
+ERROR: test_repeated_bounds_are_conjunction (test_solver.SolverTests.test_repeated_bounds_are_conjunction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 53, in test_repeated_bounds_are_conjunction
+    from foldcontract.solver import solve
+  File "<source>/src/foldcontract/solver.py", line 11, in <module>
+    from .checker import check_assignment
+ModuleNotFoundError: No module named 'foldcontract.checker'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.005s
+
+FAILED (errors=7)

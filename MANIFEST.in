@@ -1,0 +1,7 @@
+include LICENSE README.md SECURITY.md INTERFACES.md
+recursive-include docs *.md
+prune docs/superpowers
+recursive-include tests *.py
+recursive-include examples *.json
+recursive-include tools *.py
+recursive-include evidence *.json *.jsonl

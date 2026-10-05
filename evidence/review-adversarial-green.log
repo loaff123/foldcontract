@@ -1,0 +1,22 @@
+test_adapter_preserves_reordered_rows_and_group_disjointness (test_release_review.AdmissionAndAdapterReview.test_adapter_preserves_reordered_rows_and_group_disjointness) ... ok
+test_escaped_delimiters_and_numerals_are_ordinary_ids (test_release_review.AdmissionAndAdapterReview.test_escaped_delimiters_and_numerals_are_ordinary_ids) ... ok
+test_lexical_preflight_runs_before_json_decoder (test_release_review.AdmissionAndAdapterReview.test_lexical_preflight_runs_before_json_decoder) ... ok
+test_named_conjunction_and_order_independence (test_release_review.AdmissionAndAdapterReview.test_named_conjunction_and_order_independence) ... ok
+test_1024_raw_schema_cases_and_4096_budget_runs (test_release_review.IndependentSolverReview.test_1024_raw_schema_cases_and_4096_budget_runs) ... ok
+test_128_cores_and_removal_witnesses_against_raw_oracle (test_release_review.IndependentSolverReview.test_128_cores_and_removal_witnesses_against_raw_oracle) ... ok
+test_extremely_large_deadline_is_validation_error (test_release_review.IndependentSolverReview.test_extremely_large_deadline_is_validation_error) ... ok
+test_infeasible_dataclass_bypass_rejected_before_search (test_release_review.IndependentSolverReview.test_infeasible_dataclass_bypass_rejected_before_search) ... ok
+test_isolated_worker_ignores_cwd_and_pythonpath_code (test_release_review.IsolationReview.test_isolated_worker_ignores_cwd_and_pythonpath_code) ... ok
+test_runtime_source_has_no_network_pickle_or_dynamic_execution (test_release_review.IsolationReview.test_runtime_source_has_no_network_pickle_or_dynamic_execution) ... ok
+test_input_hardlink_and_parent_symlink_aliases_cannot_be_clobbered (test_release_review.PublicationReview.test_input_hardlink_and_parent_symlink_aliases_cannot_be_clobbered) ... ok
+test_racing_symlink_output_wins_without_following (test_release_review.PublicationReview.test_racing_symlink_output_wins_without_following) ... ok
+test_bad_public_options_never_escape_structured_validation (test_release_review.SupervisorReview.test_bad_public_options_never_escape_structured_validation) ... ok
+test_explain_preserves_original_infeasible_after_reduction_timeout (test_release_review.SupervisorReview.test_explain_preserves_original_infeasible_after_reduction_timeout) ... ok
+test_malformed_infeasible_protocol_is_error (test_release_review.SupervisorReview.test_malformed_infeasible_protocol_is_error) ... ok
+test_report_depth_and_duplicate_keys_rejected (test_release_review.SupervisorReview.test_report_depth_and_duplicate_keys_rejected) ... ok
+test_unexpected_worker_exception_is_error_not_unknown (test_release_review.SupervisorReview.test_unexpected_worker_exception_is_error_not_unknown) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.011s
+
+OK

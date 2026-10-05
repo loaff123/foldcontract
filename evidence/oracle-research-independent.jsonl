@@ -1,0 +1,752 @@
+{"id": "small-000", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0012960779999957595}
+{"id": "small-001", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 8.435500012637931e-05}
+{"id": "small-002", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0003214080002180708}
+{"id": "small-003", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.13020147999986875}
+{"id": "small-004", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.000318894999963959}
+{"id": "small-005", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0026112350001312734}
+{"id": "small-006", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.98690002739022e-05}
+{"id": "small-007", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.911800008107093e-05}
+{"id": "small-008", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009881910999865795}
+{"id": "small-009", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.9744000079954276e-05}
+{"id": "small-010", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.444099992426345e-05}
+{"id": "small-011", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.031399991319631e-05}
+{"id": "small-012", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03201172199987923}
+{"id": "small-013", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 1, 2, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.002017061000060494}
+{"id": "small-014", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00017157599995698547}
+{"id": "small-015", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002675979999366973}
+{"id": "small-016", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 9.11060001271835e-05}
+{"id": "small-017", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00026552500003163004}
+{"id": "small-018", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 9.450099969399162e-05}
+{"id": "small-019", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00319877899983112}
+{"id": "small-020", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0028102199999011646}
+{"id": "small-021", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012365400016278727}
+{"id": "small-022", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 8.159100025295629e-05}
+{"id": "small-023", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002900520003095153}
+{"id": "small-024", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0024926890000642743}
+{"id": "small-025", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.116099989914801e-05}
+{"id": "small-026", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00015945700033626053}
+{"id": "small-027", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00016142000004037982}
+{"id": "small-028", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.51319999936095e-05}
+{"id": "small-029", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0001142300002356933}
+{"id": "small-030", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005626470001516282}
+{"id": "small-031", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0003111330001956958}
+{"id": "small-032", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00011848599979202845}
+{"id": "small-033", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 8.077999973465921e-05}
+{"id": "small-034", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002609432000099332}
+{"id": "small-035", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 4.003000003649504e-05}
+{"id": "small-036", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 7.186699986050371e-05}
+{"id": "small-037", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 2, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00040023600013228133}
+{"id": "small-038", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0007752440001240757}
+{"id": "small-039", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010996299988619285}
+{"id": "small-040", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0013677540000571753}
+{"id": "small-041", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03556271400020705}
+{"id": "small-042", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.919799963929108e-05}
+{"id": "small-043", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0003276869997534959}
+{"id": "small-044", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.548700002895202e-05}
+{"id": "small-045", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010920299973804504}
+{"id": "small-046", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0002493009997124318}
+{"id": "small-047", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 2, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00030164899999363115}
+{"id": "small-048", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0006046389999028179}
+{"id": "small-049", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008158139999068226}
+{"id": "small-050", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.21870001143543e-05}
+{"id": "small-051", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00014992299975347123}
+{"id": "small-052", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00014745899989065947}
+{"id": "small-053", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.335399979841895e-05}
+{"id": "small-054", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.019000011292519e-05}
+{"id": "small-055", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000532342000042263}
+{"id": "small-056", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.463699997359072e-05}
+{"id": "small-057", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002848139997695398}
+{"id": "small-058", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023988699967958382}
+{"id": "small-059", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.290799976544804e-05}
+{"id": "small-060", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009496026999840979}
+{"id": "small-061", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002393959998698847}
+{"id": "small-062", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002590193999822077}
+{"id": "small-063", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.49119999454706e-05}
+{"id": "small-064", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010013135999997758}
+{"id": "small-065", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012920200015287264}
+{"id": "small-066", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008770139997977822}
+{"id": "small-067", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.01005415700001322}
+{"id": "small-068", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.762500035823905e-05}
+{"id": "small-069", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00011889699999301229}
+{"id": "small-070", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.891299977316521e-05}
+{"id": "small-071", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009196069999688916}
+{"id": "small-072", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0010536479999245785}
+{"id": "small-073", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000841762000163726}
+{"id": "small-074", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 8.472599984088447e-05}
+{"id": "small-075", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0012921620000270195}
+{"id": "small-076", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 2, 0, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0020288779996917583}
+{"id": "small-077", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03585596199991414}
+{"id": "small-078", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.46660000711563e-05}
+{"id": "small-079", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0025453759999436443}
+{"id": "small-080", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.166599971242249e-05}
+{"id": "small-081", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0007687329998589121}
+{"id": "small-082", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002579439997134614}
+{"id": "small-083", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.703399978709058e-05}
+{"id": "small-084", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0004444209998837323}
+{"id": "small-085", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03372935800007326}
+{"id": "small-086", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.344000010154559e-05}
+{"id": "small-087", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003144797999993898}
+{"id": "small-088", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00016017900043152622}
+{"id": "small-089", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0001370939999105758}
+{"id": "small-090", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009652649999679852}
+{"id": "small-091", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.7140999868133804e-05}
+{"id": "small-092", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 4.616800015355693e-05}
+{"id": "small-093", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002668170000106329}
+{"id": "small-094", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.5297999753966e-05}
+{"id": "small-095", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03681573900030344}
+{"id": "small-096", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0994150050000826}
+{"id": "small-097", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000234788999932789}
+{"id": "small-098", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 2, 0, 0, 0, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.006683752999833814}
+{"id": "small-099", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00011788499978138134}
+{"id": "small-100", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00028717799978039693}
+{"id": "small-101", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0003456039999036875}
+{"id": "small-102", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 6.864200031486689e-05}
+{"id": "small-103", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00013668300016433932}
+{"id": "small-104", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00011099499988631578}
+{"id": "small-105", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.516200013109483e-05}
+{"id": "small-106", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 8.207200016840943e-05}
+{"id": "small-107", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008155129999067867}
+{"id": "small-108", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 6.189199984873994e-05}
+{"id": "small-109", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.331000016260077e-05}
+{"id": "small-110", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 2.6700000034907134e-05}
+{"id": "small-111", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 5.008400012229686e-05}
+{"id": "small-112", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00014420500019696192}
+{"id": "small-113", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.716500032169279e-05}
+{"id": "small-114", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 9.048499987329706e-05}
+{"id": "small-115", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010070651000205544}
+{"id": "small-116", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000730366999960097}
+{"id": "small-117", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.018900017399574e-05}
+{"id": "small-118", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00020647699966502842}
+{"id": "small-119", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003039451999939047}
+{"id": "small-120", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.79259999540227e-05}
+{"id": "small-121", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003090978000273026}
+{"id": "small-122", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 9.142599992628675e-05}
+{"id": "small-123", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00027057299985244754}
+{"id": "small-124", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009188730000005307}
+{"id": "small-125", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.11246249599980729}
+{"id": "small-126", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008613509999122471}
+{"id": "small-127", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.214799971829052e-05}
+{"id": "small-128", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.392000007806928e-05}
+{"id": "small-129", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 2, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.002438827999867499}
+{"id": "small-130", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00027425799999036826}
+{"id": "small-131", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0004278070000509615}
+{"id": "small-132", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.235699973127339e-05}
+{"id": "small-133", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00016494500005137525}
+{"id": "small-134", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002519849999771395}
+{"id": "small-135", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.51370000418683e-05}
+{"id": "small-136", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.11188722999986567}
+{"id": "small-137", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.749100025946973e-05}
+{"id": "small-138", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0028248929997971572}
+{"id": "small-139", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.946900005757925e-05}
+{"id": "small-140", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.736100021953462e-05}
+{"id": "small-141", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 1, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.002021046000209026}
+{"id": "small-142", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 9.116599994740682e-05}
+{"id": "small-143", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 6.950299984964659e-05}
+{"id": "small-144", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00014525599999615224}
+{"id": "small-145", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0006631659998674877}
+{"id": "small-146", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0001246350002475083}
+{"id": "small-147", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 2, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0007788590000927798}
+{"id": "small-148", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002528160002839286}
+{"id": "small-149", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.033230836000257113}
+{"id": "small-150", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 9.092500022234162e-05}
+{"id": "small-151", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.590299992443761e-05}
+{"id": "small-152", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.456100006995257e-05}
+{"id": "small-153", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.701499998802319e-05}
+{"id": "small-154", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023679300011281157}
+{"id": "small-155", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 9.162700007436797e-05}
+{"id": "small-156", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0012992120000490104}
+{"id": "small-157", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 9.341899976789136e-05}
+{"id": "small-158", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 2.8181999823573278e-05}
+{"id": "small-159", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.09791084700009378}
+{"id": "small-160", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.916300026205136e-05}
+{"id": "small-161", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012753999999404186}
+{"id": "small-162", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0004906499998469371}
+{"id": "small-163", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00024377299996558577}
+{"id": "small-164", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002708229999370815}
+{"id": "small-165", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002653840001585195}
+{"id": "small-166", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.001184743000067101}
+{"id": "small-167", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002638630003275466}
+{"id": "small-168", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 5.57530001970008e-05}
+{"id": "small-169", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 2.920300039477297e-05}
+{"id": "small-170", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005108299997118593}
+{"id": "small-171", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.927800020799623e-05}
+{"id": "small-172", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03450024400035545}
+{"id": "small-173", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0003658149998955196}
+{"id": "small-174", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 6.438599984903703e-05}
+{"id": "small-175", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00028812900018237997}
+{"id": "small-176", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03519270500009952}
+{"id": "small-177", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010398669000096561}
+{"id": "small-178", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00012551700001495192}
+{"id": "small-179", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.195199961846811e-05}
+{"id": "small-180", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.030783665999933874}
+{"id": "small-181", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.10052081000003454}
+{"id": "small-182", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.201299993335851e-05}
+{"id": "small-183", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0031975269998838485}
+{"id": "small-184", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.980800000950694e-05}
+{"id": "small-185", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0005089579999548732}
+{"id": "small-186", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.299800022839918e-05}
+{"id": "small-187", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00013389900004767696}
+{"id": "small-188", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002842029998646467}
+{"id": "small-189", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 1, 2, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0013144450003892416}
+{"id": "small-190", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0023181890001069405}
+{"id": "small-191", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 8.72390000949963e-05}
+{"id": "small-192", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0027963610000369954}
+{"id": "small-193", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000259134999851085}
+{"id": "small-194", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008288039998660679}
+{"id": "small-195", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 2.9584000003524125e-05}
+{"id": "small-196", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.053499995075981e-05}
+{"id": "small-197", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 0, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00033800299979702686}
+{"id": "small-198", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00026513500006331014}
+{"id": "small-199", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.894800011039479e-05}
+{"id": "small-200", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.590800012418185e-05}
+{"id": "small-201", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 9.069499992619967e-05}
+{"id": "small-202", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.8863000301935244e-05}
+{"id": "small-203", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 2, 1, 2, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.005093057000067347}
+{"id": "small-204", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002546789996813459}
+{"id": "small-205", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000235890000112704}
+{"id": "small-206", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00055943200004549}
+{"id": "small-207", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00011863600002470776}
+{"id": "small-208", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.11029864200008888}
+{"id": "small-209", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0028988529998059676}
+{"id": "small-210", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00038028599965400645}
+{"id": "small-211", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.704499972125632e-05}
+{"id": "small-212", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.12288022300026569}
+{"id": "small-213", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0028649419996327197}
+{"id": "small-214", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0004316819999985455}
+{"id": "small-215", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.02590002422221e-05}
+{"id": "small-216", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.570299986677128e-05}
+{"id": "small-217", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002704919997995603}
+{"id": "small-218", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023520000013377285}
+{"id": "small-219", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009182660000988108}
+{"id": "small-220", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0007964749997881881}
+{"id": "small-221", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.64450002052763e-05}
+{"id": "small-222", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010454599987497204}
+{"id": "small-223", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002830010002980998}
+{"id": "small-224", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000206816999707371}
+{"id": "small-225", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.2397000217752066e-05}
+{"id": "small-226", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.011558534999949188}
+{"id": "small-227", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 7.537200008300715e-05}
+{"id": "small-228", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.12119252299999062}
+{"id": "small-229", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00030208999987735297}
+{"id": "small-230", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00011008399997081142}
+{"id": "small-231", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00028233000011823606}
+{"id": "small-232", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009205490000567806}
+{"id": "small-233", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.939799984844285e-05}
+{"id": "small-234", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002730060000430967}
+{"id": "small-235", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000645539999823086}
+{"id": "small-236", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 4.5667999984289054e-05}
+{"id": "small-237", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 6.71500001772074e-05}
+{"id": "small-238", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023674200019740965}
+{"id": "small-239", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0007508670000788698}
+{"id": "small-240", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0001729969999360037}
+{"id": "small-241", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.825199994229479e-05}
+{"id": "small-242", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00015597200035699643}
+{"id": "small-243", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00014416399972105864}
+{"id": "small-244", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03519424700016316}
+{"id": "small-245", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03526356000020314}
+{"id": "small-246", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0025220110001100693}
+{"id": "small-247", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03429859400011992}
+{"id": "small-248", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0027760100001614774}
+{"id": "small-249", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.522199985032785e-05}
+{"id": "small-250", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.377000024964218e-05}
+{"id": "small-251", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.59179999679327e-05}
+{"id": "small-252", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 2.886300035243039e-05}
+{"id": "small-253", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.423099997235113e-05}
+{"id": "small-254", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023726300014459412}
+{"id": "small-255", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 9.234700019078446e-05}
+{"id": "small-256", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0027154800000062096}
+{"id": "small-257", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.643499985628296e-05}
+{"id": "small-258", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000956082000357128}
+{"id": "small-259", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 8.404499976677471e-05}
+{"id": "small-260", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.468600031439564e-05}
+{"id": "small-261", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00013032400011070422}
+{"id": "small-262", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 2, 0, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.005173256000034598}
+{"id": "small-263", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0014469929997176223}
+{"id": "small-264", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.890199983899947e-05}
+{"id": "small-265", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03743814500012377}
+{"id": "small-266", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0024350230000891315}
+{"id": "small-267", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005958269998700416}
+{"id": "small-268", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03536409000025742}
+{"id": "small-269", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00022846000001663924}
+{"id": "small-270", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.704500017600367e-05}
+{"id": "small-271", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00026896000008491683}
+{"id": "small-272", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 7.443999993483885e-05}
+{"id": "small-273", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0001326070000686741}
+{"id": "small-274", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 2, 0, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0006849290002719499}
+{"id": "small-275", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 9.596300014891312e-05}
+{"id": "small-276", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010498600022401661}
+{"id": "small-277", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 7.025399963822565e-05}
+{"id": "small-278", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.516700022984878e-05}
+{"id": "small-279", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.646400000434369e-05}
+{"id": "small-280", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00031775299976288807}
+{"id": "small-281", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009997412999837252}
+{"id": "small-282", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 9.385900011693593e-05}
+{"id": "small-283", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 2, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0005174589996386203}
+{"id": "small-284", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0001103540002986847}
+{"id": "small-285", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009183560000565194}
+{"id": "small-286", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008427640000263636}
+{"id": "small-287", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002971180000258755}
+{"id": "small-288", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 2, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0006006939997860172}
+{"id": "small-289", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.01035877000003893}
+{"id": "small-290", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 5.2006999794684816e-05}
+{"id": "small-291", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.9096999848406995e-05}
+{"id": "small-292", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.381499997587525e-05}
+{"id": "small-293", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00013761499985776027}
+{"id": "small-294", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0001303340000049502}
+{"id": "small-295", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 5.7685000228957506e-05}
+{"id": "small-296", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0025328480001007847}
+{"id": "small-297", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0001324469999417488}
+{"id": "small-298", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002698710000004212}
+{"id": "small-299", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0013556969997807755}
+{"id": "small-300", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.615400009948644e-05}
+{"id": "small-301", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00027226500014876365}
+{"id": "small-302", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0013958670001557039}
+{"id": "small-303", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03724077100014256}
+{"id": "small-304", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.559800026981975e-05}
+{"id": "small-305", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 8.428499995716265e-05}
+{"id": "small-306", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008610909999333671}
+{"id": "small-307", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.084599974405137e-05}
+{"id": "small-308", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.0720000015426194e-05}
+{"id": "small-309", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.0739999753423035e-05}
+{"id": "small-310", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010354400001233444}
+{"id": "small-311", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005870330001016555}
+{"id": "small-312", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.030932477000078507}
+{"id": "small-313", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03502156000013201}
+{"id": "small-314", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.004900023981463e-05}
+{"id": "small-315", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010710900005506119}
+{"id": "small-316", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009705649000352423}
+{"id": "small-317", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003509170000143058}
+{"id": "small-318", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.290300002045115e-05}
+{"id": "small-319", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.76249999034917e-05}
+{"id": "small-320", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.009851947000242944}
+{"id": "small-321", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00011176599991813418}
+{"id": "small-322", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.0355000035342528e-05}
+{"id": "small-323", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.480599995484226e-05}
+{"id": "small-324", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002351799998905335}
+{"id": "small-325", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0007645979999324481}
+{"id": "small-326", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.854699970266665e-05}
+{"id": "small-327", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03468021200023941}
+{"id": "small-328", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.11680996400036747}
+{"id": "small-329", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 9.946799991666921e-05}
+{"id": "small-330", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.030156631999943784}
+{"id": "small-331", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00010654899961082265}
+{"id": "small-332", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.1947999963886105e-05}
+{"id": "small-333", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 9.140600013779476e-05}
+{"id": "small-334", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010793100000228151}
+{"id": "small-335", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.6034000004292466e-05}
+{"id": "small-336", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0012066849999428086}
+{"id": "small-337", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00016226200023083948}
+{"id": "small-338", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 9.929799989549792e-05}
+{"id": "small-339", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003565284000160318}
+{"id": "small-340", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 4.341500016380451e-05}
+{"id": "small-341", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.268300012379768e-05}
+{"id": "small-342", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 1, 0, 0, 0, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.01765955099972416}
+{"id": "small-343", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.410600013216026e-05}
+{"id": "small-344", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002548190000197792}
+{"id": "small-345", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000316109999857872}
+{"id": "small-346", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.375100004632259e-05}
+{"id": "small-347", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.263400018724496e-05}
+{"id": "small-348", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 2.9614000141009456e-05}
+{"id": "small-349", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008022440001695941}
+{"id": "small-350", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 2.619800034153741e-05}
+{"id": "small-351", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00022105800007921061}
+{"id": "small-352", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 3.0014999992999947e-05}
+{"id": "small-353", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002517249999982596}
+{"id": "small-354", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.635399970240542e-05}
+{"id": "small-355", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0027791039997282496}
+{"id": "small-356", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00020792899977095658}
+{"id": "small-357", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000356370000190509}
+{"id": "small-358", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005101790002299822}
+{"id": "small-359", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03160439600014797}
+{"id": "small-360", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010230207999939012}
+{"id": "small-361", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0002444040001137182}
+{"id": "small-362", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00048579300027995487}
+{"id": "small-363", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.10795181499997852}
+{"id": "small-364", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 2, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00020564600026773405}
+{"id": "small-365", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0029325830000743736}
+{"id": "small-366", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.105599984744913e-05}
+{"id": "small-367", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008503450003445323}
+{"id": "small-368", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.592299981391989e-05}
+{"id": "small-369", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 5.9208000038779574e-05}
+{"id": "small-370", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.112499997674604e-05}
+{"id": "small-371", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.259899995100568e-05}
+{"id": "small-372", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 2, 2, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.005402246999892668}
+{"id": "small-373", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.51419997868652e-05}
+{"id": "small-374", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 4.915299996355316e-05}
+{"id": "small-375", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 9.5381999926758e-05}
+{"id": "small-376", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.333900026016636e-05}
+{"id": "small-377", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008982659996945586}
+{"id": "small-378", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.000471581000056176}
+{"id": "small-379", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0029218469999250374}
+{"id": "small-380", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0007763349999549973}
+{"id": "small-381", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00014077900004849653}
+{"id": "small-382", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.6654999803431565e-05}
+{"id": "small-383", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002544190001572133}
+{"id": "small-384", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002935978000095929}
+{"id": "small-385", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 1, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0011966400002165756}
+{"id": "small-386", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002709971000058431}
+{"id": "small-387", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 2, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0008282819999294588}
+{"id": "small-388", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010662813000180904}
+{"id": "small-389", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00019211600010748953}
+{"id": "small-390", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000764136999805487}
+{"id": "small-391", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002888005999921006}
+{"id": "small-392", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023933600004966138}
+{"id": "small-393", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023554000017611543}
+{"id": "small-394", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.2507999953377293e-05}
+{"id": "small-395", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0002701309999793011}
+{"id": "small-396", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 6.968300021981122e-05}
+{"id": "small-397", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.46860002639005e-05}
+{"id": "small-398", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.357400020031491e-05}
+{"id": "small-399", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0013285569998515712}
+{"id": "small-400", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.374999955165549e-05}
+{"id": "small-401", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0007953729996188486}
+{"id": "small-402", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00020452399985515513}
+{"id": "small-403", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.426999996416271e-05}
+{"id": "small-404", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00012225199998283642}
+{"id": "small-405", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023866500032454496}
+{"id": "small-406", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00010508600007597124}
+{"id": "small-407", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008832640000946412}
+{"id": "small-408", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002902710002672393}
+{"id": "small-409", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0001920959998642502}
+{"id": "small-410", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005531329998120782}
+{"id": "small-411", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.932899971914594e-05}
+{"id": "small-412", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00011638299974947586}
+{"id": "small-413", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.72250001419161e-05}
+{"id": "small-414", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0006690850000268256}
+{"id": "small-415", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.8441999751958065e-05}
+{"id": "small-416", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0029242699997666932}
+{"id": "small-417", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03488564799999949}
+{"id": "small-418", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0025413399998797104}
+{"id": "small-419", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 3.844700040644966e-05}
+{"id": "small-420", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00028395199979058816}
+{"id": "small-421", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 2, 2, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0007703960000071675}
+{"id": "small-422", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.1004428649998772}
+{"id": "small-423", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00023709200013399823}
+{"id": "small-424", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000254288999713026}
+{"id": "small-425", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 8.990300011646468e-05}
+{"id": "small-426", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.798100007974426e-05}
+{"id": "small-427", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 7.44510002732568e-05}
+{"id": "small-428", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.961799974509631e-05}
+{"id": "small-429", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.836200009274762e-05}
+{"id": "small-430", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.197800015186658e-05}
+{"id": "small-431", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.451599978798185e-05}
+{"id": "small-432", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.030741332000161492}
+{"id": "small-433", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00010109000004376867}
+{"id": "small-434", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.10730466299992258}
+{"id": "small-435", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0032195589997172647}
+{"id": "small-436", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0001343799999631301}
+{"id": "small-437", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002970589000142354}
+{"id": "small-438", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.26530000368075e-05}
+{"id": "small-439", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.3629999961704016e-05}
+{"id": "small-440", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002720356999816431}
+{"id": "small-441", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 9.488199975749012e-05}
+{"id": "small-442", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.720599988810136e-05}
+{"id": "small-443", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0007871719999457127}
+{"id": "small-444", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008060899999691173}
+{"id": "small-445", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.968400020923582e-05}
+{"id": "small-446", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00011622300007729791}
+{"id": "small-447", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010427500001242151}
+{"id": "small-448", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0331819779999023}
+{"id": "small-449", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.852200016917777e-05}
+{"id": "small-450", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 9.161600019069738e-05}
+{"id": "small-451", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00026815900037036045}
+{"id": "small-452", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.79360002525209e-05}
+{"id": "small-453", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0007358749999184511}
+{"id": "small-454", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 4.839199982598075e-05}
+{"id": "small-455", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.523700034857029e-05}
+{"id": "small-456", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.227799970773049e-05}
+{"id": "small-457", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 8.113100011541974e-05}
+{"id": "small-458", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.094600015174365e-05}
+{"id": "small-459", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.6183000197052024e-05}
+{"id": "small-460", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00021733300036430592}
+{"id": "small-461", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.647300026292214e-05}
+{"id": "small-462", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.442599988076836e-05}
+{"id": "small-463", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 1, 0, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.012915364000036789}
+{"id": "small-464", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005077860000710643}
+{"id": "small-465", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.521700010533095e-05}
+{"id": "small-466", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 7.60630000513629e-05}
+{"id": "small-467", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009132490004049032}
+{"id": "small-468", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 3.275900007793098e-05}
+{"id": "small-469", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.004371272999833309}
+{"id": "small-470", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 2, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0009093730000131472}
+{"id": "small-471", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0002647139999680803}
+{"id": "small-472", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00018512599990572198}
+{"id": "small-473", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.13066895600013595}
+{"id": "small-474", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002782339997793315}
+{"id": "small-475", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010704855000312818}
+{"id": "small-476", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000793109999904118}
+{"id": "small-477", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.25729999228497e-05}
+{"id": "small-478", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.11447924000003695}
+{"id": "small-479", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0027210880002712656}
+{"id": "small-480", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.711000009498093e-05}
+{"id": "small-481", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00047310399986599805}
+{"id": "small-482", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0023866900000939495}
+{"id": "small-483", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0001381860001856694}
+{"id": "small-484", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 2, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0007917380003163998}
+{"id": "small-485", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0011020189999726426}
+{"id": "small-486", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.664900001851493e-05}
+{"id": "small-487", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002709701000185305}
+{"id": "small-488", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0032297549996656016}
+{"id": "small-489", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0001376250002067536}
+{"id": "small-490", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010356466999837721}
+{"id": "small-491", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.855700005166e-05}
+{"id": "small-492", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002695609996408166}
+{"id": "small-493", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 2.9422999887174228e-05}
+{"id": "small-494", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.260800020958413e-05}
+{"id": "small-495", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002553628999976354}
+{"id": "small-496", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.3604999973467784e-05}
+{"id": "small-497", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.045500024105422e-05}
+{"id": "small-498", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003179580000050919}
+{"id": "small-499", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.774499999868567e-05}
+{"id": "small-500", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00023504999990109354}
+{"id": "small-501", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010354193999773997}
+{"id": "small-502", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00045782100005453685}
+{"id": "small-503", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0003153990001010243}
+{"id": "small-504", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.081099991206429e-05}
+{"id": "small-505", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008452869997199741}
+{"id": "small-506", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.0009999742760556e-05}
+{"id": "small-507", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0006364070000017819}
+{"id": "small-508", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0003387940000720846}
+{"id": "small-509", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.9618999835511204e-05}
+{"id": "small-510", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.650299994566012e-05}
+{"id": "small-511", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0007712070000707172}
+{"id": "small-512", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.636900020064786e-05}
+{"id": "small-513", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 4.336500023782719e-05}
+{"id": "small-514", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012551700001495192}
+{"id": "small-515", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.488199985848041e-05}
+{"id": "small-516", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.11137576800001625}
+{"id": "small-517", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00037483799997062306}
+{"id": "small-518", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012109999988751952}
+{"id": "small-519", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.514699998660944e-05}
+{"id": "small-520", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 5.9639000028255396e-05}
+{"id": "small-521", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 7.481100010409136e-05}
+{"id": "small-522", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002059769999505079}
+{"id": "small-523", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.234799987694714e-05}
+{"id": "small-524", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.329400002869079e-05}
+{"id": "small-525", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002856680000149936}
+{"id": "small-526", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002919923999797902}
+{"id": "small-527", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009144900000137568}
+{"id": "small-528", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009865170000011858}
+{"id": "small-529", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0028762189999724797}
+{"id": "small-530", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010046899978988222}
+{"id": "small-531", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000919578000321053}
+{"id": "small-532", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 5.862699981662445e-05}
+{"id": "small-533", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.000252496000030078}
+{"id": "small-534", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002489609996700892}
+{"id": "small-535", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 4.7541000185447047e-05}
+{"id": "small-536", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.10708810000005542}
+{"id": "small-537", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00013600200009022956}
+{"id": "small-538", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0001760420000209706}
+{"id": "small-539", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00010428500036141486}
+{"id": "small-540", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012730000025840127}
+{"id": "small-541", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 9.016400008476921e-05}
+{"id": "small-542", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 7.937800000945572e-05}
+{"id": "small-543", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00027926599977945443}
+{"id": "small-544", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.12826833899998746}
+{"id": "small-545", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00038185800030987593}
+{"id": "small-546", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0042541490001895}
+{"id": "small-547", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0017338899997412227}
+{"id": "small-548", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.980899999893154e-05}
+{"id": "small-549", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.776100003160536e-05}
+{"id": "small-550", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 6.305399983830284e-05}
+{"id": "small-551", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1, 0, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.000533063000148104}
+{"id": "small-552", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 9.655300027588964e-05}
+{"id": "small-553", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 3.1957999908627244e-05}
+{"id": "small-554", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012493600024754414}
+{"id": "small-555", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0005995219999022083}
+{"id": "small-556", "method": "enumerate", "status": "feasible", "assignment": [0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 4.193199993096641e-05}
+{"id": "small-557", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0006184300000313669}
+{"id": "small-558", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005503789998329012}
+{"id": "small-559", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 8.665899986226577e-05}
+{"id": "small-560", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.011450704999788286}
+{"id": "small-561", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.393999981606612e-05}
+{"id": "small-562", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.001008319999982632}
+{"id": "small-563", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 7.565299983980367e-05}
+{"id": "small-564", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0005660319998241903}
+{"id": "small-565", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.04099614799997653}
+{"id": "small-566", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0027320150002196897}
+{"id": "small-567", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0003895999998348998}
+{"id": "small-568", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0001436239999748068}
+{"id": "small-569", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03849960399975316}
+{"id": "small-570", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00011798600007750792}
+{"id": "small-571", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.249299980889191e-05}
+{"id": "small-572", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.576800019000075e-05}
+{"id": "small-573", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.25930001155939e-05}
+{"id": "small-574", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.187200006024796e-05}
+{"id": "small-575", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.00014369400014402345}
+{"id": "small-576", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002362820000598731}
+{"id": "small-577", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 6.114100006016088e-05}
+{"id": "small-578", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.034626661999936914}
+{"id": "small-579", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0002841529999386694}
+{"id": "small-580", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008594279997851118}
+{"id": "small-581", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0028063039999324246}
+{"id": "small-582", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00021126499996171333}
+{"id": "small-583", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012626699981410638}
+{"id": "small-584", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00016536600014660507}
+{"id": "small-585", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 2, 0, 0, 2, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.008299525999973412}
+{"id": "small-586", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0001642250003897061}
+{"id": "small-587", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.03447411599972838}
+{"id": "small-588", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009270890000152576}
+{"id": "small-589", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 9.290800016970024e-05}
+{"id": "small-590", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 6.12509998063615e-05}
+{"id": "small-591", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 5.9097999837831594e-05}
+{"id": "small-592", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0024055280000538914}
+{"id": "small-593", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009630819999983942}
+{"id": "small-594", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 0, 0, 0, 0, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 6.255299967961037e-05}
+{"id": "small-595", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 5.459099975269055e-05}
+{"id": "small-596", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.00012941300019519986}
+{"id": "small-597", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 8.183200043276884e-05}
+{"id": "small-598", "method": "enumerate", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.010011232999659114}
+{"id": "small-599", "method": "enumerate", "status": "feasible", "assignment": [0, 0, 1, 1, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00020381300009830738}
+{"id": "medium-000", "method": "milp", "status": "feasible", "assignment": [0, 2, 2, 2, 1, 3, 1, 2, 1, 1, 0, 0, 3, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.27422677499998827}
+{"id": "medium-001", "method": "milp", "status": "feasible", "assignment": [3, 1, 0, 3, 4, 2, 3, 4, 2, 3, 3, 3, 4, 4, 2, 0, 2, 0, 4, 0, 1, 2, 3, 2, 1, 0, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.008114482000110002}
+{"id": "medium-002", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0013430379999590514}
+{"id": "medium-003", "method": "milp", "status": "feasible", "assignment": [0, 0, 0, 1, 0, 2, 0, 0, 2, 2, 0, 0, 2, 1, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0015262710003298707}
+{"id": "medium-004", "method": "milp", "status": "feasible", "assignment": [2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 1, 1, 2, 0, 2, 2, 2, 0, 1, 2, 2, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.001951282999925752}
+{"id": "medium-005", "method": "milp", "status": "feasible", "assignment": [1, 3, 3, 0, 2, 2, 0, 1, 0, 2, 3, 0, 3, 0, 1, 2, 0, 2, 2, 2, 3, 1, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0019746979996853042}
+{"id": "medium-006", "method": "milp", "status": "feasible", "assignment": [0, 2, 1, 0, 1, 0, 1, 2, 0, 2, 2, 0, 2, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0017374049998579721}
+{"id": "medium-007", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0010106639997502498}
+{"id": "medium-008", "method": "milp", "status": "feasible", "assignment": [2, 1, 0, 0, 2, 1, 0, 1, 1, 2, 0, 0, 2, 2, 2, 0, 2, 2, 1, 0, 2, 0, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.001994756999920355}
+{"id": "medium-009", "method": "milp", "status": "feasible", "assignment": [2, 2, 0, 0, 1, 1, 1, 2, 0, 2, 2, 0, 0, 2, 2, 2, 1, 0, 0, 2, 1, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0019215780002923566}
+{"id": "medium-010", "method": "milp", "status": "feasible", "assignment": [1, 0, 3, 1, 0, 0, 3, 1, 1, 3, 3, 2, 3, 3, 0, 1, 1, 0, 2, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0022297270002127334}
+{"id": "medium-011", "method": "milp", "status": "feasible", "assignment": [1, 0, 0, 2, 2, 2, 2, 2, 1, 1, 1, 2, 0, 2, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0014913089999026852}
+{"id": "medium-012", "method": "milp", "status": "feasible", "assignment": [4, 4, 3, 0, 0, 0, 3, 2, 3, 1, 1, 1, 2, 2, 2, 3, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.011587979000069026}
+{"id": "medium-013", "method": "milp", "status": "feasible", "assignment": [1, 0, 0, 0, 1, 2, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.002051282000138599}
+{"id": "medium-014", "method": "milp", "status": "feasible", "assignment": [0, 1, 0, 0, 1, 4, 3, 0, 2, 0, 4, 0, 3, 0, 3, 2, 4, 3, 1, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.002301554000041506}
+{"id": "medium-015", "method": "milp", "status": "feasible", "assignment": [0, 0, 2, 3, 2, 2, 4, 3, 4, 4, 2, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.004779691000294406}
+{"id": "medium-016", "method": "milp", "status": "feasible", "assignment": [0, 0, 1, 1, 3, 3, 0, 1, 1, 2, 2, 4, 1, 0, 4, 4, 4, 4, 1, 3, 0, 1, 2, 1, 3, 3, 2, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.005394365000029211}
+{"id": "medium-017", "method": "milp", "status": "feasible", "assignment": [1, 1, 1, 2, 1, 3, 1, 3, 3, 0, 0, 1, 0, 3, 3, 3, 3, 3, 2, 2, 0, 1, 3, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0022034179996808234}
+{"id": "medium-018", "method": "milp", "status": "feasible", "assignment": [2, 0, 2, 0, 0, 0, 0, 2, 1, 2, 0, 0, 1, 1, 0, 0, 0, 1, 2, 0, 1, 1, 0, 2, 0, 0, 0, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0026463170001989056}
+{"id": "medium-019", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0021073449997857097}
+{"id": "medium-020", "method": "milp", "status": "feasible", "assignment": [4, 4, 1, 0, 3, 1, 1, 0, 1, 3, 0, 4, 4, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.002026684999691497}
+{"id": "medium-021", "method": "milp", "status": "feasible", "assignment": [0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 2, 2, 2, 1, 2, 1, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0018297420001545106}
+{"id": "medium-022", "method": "milp", "status": "feasible", "assignment": [1, 0, 2, 0, 0, 1, 0, 1, 2, 0, 1, 0, 0, 2, 1, 0, 1, 0, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0017099339997912466}
+{"id": "medium-023", "method": "milp", "status": "feasible", "assignment": [2, 3, 0, 2, 4, 3, 4, 3, 4, 2, 0, 3, 0, 3, 0, 4, 2, 4, 1, 1, 2, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.006945712999822717}
+{"id": "medium-024", "method": "milp", "status": "feasible", "assignment": [1, 1, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.002332309999928839}
+{"id": "medium-025", "method": "milp", "status": "feasible", "assignment": [1, 1, 3, 2, 3, 2, 0, 0, 2, 3, 0, 1, 2, 3, 3, 3, 1, 0, 2, 1, 2, 0, 1, 2, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0025214110000888468}
+{"id": "medium-026", "method": "milp", "status": "feasible", "assignment": [2, 2, 3, 3, 2, 2, 2, 2, 0, 3, 2, 0, 0, 2, 2, 1, 1, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.0019645430002128705}
+{"id": "medium-027", "method": "milp", "status": "feasible", "assignment": [0, 0, 2, 0, 2, 3, 2, 2, 2, 0, 0, 2, 2, 3, 0, 0, 2, 2, 0, 1, 0, 2, 3, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0018931259996861627}
+{"id": "medium-028", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009403190001648909}
+{"id": "medium-029", "method": "milp", "status": "feasible", "assignment": [2, 4, 4, 0, 4, 0, 3, 3, 1, 3, 1, 3, 2, 4, 4, 0, 4, 1, 4, 2, 0, 1, 2, 2, 4, 4, 1, 1, 4], "assignment_validated": true, "error": null, "wall_seconds": 0.0026337489998695673}
+{"id": "medium-030", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0022863109998070286}
+{"id": "medium-031", "method": "milp", "status": "feasible", "assignment": [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 2, 0, 1, 0, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0015541519996986608}
+{"id": "medium-032", "method": "milp", "status": "feasible", "assignment": [1, 0, 0, 2, 0, 0, 2, 2, 1, 0, 1, 2, 0, 1, 0, 2, 0, 2, 2, 1, 2, 0, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0024983070002235763}
+{"id": "medium-033", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0009846550001384458}
+{"id": "medium-034", "method": "milp", "status": "feasible", "assignment": [2, 1, 0, 2, 0, 1, 2, 2, 2, 1, 0, 2, 1, 2, 1, 1, 1, 0, 0, 1, 2, 0, 1, 2, 1, 2, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0017930869998963317}
+{"id": "medium-035", "method": "milp", "status": "feasible", "assignment": [0, 0, 2, 3, 2, 3, 1, 2, 0, 0, 3, 3, 3, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.001540662000024895}
+{"id": "medium-036", "method": "milp", "status": "feasible", "assignment": [1, 3, 0, 2, 1, 2, 2, 3, 2, 3, 1, 0, 0, 0, 0, 1, 0, 3, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0020860029999312246}
+{"id": "medium-037", "method": "milp", "status": "feasible", "assignment": [2, 1, 2, 3, 3, 1, 3, 3, 3, 2, 2, 2, 3, 0, 3, 2, 3, 0, 1, 0, 1, 3, 0, 1, 0, 3, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.002096820000133448}
+{"id": "medium-038", "method": "milp", "status": "feasible", "assignment": [1, 1, 2, 4, 4, 4, 0, 3, 2, 3, 0, 0, 2, 4, 3, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0016713869999875897}
+{"id": "medium-039", "method": "milp", "status": "feasible", "assignment": [0, 0, 0, 2, 4, 0, 0, 4, 2, 0, 2, 1, 3, 1, 1, 0, 3, 4, 0, 2, 2, 0, 4, 3, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0020071660001121927}
+{"id": "medium-040", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003736748999926931}
+{"id": "medium-041", "method": "milp", "status": "feasible", "assignment": [0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 2, 0, 2, 0, 0, 0, 3, 0, 0, 1, 0, 0, 3, 3, 0, 1, 3, 2, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.002308584999809682}
+{"id": "medium-042", "method": "milp", "status": "feasible", "assignment": [0, 0, 0, 0, 2, 0, 1, 0, 2, 0, 2, 2, 1, 2, 2, 2, 2, 0, 2, 0, 1, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.001684335999925679}
+{"id": "medium-043", "method": "milp", "status": "feasible", "assignment": [0, 1, 1, 2, 1, 2, 2, 2, 1, 0, 1, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0014838369997960399}
+{"id": "medium-044", "method": "milp", "status": "feasible", "assignment": [0, 2, 2, 1, 1, 0, 0, 1, 3, 0, 2, 1, 3, 0, 1, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.0018269370002599317}
+{"id": "medium-045", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002829318999829411}
+{"id": "medium-046", "method": "milp", "status": "feasible", "assignment": [0, 2, 2, 2, 1, 2, 2, 2, 0, 1, 1, 0, 2, 0, 2, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0017492820002189546}
+{"id": "medium-047", "method": "milp", "status": "feasible", "assignment": [1, 0, 0, 1, 3, 3, 2, 0, 3, 0, 0, 1, 1, 2, 3, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.0019403170003897685}
+{"id": "medium-048", "method": "milp", "status": "feasible", "assignment": [1, 0, 0, 1, 1, 1, 2, 2, 0, 1, 1, 2, 0, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0015094049999788695}
+{"id": "medium-049", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002423034999992524}
+{"id": "medium-050", "method": "milp", "status": "feasible", "assignment": [1, 2, 0, 0, 0, 3, 2, 0, 2, 0, 2, 1, 3, 0, 0, 3, 3, 1, 3, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0021141659999557305}
+{"id": "medium-051", "method": "milp", "status": "feasible", "assignment": [1, 2, 2, 2, 0, 1, 3, 1, 0, 2, 4, 3, 3, 0, 3, 1, 2, 1, 1, 4, 4, 0, 1, 2, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.00266933099965172}
+{"id": "medium-052", "method": "milp", "status": "feasible", "assignment": [0, 1, 1, 1, 3, 0, 0, 3, 1, 3, 1, 1, 2, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 2, 2, 3, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0025989259997913905}
+{"id": "medium-053", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0010474589998921147}
+{"id": "medium-054", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0029026780002823216}
+{"id": "medium-055", "method": "milp", "status": "feasible", "assignment": [2, 3, 4, 4, 1, 0, 3, 1, 0, 2, 3, 4, 0, 3, 4, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0055226159997801005}
+{"id": "medium-056", "method": "milp", "status": "feasible", "assignment": [2, 2, 2, 3, 1, 0, 3, 1, 1, 3, 0, 1, 3, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0017244949999621895}
+{"id": "medium-057", "method": "milp", "status": "feasible", "assignment": [2, 0, 1, 2, 1, 3, 0, 0, 2, 2, 2, 2, 3, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0017988360000344983}
+{"id": "medium-058", "method": "milp", "status": "feasible", "assignment": [3, 1, 0, 1, 0, 1, 2, 3, 3, 1, 2, 2, 2, 0, 3, 3, 0, 3, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0018411490000289632}
+{"id": "medium-059", "method": "milp", "status": "feasible", "assignment": [4, 3, 4, 2, 3, 1, 1, 2, 3, 1, 0, 2, 0, 0, 3, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.007067593999636301}
+{"id": "medium-060", "method": "milp", "status": "feasible", "assignment": [0, 1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 2, 0, 2, 2, 1, 1, 1, 1, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0022057509995647706}
+{"id": "medium-061", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0012392130001899204}
+{"id": "medium-062", "method": "milp", "status": "feasible", "assignment": [4, 4, 2, 2, 3, 4, 0, 0, 2, 2, 1, 0, 3, 3, 4, 3, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.006067056000119919}
+{"id": "medium-063", "method": "milp", "status": "feasible", "assignment": [1, 2, 4, 2, 1, 2, 0, 1, 3, 3, 0, 2, 1, 1, 3, 3, 1, 4, 2, 1, 4, 1, 1, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0035069470000053116}
+{"id": "medium-064", "method": "milp", "status": "feasible", "assignment": [1, 2, 1, 2, 3, 3, 3, 0, 0, 1, 0, 1, 1, 2, 2, 2, 3, 3, 2, 2, 3, 1, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.008834151999963069}
+{"id": "medium-065", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0014562159999513824}
+{"id": "medium-066", "method": "milp", "status": "feasible", "assignment": [0, 3, 2, 4, 2, 0, 3, 1, 2, 1, 4, 0, 1, 1, 4, 0, 0, 3, 2, 0, 0, 4, 0, 4, 1, 2, 1, 3, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.002745354000126099}
+{"id": "medium-067", "method": "milp", "status": "feasible", "assignment": [0, 0, 0, 1, 2, 0, 2, 2, 2, 1, 0, 1, 0, 0, 0, 2, 0, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.001526329999705922}
+{"id": "medium-068", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0027781730000242533}
+{"id": "medium-069", "method": "milp", "status": "feasible", "assignment": [2, 0, 2, 4, 0, 2, 4, 1, 0, 4, 3, 2, 1, 4, 4, 2, 2, 0, 1, 0, 4, 4, 4, 0, 3, 2, 0, 3, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.0025579959997230617}
+{"id": "medium-070", "method": "milp", "status": "feasible", "assignment": [0, 0, 1, 2, 0, 1, 2, 2, 1, 3, 1, 3, 1, 1, 3, 3, 3, 1, 0, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.0019039320000047155}
+{"id": "medium-071", "method": "milp", "status": "feasible", "assignment": [0, 1, 0, 0, 1, 0, 0, 0, 2, 2, 2, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0016747409999879892}
+{"id": "medium-072", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003976035000050615}
+{"id": "medium-073", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0023863299998083676}
+{"id": "medium-074", "method": "milp", "status": "feasible", "assignment": [0, 1, 0, 0, 0, 2, 1, 0, 1, 1, 2, 1, 1, 0, 2, 1, 2, 2, 2, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0018239030000586354}
+{"id": "medium-075", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002758703999916179}
+{"id": "medium-076", "method": "milp", "status": "feasible", "assignment": [1, 1, 0, 1, 1, 1, 2, 2, 1, 1, 1, 0, 0, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0015424839998559037}
+{"id": "medium-077", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.004024396000204433}
+{"id": "medium-078", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.001159664999704546}
+{"id": "medium-079", "method": "milp", "status": "feasible", "assignment": [2, 2, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0013082959999337618}
+{"id": "medium-080", "method": "milp", "status": "feasible", "assignment": [2, 0, 0, 0, 0, 0, 2, 0, 0, 1, 1, 2, 2, 0, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.001419181000073877}
+{"id": "medium-081", "method": "milp", "status": "feasible", "assignment": [1, 1, 0, 2, 1, 1, 1, 1, 0, 1, 0, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0019748180002352456}
+{"id": "medium-082", "method": "milp", "status": "feasible", "assignment": [2, 0, 3, 1, 1, 2, 2, 0, 0, 3, 3, 1, 3, 3, 0, 1, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.0018826509999598784}
+{"id": "medium-083", "method": "milp", "status": "feasible", "assignment": [0, 2, 3, 1, 1, 3, 1, 1, 0, 0, 1, 2, 0, 0, 2, 1, 2, 3, 3, 1, 3, 1, 0, 0, 0, 0, 0, 0, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.0026565620000837953}
+{"id": "medium-084", "method": "milp", "status": "feasible", "assignment": [3, 3, 2, 2, 2, 1, 0, 0, 0, 2, 4, 3, 1, 3, 3, 1, 4, 1, 2, 2, 3, 3, 1, 3, 1, 3, 4, 1, 3, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0023899759999039816}
+{"id": "medium-085", "method": "milp", "status": "feasible", "assignment": [1, 1, 2, 1, 2, 0, 1, 1, 1, 2, 0, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0012956979999216856}
+{"id": "medium-086", "method": "milp", "status": "feasible", "assignment": [4, 4, 4, 2, 0, 1, 1, 3, 3, 0, 1, 0, 4, 0, 3, 3, 1, 2, 2, 2, 3, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.004992035999748623}
+{"id": "medium-087", "method": "milp", "status": "feasible", "assignment": [1, 1, 1, 1, 3, 3, 1, 1, 2, 1, 1, 0, 1, 2, 0, 2, 3, 1, 2, 3, 2, 0, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.004044496999995317}
+{"id": "medium-088", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002265340000121796}
+{"id": "medium-089", "method": "milp", "status": "feasible", "assignment": [2, 2, 3, 2, 4, 0, 1, 4, 1, 2, 0, 0, 3, 4, 4, 4, 1, 1, 1, 3, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.004220359000100871}
+{"id": "medium-090", "method": "milp", "status": "feasible", "assignment": [1, 1, 1, 1, 0, 1, 2, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 1, 1, 0, 1, 0, 0, 2, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0026735269998425792}
+{"id": "medium-091", "method": "milp", "status": "feasible", "assignment": [4, 1, 3, 4, 1, 4, 0, 4, 1, 2, 4, 4, 1, 1, 0, 1, 2, 3, 4, 2, 0, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.003188152999882732}
+{"id": "medium-092", "method": "milp", "status": "feasible", "assignment": [2, 2, 0, 2, 2, 1, 1, 0, 0, 2, 0, 1, 2, 1, 2, 2, 2, 2, 2, 0, 2, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0018481590000192227}
+{"id": "medium-093", "method": "milp", "status": "feasible", "assignment": [4, 4, 2, 1, 0, 4, 1, 2, 4, 2, 4, 4, 3, 0, 2, 1, 4, 3, 1, 0, 4, 2, 4, 3, 4, 4], "assignment_validated": true, "error": null, "wall_seconds": 0.002463305000219407}
+{"id": "medium-094", "method": "milp", "status": "feasible", "assignment": [1, 2, 1, 2, 2, 0, 0, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 1, 1, 0, 2, 2, 1, 1, 1, 0, 1, 2, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.002163308000035613}
+{"id": "medium-095", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0010730359999797656}
+{"id": "medium-096", "method": "milp", "status": "feasible", "assignment": [3, 1, 3, 1, 0, 0, 3, 4, 1, 3, 2, 1, 1, 1, 0, 4, 4, 2, 4, 4, 3, 4, 4], "assignment_validated": true, "error": null, "wall_seconds": 0.0032222530003309657}
+{"id": "medium-097", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.001929500000187545}
+{"id": "medium-098", "method": "milp", "status": "feasible", "assignment": [2, 1, 4, 3, 2, 1, 4, 3, 3, 0, 4, 2, 1, 0, 0, 4, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00540560200033724}
+{"id": "medium-099", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.004124434999994264}
+{"id": "medium-100", "method": "milp", "status": "feasible", "assignment": [2, 1, 0, 0, 0, 1, 2, 0, 1, 1, 1, 2, 2, 0, 1, 0, 0, 1, 1, 1, 2, 0, 0, 1, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00205778100007592}
+{"id": "medium-101", "method": "milp", "status": "feasible", "assignment": [1, 3, 2, 0, 3, 2, 2, 2, 3, 2, 0, 0, 2, 3, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.001776372999756859}
+{"id": "medium-102", "method": "milp", "status": "feasible", "assignment": [1, 1, 0, 1, 0, 0, 2, 2, 1, 0, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.003238597999825288}
+{"id": "medium-103", "method": "milp", "status": "feasible", "assignment": [0, 2, 2, 2, 1, 2, 2, 2, 0, 2, 0, 2, 0, 2, 0, 2, 2, 0, 2, 0, 1, 0, 2, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0021679659998881107}
+{"id": "medium-104", "method": "milp", "status": "feasible", "assignment": [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.002136958999926719}
+{"id": "medium-105", "method": "milp", "status": "feasible", "assignment": [2, 0, 0, 0, 1, 2, 1, 0, 1, 1, 0, 1, 1, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.0015843470000618254}
+{"id": "medium-106", "method": "milp", "status": "feasible", "assignment": [2, 2, 0, 0, 0, 0, 1, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 2, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0016616520001662138}
+{"id": "medium-107", "method": "milp", "status": "feasible", "assignment": [1, 2, 2, 0, 3, 0, 0, 0, 2, 1, 0, 0, 4, 0, 0, 0, 3, 4, 1, 0, 4, 1, 3, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.002075618000162649}
+{"id": "medium-108", "method": "milp", "status": "feasible", "assignment": [0, 3, 2, 1, 0, 3, 0, 1, 3, 3, 1, 3, 1, 2, 2, 1, 3, 3, 3, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.001767549999840412}
+{"id": "medium-109", "method": "milp", "status": "feasible", "assignment": [4, 3, 2, 1, 3, 1, 3, 4, 0, 3, 4, 4, 3, 3, 1, 2, 1, 0, 3, 2, 2, 2, 4, 3, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.005484457999955339}
+{"id": "medium-110", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.002406230000360665}
+{"id": "medium-111", "method": "milp", "status": "feasible", "assignment": [2, 3, 1, 2, 1, 3, 1, 1, 1, 0, 3, 0, 2, 2, 3, 0, 3, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.0017950900000869296}
+{"id": "medium-112", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0010712230000535783}
+{"id": "medium-113", "method": "milp", "status": "feasible", "assignment": [1, 1, 2, 1, 2, 2, 3, 3, 0, 2, 2, 0, 2, 0, 0, 1, 3, 1, 2, 1, 3, 1, 0, 2, 3, 3, 3, 2, 0, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.002438967999751185}
+{"id": "medium-114", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.003686743999878672}
+{"id": "medium-115", "method": "milp", "status": "feasible", "assignment": [0, 0, 0, 1, 1, 2, 1, 0, 2, 1, 1, 0, 2, 1, 1, 0, 2, 1, 1, 0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.001709713999844098}
+{"id": "medium-116", "method": "milp", "status": "feasible", "assignment": [1, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.001529396000023553}
+{"id": "medium-117", "method": "milp", "status": "feasible", "assignment": [1, 3, 0, 4, 4, 4, 2, 3, 1, 2, 2, 3, 2, 4, 2, 2, 0, 3, 1, 4, 2, 0, 4, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.005623035000098753}
+{"id": "medium-118", "method": "milp", "status": "feasible", "assignment": [1, 1, 0, 0, 0, 1, 2, 2, 1, 1, 0, 1, 1, 1, 0, 1, 2, 1, 0, 1, 2, 0, 1, 2, 1, 1, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.0018942179999612563}
+{"id": "medium-119", "method": "milp", "status": "feasible", "assignment": [2, 2, 2, 0, 2, 4, 1, 4, 2, 3, 0, 1, 1, 3, 1, 3, 2, 2, 4], "assignment_validated": true, "error": null, "wall_seconds": 0.00509871500025838}
+{"id": "stress-40-00", "method": "milp", "status": "feasible", "assignment": [0, 0, 0, 2, 2, 1, 1, 3, 0, 2, 0, 0, 1, 1, 2, 3, 3, 2, 1, 3, 3, 3, 1, 3, 3, 1, 2, 3, 3, 3, 1, 3, 0, 1, 2, 2, 0, 2, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.03875473400012197}
+{"id": "stress-40-01", "method": "milp", "status": "feasible", "assignment": [0, 1, 3, 0, 0, 3, 3, 3, 0, 1, 3, 0, 1, 1, 2, 2, 0, 0, 2, 1, 1, 1, 0, 2, 0, 2, 0, 0, 2, 1, 0, 2, 0, 2, 2, 3, 2, 1, 3, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.18469712499972957}
+{"id": "stress-40-02", "method": "milp", "status": "feasible", "assignment": [2, 1, 2, 1, 3, 2, 2, 3, 0, 2, 1, 1, 0, 1, 1, 2, 0, 2, 3, 3, 1, 2, 3, 3, 0, 2, 0, 3, 0, 1, 3, 0, 0, 0, 2, 2, 1, 2, 1, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.11624760600034278}
+{"id": "stress-40-03", "method": "milp", "status": "feasible", "assignment": [2, 1, 0, 3, 0, 1, 2, 0, 1, 1, 1, 0, 0, 2, 0, 3, 3, 2, 1, 2, 2, 2, 2, 2, 0, 3, 2, 2, 0, 2, 1, 3, 3, 0, 1, 3, 3, 0, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.13300199099967358}
+{"id": "stress-40-04", "method": "milp", "status": "feasible", "assignment": [1, 1, 1, 2, 1, 0, 0, 2, 3, 3, 3, 2, 0, 1, 2, 0, 0, 0, 3, 2, 1, 1, 2, 2, 0, 3, 1, 3, 0, 3, 3, 2, 0, 3, 2, 3, 2, 1, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.25866057700022793}
+{"id": "stress-40-05", "method": "milp", "status": "feasible", "assignment": [2, 3, 1, 0, 0, 2, 3, 0, 3, 1, 2, 1, 1, 1, 1, 3, 3, 2, 1, 2, 3, 3, 0, 0, 3, 1, 2, 2, 2, 1, 0, 0, 3, 0, 2, 1, 3, 3, 2, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.2268335499998102}
+{"id": "stress-40-06", "method": "milp", "status": "feasible", "assignment": [3, 2, 2, 1, 0, 1, 2, 3, 1, 2, 0, 3, 0, 0, 1, 3, 0, 1, 2, 3, 0, 3, 1, 2, 2, 1, 3, 3, 0, 1, 2, 3, 2, 0, 1, 2, 0, 0, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.18546856199964168}
+{"id": "stress-40-07", "method": "milp", "status": "feasible", "assignment": [3, 2, 2, 1, 3, 1, 1, 3, 0, 0, 2, 2, 0, 1, 0, 1, 1, 0, 0, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3, 1, 0, 2, 3, 3, 2, 2, 3, 0, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.012174983000022621}
+{"id": "stress-40-08", "method": "milp", "status": "feasible", "assignment": [2, 1, 0, 2, 3, 0, 2, 3, 0, 0, 1, 2, 0, 2, 0, 3, 0, 2, 1, 2, 2, 2, 2, 3, 3, 0, 1, 1, 1, 2, 2, 1, 0, 0, 3, 3, 3, 0, 3, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.03981507100024828}
+{"id": "stress-40-09", "method": "milp", "status": "feasible", "assignment": [0, 0, 2, 2, 1, 1, 3, 3, 3, 0, 2, 0, 3, 1, 3, 1, 0, 1, 1, 2, 2, 2, 1, 3, 1, 3, 2, 3, 0, 1, 0, 2, 2, 1, 2, 0, 3, 3, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.06338655199988352}
+{"id": "stress-80-00", "method": "milp", "status": "feasible", "assignment": [3, 0, 1, 1, 3, 1, 0, 3, 0, 2, 1, 3, 3, 0, 3, 2, 1, 0, 0, 2, 1, 3, 2, 2, 3, 3, 1, 2, 0, 2, 3, 2, 3, 1, 2, 3, 2, 3, 0, 2, 1, 1, 1, 3, 2, 0, 0, 0, 0, 0, 2, 2, 0, 3, 0, 1, 1, 1, 1, 2, 1, 1, 0, 0, 3, 3, 1, 3, 2, 2, 2, 2, 1, 0, 1, 2, 0, 2, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.014540181000029406}
+{"id": "stress-80-01", "method": "milp", "status": "feasible", "assignment": [0, 0, 1, 2, 2, 3, 0, 3, 0, 1, 3, 3, 2, 1, 2, 3, 2, 0, 0, 0, 1, 2, 1, 2, 0, 3, 1, 0, 1, 1, 2, 3, 3, 3, 0, 2, 1, 2, 1, 0, 1, 1, 0, 2, 2, 2, 3, 0, 0, 2, 0, 3, 2, 2, 0, 1, 1, 1, 2, 3, 2, 1, 1, 0, 3, 0, 0, 2, 2, 2, 2, 0, 2, 1, 3, 2, 2, 3, 3, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.04247653100037496}
+{"id": "stress-80-02", "method": "milp", "status": "feasible", "assignment": [2, 0, 1, 3, 3, 0, 1, 1, 3, 3, 0, 2, 2, 1, 0, 0, 1, 3, 2, 0, 3, 3, 0, 2, 0, 2, 2, 0, 2, 1, 1, 3, 3, 3, 2, 3, 1, 2, 2, 0, 3, 0, 1, 3, 2, 2, 0, 1, 2, 2, 0, 1, 0, 1, 2, 0, 1, 2, 0, 2, 1, 1, 2, 0, 1, 3, 1, 2, 0, 1, 0, 3, 2, 3, 3, 2, 0, 0, 3, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.03289468599996326}
+{"id": "stress-80-03", "method": "milp", "status": "feasible", "assignment": [2, 1, 3, 0, 1, 1, 0, 2, 3, 2, 0, 3, 3, 0, 2, 2, 3, 1, 0, 2, 0, 2, 3, 3, 2, 1, 1, 3, 1, 1, 0, 3, 1, 2, 1, 2, 0, 2, 2, 3, 1, 1, 0, 2, 0, 0, 2, 0, 1, 0, 1, 0, 2, 3, 0, 1, 3, 3, 1, 3, 0, 1, 0, 2, 3, 3, 2, 1, 0, 1, 3, 0, 3, 3, 2, 0, 0, 2, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.04418213700000706}
+{"id": "stress-80-04", "method": "milp", "status": "feasible", "assignment": [1, 1, 3, 1, 1, 1, 1, 3, 0, 0, 2, 0, 0, 3, 0, 3, 3, 1, 1, 0, 2, 2, 0, 2, 3, 1, 2, 3, 1, 1, 2, 3, 1, 1, 3, 1, 1, 3, 2, 3, 3, 0, 2, 0, 1, 0, 2, 3, 0, 2, 0, 3, 3, 1, 2, 2, 0, 2, 3, 3, 1, 3, 3, 0, 0, 2, 1, 2, 1, 2, 3, 2, 2, 1, 0, 0, 0, 3, 2, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.05457769199983886}
+{"id": "stress-80-05", "method": "milp", "status": "feasible", "assignment": [2, 1, 0, 2, 1, 0, 1, 2, 1, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 2, 0, 2, 1, 3, 2, 2, 1, 2, 2, 2, 2, 3, 2, 1, 1, 2, 3, 1, 2, 3, 0, 3, 0, 3, 2, 0, 0, 3, 0, 1, 2, 0, 3, 3, 1, 3, 0, 0, 1, 3, 3, 1, 3, 1, 0, 3, 1, 3, 2, 1, 0, 3, 0, 1, 3, 2, 2, 2, 2, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.02294276099974013}
+{"id": "stress-80-06", "method": "milp", "status": "feasible", "assignment": [2, 0, 3, 3, 3, 2, 0, 1, 0, 3, 1, 2, 0, 1, 2, 1, 1, 3, 3, 3, 2, 3, 1, 2, 1, 2, 3, 2, 3, 2, 2, 2, 0, 0, 2, 1, 2, 2, 3, 2, 0, 0, 1, 3, 2, 1, 0, 0, 2, 1, 2, 0, 0, 1, 1, 3, 0, 2, 3, 1, 0, 3, 1, 3, 3, 0, 1, 2, 0, 2, 3, 0, 1, 2, 3, 3, 2, 1, 3, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.008003807000022789}
+{"id": "stress-80-07", "method": "milp", "status": "feasible", "assignment": [0, 0, 2, 2, 2, 2, 3, 0, 0, 0, 1, 0, 3, 2, 0, 3, 1, 0, 3, 3, 3, 1, 1, 1, 0, 0, 3, 1, 1, 2, 0, 2, 3, 1, 2, 3, 0, 3, 2, 0, 2, 0, 1, 2, 3, 0, 2, 2, 3, 1, 2, 3, 3, 1, 0, 3, 1, 3, 2, 2, 3, 2, 2, 1, 0, 1, 3, 2, 1, 1, 1, 0, 3, 3, 3, 1, 1, 0, 3, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.00935857299964482}
+{"id": "stress-80-08", "method": "milp", "status": "feasible", "assignment": [0, 3, 1, 2, 1, 1, 2, 0, 1, 1, 2, 1, 2, 3, 1, 3, 2, 2, 1, 0, 0, 0, 2, 2, 0, 2, 0, 3, 3, 3, 1, 3, 1, 3, 3, 3, 0, 0, 0, 0, 0, 1, 2, 3, 2, 1, 0, 0, 1, 2, 2, 3, 0, 2, 3, 3, 2, 1, 3, 1, 0, 3, 3, 0, 0, 3, 1, 1, 3, 1, 0, 2, 0, 2, 3, 0, 2, 0, 0, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.014733617999809212}
+{"id": "stress-80-09", "method": "milp", "status": "feasible", "assignment": [1, 0, 2, 3, 2, 3, 1, 2, 2, 3, 2, 3, 2, 1, 0, 1, 1, 0, 0, 2, 2, 3, 1, 3, 1, 1, 1, 2, 1, 1, 3, 2, 1, 0, 2, 0, 2, 0, 2, 1, 2, 0, 0, 3, 0, 0, 3, 0, 0, 2, 1, 3, 1, 1, 3, 3, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 2, 1, 1, 0, 3, 2, 2, 3, 1, 2, 1, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.007901295000010577}
+{"id": "stress-160-00", "method": "milp", "status": "feasible", "assignment": [2, 1, 0, 2, 1, 1, 0, 2, 1, 0, 1, 0, 1, 0, 1, 0, 3, 3, 2, 1, 1, 1, 2, 0, 1, 3, 1, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 1, 1, 2, 1, 3, 2, 3, 1, 2, 1, 0, 2, 2, 1, 1, 0, 3, 1, 3, 0, 3, 1, 0, 2, 3, 3, 3, 1, 1, 3, 0, 0, 3, 0, 0, 1, 0, 0, 3, 0, 2, 2, 1, 1, 1, 1, 2, 3, 0, 1, 3, 3, 3, 3, 3, 1, 3, 3, 2, 1, 3, 3, 3, 3, 2, 2, 0, 3, 0, 3, 3, 3, 1, 3, 3, 1, 3, 0, 2, 3, 0, 0, 1, 2, 0, 0, 1, 3, 0, 0, 1, 3, 1, 3, 0, 2, 1, 1, 2, 1, 1, 0, 2, 3, 1, 0, 1, 3, 2, 3, 1, 3, 2, 3, 1, 2, 1, 0, 3, 2, 2, 3, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.018056000999877142}
+{"id": "stress-160-01", "method": "milp", "status": "feasible", "assignment": [0, 1, 2, 1, 1, 3, 0, 1, 0, 0, 0, 3, 2, 3, 0, 1, 0, 3, 2, 0, 1, 3, 0, 0, 1, 1, 1, 1, 3, 2, 1, 2, 3, 1, 3, 0, 2, 1, 2, 3, 0, 1, 2, 2, 2, 1, 2, 0, 1, 0, 0, 0, 0, 2, 1, 1, 1, 2, 1, 3, 1, 2, 0, 3, 0, 1, 0, 3, 1, 3, 0, 1, 2, 2, 2, 2, 1, 0, 3, 1, 3, 1, 1, 2, 0, 1, 1, 3, 2, 0, 3, 3, 3, 2, 3, 3, 2, 2, 2, 3, 1, 3, 3, 1, 2, 3, 1, 2, 3, 2, 3, 3, 2, 1, 3, 3, 2, 2, 2, 2, 2, 3, 1, 3, 2, 0, 3, 0, 0, 3, 1, 2, 2, 3, 0, 1, 1, 3, 0, 1, 3, 1, 3, 3, 3, 3, 2, 0, 0, 2, 0, 2, 2, 0, 1, 0, 2, 0, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.01833755999996356}
+{"id": "stress-160-02", "method": "milp", "status": "feasible", "assignment": [3, 1, 0, 2, 2, 2, 2, 3, 3, 2, 3, 0, 2, 3, 0, 0, 2, 0, 1, 3, 1, 3, 0, 1, 1, 0, 0, 0, 1, 2, 2, 3, 0, 1, 3, 0, 0, 0, 2, 3, 0, 0, 3, 2, 0, 2, 2, 3, 0, 3, 3, 1, 0, 1, 2, 3, 1, 0, 3, 2, 1, 0, 3, 3, 2, 2, 3, 0, 0, 1, 2, 1, 2, 1, 0, 2, 2, 0, 0, 2, 3, 0, 0, 1, 2, 1, 1, 3, 3, 3, 3, 2, 0, 2, 2, 1, 1, 3, 1, 0, 1, 1, 1, 0, 3, 2, 0, 0, 2, 1, 2, 0, 2, 1, 1, 0, 2, 2, 3, 2, 1, 0, 2, 1, 0, 3, 3, 0, 0, 1, 2, 3, 2, 1, 1, 0, 2, 1, 2, 1, 1, 1, 1, 0, 3, 1, 1, 3, 1, 2, 3, 0, 0, 3, 0, 2, 2, 1, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.017730195999774878}
+{"id": "stress-160-03", "method": "milp", "status": "feasible", "assignment": [0, 1, 0, 1, 3, 1, 0, 1, 0, 2, 1, 3, 2, 0, 2, 3, 0, 0, 3, 3, 2, 0, 3, 0, 3, 1, 2, 0, 2, 2, 0, 1, 0, 1, 2, 0, 3, 2, 0, 0, 3, 3, 0, 2, 0, 0, 1, 3, 2, 1, 2, 2, 0, 0, 1, 1, 3, 1, 1, 0, 1, 2, 0, 2, 0, 2, 1, 1, 0, 3, 0, 3, 0, 1, 0, 0, 0, 3, 1, 2, 3, 2, 0, 3, 2, 1, 1, 1, 1, 3, 3, 1, 2, 2, 1, 0, 2, 3, 0, 1, 2, 2, 3, 3, 0, 3, 1, 2, 3, 3, 0, 3, 3, 0, 1, 3, 2, 2, 2, 2, 1, 1, 1, 1, 2, 0, 2, 3, 3, 0, 3, 3, 0, 0, 1, 2, 3, 0, 2, 0, 0, 3, 1, 1, 3, 1, 3, 0, 0, 3, 3, 2, 1, 2, 3, 0, 1, 3, 2, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.018717614999786747}
+{"id": "stress-160-04", "method": "milp", "status": "feasible", "assignment": [3, 1, 0, 1, 1, 2, 3, 1, 1, 0, 0, 3, 0, 2, 0, 2, 1, 1, 1, 0, 2, 3, 1, 0, 1, 2, 2, 1, 1, 1, 3, 2, 1, 1, 1, 2, 0, 2, 0, 3, 1, 3, 1, 3, 3, 1, 0, 2, 3, 1, 1, 3, 0, 0, 1, 3, 0, 3, 2, 3, 3, 2, 0, 3, 3, 0, 3, 1, 1, 0, 2, 2, 1, 3, 1, 3, 1, 1, 2, 2, 3, 3, 2, 1, 3, 0, 2, 3, 0, 2, 3, 2, 1, 3, 2, 3, 1, 1, 1, 1, 0, 3, 0, 3, 0, 1, 2, 2, 2, 2, 1, 3, 0, 1, 0, 3, 0, 2, 0, 2, 2, 2, 1, 2, 0, 1, 2, 0, 2, 3, 2, 3, 1, 0, 2, 2, 2, 0, 0, 2, 1, 3, 1, 3, 1, 2, 3, 0, 0, 3, 2, 3, 2, 2, 0, 3, 2, 3, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.02190435600005003}
+{"id": "stress-160-05", "method": "milp", "status": "feasible", "assignment": [3, 1, 0, 1, 0, 2, 0, 1, 0, 3, 2, 0, 2, 1, 2, 0, 1, 3, 1, 1, 2, 0, 2, 3, 0, 3, 3, 0, 2, 1, 0, 1, 1, 2, 1, 0, 1, 1, 2, 3, 0, 3, 0, 1, 0, 1, 0, 3, 2, 3, 1, 2, 0, 0, 1, 2, 3, 1, 1, 2, 2, 1, 0, 2, 1, 2, 0, 0, 0, 3, 0, 0, 2, 3, 3, 3, 1, 1, 1, 1, 3, 1, 3, 0, 0, 3, 3, 3, 2, 3, 2, 0, 0, 2, 1, 1, 1, 3, 1, 2, 0, 2, 0, 2, 1, 3, 1, 1, 0, 1, 2, 3, 0, 1, 2, 0, 0, 0, 3, 1, 0, 3, 3, 3, 1, 0, 0, 2, 2, 2, 1, 0, 1, 0, 3, 3, 2, 0, 3, 3, 1, 3, 0, 3, 3, 0, 2, 1, 0, 2, 0, 1, 2, 2, 0, 1, 3, 3, 1, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.01758807500027615}
+{"id": "stress-160-06", "method": "milp", "status": "feasible", "assignment": [2, 2, 1, 3, 0, 2, 2, 3, 3, 0, 1, 3, 2, 3, 2, 0, 0, 3, 2, 2, 2, 3, 3, 2, 3, 1, 3, 0, 3, 2, 0, 0, 0, 0, 2, 3, 2, 1, 0, 3, 0, 0, 0, 0, 3, 2, 2, 3, 2, 2, 1, 3, 1, 3, 1, 2, 0, 2, 2, 0, 1, 0, 1, 0, 1, 1, 3, 0, 1, 3, 3, 2, 2, 1, 2, 0, 2, 1, 3, 0, 2, 1, 2, 1, 2, 2, 1, 3, 2, 0, 2, 1, 2, 3, 2, 0, 2, 1, 0, 0, 0, 0, 3, 1, 0, 1, 1, 2, 3, 1, 1, 0, 1, 1, 1, 1, 1, 2, 1, 2, 1, 2, 0, 3, 3, 0, 2, 0, 2, 3, 3, 1, 1, 3, 1, 2, 1, 0, 0, 3, 0, 0, 2, 1, 1, 0, 3, 0, 2, 0, 1, 3, 1, 3, 0, 1, 1, 2, 3, 3], "assignment_validated": true, "error": null, "wall_seconds": 0.017941070000233594}
+{"id": "stress-160-07", "method": "milp", "status": "feasible", "assignment": [3, 1, 2, 2, 1, 3, 2, 1, 0, 3, 3, 3, 0, 0, 2, 2, 2, 3, 1, 0, 1, 2, 3, 0, 0, 1, 2, 2, 1, 3, 3, 0, 0, 2, 2, 0, 1, 1, 2, 1, 0, 0, 2, 3, 2, 3, 1, 3, 3, 0, 2, 3, 2, 0, 1, 0, 2, 3, 2, 3, 1, 1, 1, 3, 1, 1, 2, 1, 0, 0, 0, 0, 1, 2, 2, 1, 1, 1, 2, 3, 1, 1, 2, 1, 2, 2, 1, 3, 0, 0, 0, 3, 1, 2, 3, 1, 3, 3, 3, 1, 3, 3, 2, 0, 1, 3, 3, 0, 3, 3, 1, 0, 1, 1, 1, 1, 1, 0, 2, 3, 2, 1, 2, 3, 0, 3, 0, 2, 0, 1, 3, 0, 0, 2, 0, 2, 0, 3, 3, 1, 3, 1, 0, 1, 1, 0, 2, 0, 1, 1, 2, 0, 2, 2, 1, 0, 1, 2, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.021437991999846417}
+{"id": "stress-160-08", "method": "milp", "status": "feasible", "assignment": [0, 2, 0, 0, 0, 2, 0, 0, 1, 1, 1, 0, 2, 1, 0, 2, 3, 1, 3, 0, 3, 3, 1, 0, 3, 1, 3, 0, 0, 2, 2, 3, 2, 1, 2, 0, 0, 0, 1, 1, 3, 1, 2, 2, 3, 3, 2, 3, 1, 3, 0, 3, 3, 1, 0, 2, 2, 2, 1, 0, 1, 2, 0, 0, 1, 0, 3, 2, 0, 3, 0, 3, 3, 2, 3, 2, 2, 2, 2, 1, 1, 1, 2, 0, 0, 2, 3, 3, 2, 0, 0, 0, 1, 0, 3, 3, 0, 1, 2, 3, 2, 0, 1, 1, 0, 0, 2, 2, 3, 1, 3, 1, 1, 1, 1, 2, 3, 3, 2, 2, 0, 3, 0, 1, 3, 3, 2, 1, 3, 0, 2, 1, 1, 0, 1, 3, 1, 0, 3, 3, 2, 1, 1, 0, 2, 0, 1, 1, 2, 1, 0, 0, 2, 0, 3, 1, 2, 1, 0, 2], "assignment_validated": true, "error": null, "wall_seconds": 0.017008552999868698}
+{"id": "stress-160-09", "method": "milp", "status": "feasible", "assignment": [1, 1, 3, 1, 1, 0, 0, 2, 2, 0, 0, 0, 2, 3, 3, 3, 2, 2, 1, 0, 2, 3, 0, 3, 1, 0, 1, 3, 3, 2, 1, 1, 2, 2, 3, 2, 2, 0, 3, 3, 1, 3, 3, 2, 1, 0, 2, 1, 1, 2, 2, 2, 2, 3, 2, 3, 2, 3, 0, 0, 0, 2, 2, 2, 1, 1, 0, 0, 1, 3, 2, 2, 3, 1, 3, 3, 0, 1, 2, 2, 3, 1, 0, 0, 0, 3, 1, 1, 3, 0, 1, 1, 3, 3, 3, 1, 1, 1, 0, 3, 0, 3, 1, 1, 2, 2, 1, 2, 3, 3, 3, 1, 3, 1, 1, 0, 2, 2, 2, 2, 1, 3, 1, 3, 1, 0, 0, 1, 0, 3, 1, 3, 1, 3, 2, 3, 1, 0, 0, 1, 0, 3, 3, 3, 3, 0, 2, 2, 0, 1, 2, 0, 3, 2, 2, 3, 2, 3, 1, 0], "assignment_validated": true, "error": null, "wall_seconds": 0.017582085999947594}
+{"id": "historical-28218", "method": "milp", "status": "feasible", "assignment": [0, 1, 0, 1], "assignment_validated": true, "error": null, "wall_seconds": 0.001044694000029267}
+{"id": "odd-cycle", "method": "milp", "status": "infeasible", "assignment": null, "assignment_validated": null, "error": null, "wall_seconds": 0.0008116880003399274}

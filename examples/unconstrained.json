@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "groups": ["batch-a", "batch-b"],
+  "classes": ["label"],
+  "partitions": ["left", "right"],
+  "counts": [[2], [3]],
+  "requirements": []
+}

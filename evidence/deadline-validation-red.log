@@ -1,0 +1,26 @@
+test_320_small_cases_against_cartesian_enumeration (test_solver.SolverTests.test_320_small_cases_against_cartesian_enumeration) ... ok
+test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets) ... ERROR
+test_empty_requirements_and_zero_budget (test_solver.SolverTests.test_empty_requirements_and_zero_budget) ... ok
+test_fixed_budget_determinism (test_solver.SolverTests.test_fixed_budget_determinism) ... ok
+test_forged_problem_cannot_bypass_validation (test_solver.SolverTests.test_forged_problem_cannot_bypass_validation) ... ok
+test_integer_extremes_and_forced_upper_exclusion (test_solver.SolverTests.test_integer_extremes_and_forced_upper_exclusion) ... ok
+test_odd_cycle_is_infeasible (test_solver.SolverTests.test_odd_cycle_is_infeasible) ... ok
+test_repeated_bounds_are_conjunction (test_solver.SolverTests.test_repeated_bounds_are_conjunction) ... ok
+
+======================================================================
+ERROR: test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_solver.py", line 72, in test_deadline_and_invalid_budgets
+    solve(p, deadline=bad)
+  File "<source>/src/foldcontract/solver.py", line 59, in solve
+    _validate_budget(max_nodes, deadline)
+  File "<source>/src/foldcontract/solver.py", line 23, in _validate_budget
+    if deadline is not None and (type(deadline) not in (int, float) or not math.isfinite(deadline)):
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: int too large to convert to float
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.180s
+
+FAILED (errors=1)

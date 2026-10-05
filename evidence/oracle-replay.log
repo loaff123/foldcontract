@@ -1,0 +1,110 @@
+{
+  "budget_calls": 6060,
+  "budget_statuses": {
+    "FEASIBLE": 1278,
+    "INFEASIBLE": 2450,
+    "UNKNOWN": 2332
+  },
+  "cases": 1212,
+  "independently_enumerated_minimal_cores": 150,
+  "mismatches": 0,
+  "random_seed": 2026100501,
+  "statuses": {
+    "FEASIBLE": 590,
+    "INFEASIBLE": 622
+  }
+}
+Replayed 100/752
+Replayed 200/752
+Replayed 300/752
+Replayed 400/752
+Replayed 500/752
+Replayed 600/752
+Replayed 700/752
+{
+  "cases": 752,
+  "cohort_sha256": "766577906c518fe1fdd28d99603dbb5227c4235fcde267f9fc15b58c914fc4cf",
+  "fresh_cartesian_cases": 601,
+  "groups": {
+    "historical": {
+      "cases": 1,
+      "production_total_seconds": 0.0003515729999890027,
+      "statuses": {
+        "FEASIBLE": 1
+      }
+    },
+    "medium": {
+      "cases": 120,
+      "production_total_seconds": 0.25613524600294113,
+      "statuses": {
+        "FEASIBLE": 94,
+        "INFEASIBLE": 26
+      }
+    },
+    "odd": {
+      "cases": 1,
+      "production_total_seconds": 0.00013987800002723816,
+      "statuses": {
+        "INFEASIBLE": 1
+      }
+    },
+    "small": {
+      "cases": 600,
+      "production_total_seconds": 0.18737293100093666,
+      "statuses": {
+        "FEASIBLE": 217,
+        "INFEASIBLE": 383
+      }
+    },
+    "stress": {
+      "cases": 30,
+      "production_total_seconds": 19.482179445000384,
+      "statuses": {
+        "FEASIBLE": 17,
+        "UNKNOWN": 3,
+        "UNSUPPORTED": 10
+      }
+    }
+  },
+  "max_nodes": 100000,
+  "mismatches": [],
+  "notes": [
+    "UNSUPPORTED is an evaluation disposition, not a solver status.",
+    "All 752 original rows are retained; 160-group rows exceed production admission.",
+    "Wall-time outcomes and timings are machine-dependent.",
+    "Stored medium/stress HiGHS infeasibility is numerical, not a formal certificate.",
+    "Production timings include input normalization; Cartesian checks are outside them."
+  ],
+  "production_unknown_ids": [
+    "stress-80-00",
+    "stress-80-04",
+    "stress-80-09"
+  ],
+  "python": "3.12.14",
+  "reference_sha256": "32c4668c4bc85fbb259cd1b0ed55c35da0027b99a451b6caa7d9e001117ecad5",
+  "research_unknown_retained": [
+    "medium-019",
+    "medium-045",
+    "stress-80-01",
+    "stress-80-04"
+  ],
+  "seconds_per_solve": 5.0,
+  "statuses": {
+    "FEASIBLE": 329,
+    "INFEASIBLE": 410,
+    "UNKNOWN": 3,
+    "UNSUPPORTED": 10
+  },
+  "unsupported_ids": [
+    "stress-160-00",
+    "stress-160-01",
+    "stress-160-02",
+    "stress-160-03",
+    "stress-160-04",
+    "stress-160-05",
+    "stress-160-06",
+    "stress-160-07",
+    "stress-160-08",
+    "stress-160-09"
+  ]
+}

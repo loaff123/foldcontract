@@ -1,0 +1,10 @@
+WARNING: The directory '<home>/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing <temporary>
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: foldcontract
+  Building wheel for foldcontract (pyproject.toml): started
+  Building wheel for foldcontract (pyproject.toml): finished with status 'done'
+  Created wheel for foldcontract: filename=foldcontract-0.1.0a1-py3-none-any.whl size=30169 sha256=956263afcf7e2b21005d8aa6a6483d93e3e5d10dc5c7f4f5c7523984da750c2c
+  Stored in directory: <temporary>
+Successfully built foldcontract

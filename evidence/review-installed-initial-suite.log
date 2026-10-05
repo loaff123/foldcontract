@@ -1,0 +1,226 @@
+test_aggregates_rows_into_exact_canonical_counts (test_adapter.AggregateRowsTests.test_aggregates_rows_into_exact_canonical_counts) ... ok
+test_core_limits_apply_without_silent_truncation (test_adapter.AggregateRowsTests.test_core_limits_apply_without_silent_truncation) ... ok
+test_does_not_normalize_case_whitespace_or_unicode (test_adapter.AggregateRowsTests.test_does_not_normalize_case_whitespace_or_unicode) ... ok
+test_empty_rows_are_rejected (test_adapter.AggregateRowsTests.test_empty_rows_are_rejected) ... ok
+test_invalid_requirement_objects_are_not_silently_repaired (test_adapter.AggregateRowsTests.test_invalid_requirement_objects_are_not_silently_repaired) ... ok
+test_labels_and_groups_are_strictly_single_strings (test_adapter.AggregateRowsTests.test_labels_and_groups_are_strictly_single_strings) ... ok
+test_mismatched_source_lengths_are_rejected (test_adapter.AggregateRowsTests.test_mismatched_source_lengths_are_rejected) ... ok
+test_non_sequence_and_text_containers_are_rejected (test_adapter.AggregateRowsTests.test_non_sequence_and_text_containers_are_rejected) ... ok
+test_partition_and_requirement_inputs_are_finite_sequences (test_adapter.AggregateRowsTests.test_partition_and_requirement_inputs_are_finite_sequences) ... ok
+test_preserves_explicit_named_requirements (test_adapter.AggregateRowsTests.test_preserves_explicit_named_requirements) ... ok
+test_requirement_objects_preserve_the_same_named_bounds (test_adapter.AggregateRowsTests.test_requirement_objects_preserve_the_same_named_bounds) ... ok
+test_requirement_validation_remains_core_validation (test_adapter.AggregateRowsTests.test_requirement_validation_remains_core_validation) ... ok
+test_row_cap_is_checked_before_source_access (test_adapter.AggregateRowsTests.test_row_cap_is_checked_before_source_access) ... ok
+test_same_source_multiset_has_same_digest (test_adapter.AggregateRowsTests.test_same_source_multiset_has_same_digest) ... ok
+test_all_published_examples_are_strict_core_problems (test_adapter.ExampleTests.test_all_published_examples_are_strict_core_problems) ... ok
+test_examples_have_their_documented_solver_statuses (test_adapter.ExampleTests.test_examples_have_their_documented_solver_statuses) ... ok
+test_explicit_preset_names_all_group_and_class_minima (test_adapter.KFoldProblemTests.test_explicit_preset_names_all_group_and_class_minima) ... ok
+test_impossible_minimum_is_well_formed_not_silently_relaxed (test_adapter.KFoldProblemTests.test_impossible_minimum_is_well_formed_not_silently_relaxed) ... ok
+test_invalid_preset_arguments_are_rejected (test_adapter.KFoldProblemTests.test_invalid_preset_arguments_are_rejected) ... ok
+test_max_length_labels_do_not_overflow_generated_requirement_ids (test_adapter.KFoldProblemTests.test_max_length_labels_do_not_overflow_generated_requirement_ids) ... ok
+test_zero_class_minimum_still_requests_one_group_per_fold (test_adapter.KFoldProblemTests.test_zero_class_minimum_still_requests_one_group_per_fold) ... ok
+test_checks_rows_again_on_every_split (test_adapter.ReportCrossValidatorTests.test_checks_rows_again_on_every_split) ... ok
+test_optional_protocol_has_no_sklearn_or_numpy_dependency (test_adapter.ReportCrossValidatorTests.test_optional_protocol_has_no_sklearn_or_numpy_dependency) ... ok
+test_protocol_yields_checked_splits_and_does_not_inspect_features (test_adapter.ReportCrossValidatorTests.test_protocol_yields_checked_splits_and_does_not_inspect_features) ... ok
+test_rejects_forged_problem_before_exposing_a_validator (test_adapter.ReportCrossValidatorTests.test_rejects_forged_problem_before_exposing_a_validator) ... ok
+test_requires_y_and_groups_for_every_split (test_adapter.ReportCrossValidatorTests.test_requires_y_and_groups_for_every_split) ... ok
+test_snapshots_report_assignment_against_later_mutation (test_adapter.ReportCrossValidatorTests.test_snapshots_report_assignment_against_later_mutation) ... ok
+test_valid_core_empty_partition_is_rejected_on_split (test_adapter.ReportCrossValidatorTests.test_valid_core_empty_partition_is_rejected_on_split) ... ok
+test_validates_report_before_exposing_a_validator (test_adapter.ReportCrossValidatorTests.test_validates_report_before_exposing_a_validator) ... ok
+test_all_splits_are_disjoint_groupwise_and_cover_all_rows (test_adapter.SplitIndicesTests.test_all_splits_are_disjoint_groupwise_and_cover_all_rows) ... ok
+test_checks_actual_requirements_not_only_digest_or_totals (test_adapter.SplitIndicesTests.test_checks_actual_requirements_not_only_digest_or_totals) ... ok
+test_does_not_mutate_source_rows_or_report (test_adapter.SplitIndicesTests.test_does_not_mutate_source_rows_or_report) ... ok
+test_original_row_order_with_canonical_partition_order (test_adapter.SplitIndicesTests.test_original_row_order_with_canonical_partition_order) ... ok
+test_rejects_changed_counts_and_group_mapping (test_adapter.SplitIndicesTests.test_rejects_changed_counts_and_group_mapping) ... ok
+test_rejects_empty_test_even_when_every_train_would_be_nonempty (test_adapter.SplitIndicesTests.test_rejects_empty_test_even_when_every_train_would_be_nonempty) ... ok
+test_rejects_forged_problem_digest_even_if_report_matches_it (test_adapter.SplitIndicesTests.test_rejects_forged_problem_digest_even_if_report_matches_it) ... ok
+test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness (test_adapter.SplitIndicesTests.test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness) ... ok
+test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem (test_adapter.SplitIndicesTests.test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem) ... ok
+test_source_reordering_is_allowed_and_new_indices_are_correct (test_adapter.SplitIndicesTests.test_source_reordering_is_allowed_and_new_indices_are_correct) ... ok
+test_all_named_requirements_checked_with_exact_observed_values (test_checker.CheckerTests.test_all_named_requirements_checked_with_exact_observed_values) ... ok
+test_assignment_identifiers_are_bounded_without_echoing_invalid_values (test_checker.CheckerTests.test_assignment_identifiers_are_bounded_without_echoing_invalid_values) ... ok
+test_assignment_size_rejected_before_copying_or_iteration (test_checker.CheckerTests.test_assignment_size_rejected_before_copying_or_iteration) ... ok
+test_check_does_not_mutate_problem_report_or_assignment (test_checker.CheckerTests.test_check_does_not_mutate_problem_report_or_assignment) ... ok
+test_check_report_validates_only_feasible_matching_digest (test_checker.CheckerTests.test_check_report_validates_only_feasible_matching_digest) ... ok
+test_checker_rejects_forged_problem_objects (test_checker.CheckerTests.test_checker_rejects_forged_problem_objects) ... ok
+test_counts_near_admission_limit_are_exact (test_checker.CheckerTests.test_counts_near_admission_limit_are_exact) ... ok
+test_empty_partition_is_legal_without_explicit_requirements (test_checker.CheckerTests.test_empty_partition_is_legal_without_explicit_requirements) ... ok
+test_malformed_assignment_cannot_crash_or_be_admitted (test_checker.CheckerTests.test_malformed_assignment_cannot_crash_or_be_admitted) ... ok
+test_missing_extra_duplicate_and_unknown_partition_rejected (test_checker.CheckerTests.test_missing_extra_duplicate_and_unknown_partition_rejected) ... ok
+test_repeated_bounds_conjunction_keeps_individual_names (test_checker.CheckerTests.test_repeated_bounds_conjunction_keeps_individual_names) ... ok
+test_valid_witness_has_recomputed_exact_totals (test_checker.CheckerTests.test_valid_witness_has_recomputed_exact_totals) ... ok
+test_atomic_no_clobber_race (test_cli.CLITests.test_atomic_no_clobber_race) ... ok
+test_cannot_overwrite_input (test_cli.CLITests.test_cannot_overwrite_input) ... ok
+test_check_nonfeasible_assertion_not_proof (test_cli.CLITests.test_check_nonfeasible_assertion_not_proof) ... ok
+test_check_witness_and_reject_tampering (test_cli.CLITests.test_check_witness_and_reject_tampering) ... ok
+test_infeasible_exit (test_cli.CLITests.test_infeasible_exit) ... ok
+test_invalid_cli_arguments_are_validation_errors_not_infeasible (test_cli.CLITests.test_invalid_cli_arguments_are_validation_errors_not_infeasible) ... 
+  test_invalid_cli_arguments_are_validation_errors_not_infeasible (test_cli.CLITests.test_invalid_cli_arguments_are_validation_errors_not_infeasible) (args=()) ... FAIL
+  test_invalid_cli_arguments_are_validation_errors_not_infeasible (test_cli.CLITests.test_invalid_cli_arguments_are_validation_errors_not_infeasible) (args=('unknown',)) ... FAIL
+  test_invalid_cli_arguments_are_validation_errors_not_infeasible (test_cli.CLITests.test_invalid_cli_arguments_are_validation_errors_not_infeasible) (args=('solve', '<temporary>', '--max-nodes', 'nope')) ... FAIL
+test_missing_file_error (test_cli.CLITests.test_missing_file_error) ... ok
+test_output_file_and_no_clobber (test_cli.CLITests.test_output_file_and_no_clobber) ... ok
+test_solve_stdout_and_valid_exit (test_cli.CLITests.test_solve_stdout_and_valid_exit) ... ok
+test_symlink_preserved_including_dangling (test_cli.CLITests.test_symlink_preserved_including_dangling) ... ok
+test_unknown_exit (test_cli.CLITests.test_unknown_exit) ... ok
+test_validate (test_cli.CLITests.test_validate) ... ok
+test_validation_error_exit (test_cli.CLITests.test_validation_error_exit) ... ok
+test_bounded_witness_payload_preserves_original_result (test_explain.ExplainTests.test_bounded_witness_payload_preserves_original_result) ... ok
+test_explanation_budget_keeps_original_infeasibility (test_explain.ExplainTests.test_explanation_budget_keeps_original_infeasibility) ... ok
+test_named_core_independent_witnesses (test_explain.ExplainTests.test_named_core_independent_witnesses) ... ok
+test_original_unknown_and_feasible_have_no_infeasible_core (test_explain.ExplainTests.test_original_unknown_and_feasible_have_no_infeasible_core) ... ok
+test_shared_total_node_budget (test_explain.ExplainTests.test_shared_total_node_budget) ... ok
+test_appended_total_is_records_not_extra_class (test_independent_oracle.FrozenTranslationTests.test_appended_total_is_records_not_extra_class) ... ok
+test_corrupt_appended_total_is_not_silently_reinterpreted (test_independent_oracle.FrozenTranslationTests.test_corrupt_appended_total_is_not_silently_reinterpreted) ... ok
+test_exact_frozen_rows_and_out_of_profile_cases_are_preserved (test_independent_oracle.FrozenTranslationTests.test_exact_frozen_rows_and_out_of_profile_cases_are_preserved) ... ok
+test_translation_preserves_each_assignment_on_small_sample (test_independent_oracle.FrozenTranslationTests.test_translation_preserves_each_assignment_on_small_sample) ... ok
+test_canonical_reordering_preserves_raw_semantics (test_independent_oracle.IndependentCartesianTests.test_canonical_reordering_preserves_raw_semantics) ... ok
+test_cores_and_every_bound_removal_independently_enumerated (test_independent_oracle.IndependentCartesianTests.test_cores_and_every_bound_removal_independently_enumerated) ... ok
+test_exhaustion_never_becomes_a_false_decided_status (test_independent_oracle.IndependentCartesianTests.test_exhaustion_never_becomes_a_false_decided_status) ... ok
+test_insufficient_core_budget_retains_sufficient_infeasible_subset (test_independent_oracle.IndependentCartesianTests.test_insufficient_core_budget_retains_sufficient_infeasible_subset) ... ok
+test_production_matches_original_dictionary_enumeration (test_independent_oracle.IndependentCartesianTests.test_production_matches_original_dictionary_enumeration) ... ok
+test_raw_oracle_rejects_missing_duplicate_or_extra_groups (test_independent_oracle.IndependentCartesianTests.test_raw_oracle_rejects_missing_duplicate_or_extra_groups) ... ok
+test_boolean_float_negative_and_overflow_bounds_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_bounds_rejected) ... ok
+test_boolean_float_negative_and_overflow_counts_rejected (test_model.ModelTests.test_boolean_float_negative_and_overflow_counts_rejected) ... ok
+test_bounds_outside_totals_and_inverted_are_admitted (test_model.ModelTests.test_bounds_outside_totals_and_inverted_are_admitted) ... ok
+test_canonical_digest_and_roundtrip_are_stable (test_model.ModelTests.test_canonical_digest_and_roundtrip_are_stable) ... ok
+test_default_bounds_match_measure_total (test_model.ModelTests.test_default_bounds_match_measure_total) ... ok
+test_depth_limit_precedes_json_recursion (test_model.ModelTests.test_depth_limit_precedes_json_recursion) ... ok
+test_dimension_limits_are_enforced (test_model.ModelTests.test_dimension_limits_are_enforced) ... ok
+test_duplicate_json_keys_rejected_at_any_level (test_model.ModelTests.test_duplicate_json_keys_rejected_at_any_level) ... ok
+test_ids_are_exact_and_not_unicode_normalized (test_model.ModelTests.test_ids_are_exact_and_not_unicode_normalized) ... ok
+test_input_size_utf8_and_syntax_are_strict (test_model.ModelTests.test_input_size_utf8_and_syntax_are_strict) ... ok
+test_invalid_ids_and_duplicate_ids_are_rejected (test_model.ModelTests.test_invalid_ids_and_duplicate_ids_are_rejected) ... ok
+test_json_numbers_reject_nonfinite_and_floats (test_model.ModelTests.test_json_numbers_reject_nonfinite_and_floats) ... ok
+test_matrix_shape_and_zero_rows_columns_are_rejected (test_model.ModelTests.test_matrix_shape_and_zero_rows_columns_are_rejected) ... ok
+test_maximum_dimensions_and_requirements_are_admitted (test_model.ModelTests.test_maximum_dimensions_and_requirements_are_admitted) ... ok
+test_maximum_id_byte_length_is_accepted (test_model.ModelTests.test_maximum_id_byte_length_is_accepted) ... ok
+test_measure_schema_and_references_are_strict (test_model.ModelTests.test_measure_schema_and_references_are_strict) ... ok
+test_no_requirements_adds_no_hidden_constraints (test_model.ModelTests.test_no_requirements_adds_no_hidden_constraints) ... ok
+test_normalizes_names_and_permuted_matrix (test_model.ModelTests.test_normalizes_names_and_permuted_matrix) ... ok
+test_numeric_token_limit_precedes_integer_allocation (test_model.ModelTests.test_numeric_token_limit_precedes_integer_allocation) ... ok
+test_oversized_programmatic_object_rejected_before_key_copy (test_model.ModelTests.test_oversized_programmatic_object_rejected_before_key_copy) ... ok
+test_public_problem_revalidation_rejects_constructor_bypass (test_model.ModelTests.test_public_problem_revalidation_rejects_constructor_bypass) ... ok
+test_public_serialization_and_subsets_reject_forged_problem (test_model.ModelTests.test_public_serialization_and_subsets_reject_forged_problem) ... ok
+test_repeated_constraints_remain_named_conjunction (test_model.ModelTests.test_repeated_constraints_remain_named_conjunction) ... ok
+test_requirement_selection_bounds_iterable_consumption (test_model.ModelTests.test_requirement_selection_bounds_iterable_consumption) ... ok
+test_subset_validates_problem_before_inspecting_requirements (test_model.ModelTests.test_subset_validates_problem_before_inspecting_requirements) ... ok
+test_unknown_and_missing_fields_are_rejected (test_model.ModelTests.test_unknown_and_missing_fields_are_rejected) ... ok
+test_version_and_top_level_types_are_strict (test_model.ModelTests.test_version_and_top_level_types_are_strict) ... ok
+test_adapter_preserves_reordered_rows_and_group_disjointness (test_release_review.AdmissionAndAdapterReview.test_adapter_preserves_reordered_rows_and_group_disjointness) ... ok
+test_escaped_delimiters_and_numerals_are_ordinary_ids (test_release_review.AdmissionAndAdapterReview.test_escaped_delimiters_and_numerals_are_ordinary_ids) ... ok
+test_lexical_preflight_runs_before_json_decoder (test_release_review.AdmissionAndAdapterReview.test_lexical_preflight_runs_before_json_decoder) ... ok
+test_named_conjunction_and_order_independence (test_release_review.AdmissionAndAdapterReview.test_named_conjunction_and_order_independence) ... ok
+test_1024_raw_schema_cases_and_4096_budget_runs (test_release_review.IndependentSolverReview.test_1024_raw_schema_cases_and_4096_budget_runs) ... ok
+test_128_cores_and_removal_witnesses_against_raw_oracle (test_release_review.IndependentSolverReview.test_128_cores_and_removal_witnesses_against_raw_oracle) ... ok
+test_extremely_large_deadline_is_validation_error (test_release_review.IndependentSolverReview.test_extremely_large_deadline_is_validation_error) ... ok
+test_infeasible_dataclass_bypass_rejected_before_search (test_release_review.IndependentSolverReview.test_infeasible_dataclass_bypass_rejected_before_search) ... ok
+test_isolated_worker_ignores_cwd_and_pythonpath_code (test_release_review.IsolationReview.test_isolated_worker_ignores_cwd_and_pythonpath_code) ... ok
+test_runtime_source_has_no_network_pickle_or_dynamic_execution (test_release_review.IsolationReview.test_runtime_source_has_no_network_pickle_or_dynamic_execution) ... ok
+test_input_hardlink_and_parent_symlink_aliases_cannot_be_clobbered (test_release_review.PublicationReview.test_input_hardlink_and_parent_symlink_aliases_cannot_be_clobbered) ... ok
+test_racing_symlink_output_wins_without_following (test_release_review.PublicationReview.test_racing_symlink_output_wins_without_following) ... ok
+test_bad_public_options_never_escape_structured_validation (test_release_review.SupervisorReview.test_bad_public_options_never_escape_structured_validation) ... ok
+test_explain_preserves_original_infeasible_after_reduction_timeout (test_release_review.SupervisorReview.test_explain_preserves_original_infeasible_after_reduction_timeout) ... ok
+test_malformed_infeasible_protocol_is_error (test_release_review.SupervisorReview.test_malformed_infeasible_protocol_is_error) ... ok
+test_report_depth_and_duplicate_keys_rejected (test_release_review.SupervisorReview.test_report_depth_and_duplicate_keys_rejected) ... ok
+test_unexpected_worker_exception_is_error_not_unknown (test_release_review.SupervisorReview.test_unexpected_worker_exception_is_error_not_unknown) ... ok
+test_actual_worker_memory_shortage (test_runtime.RuntimeTests.test_actual_worker_memory_shortage) ... ok
+test_admission_input_limit (test_runtime.RuntimeTests.test_admission_input_limit) ... ok
+test_bad_budget_types_rejected (test_runtime.RuntimeTests.test_bad_budget_types_rejected) ... ok
+test_child_exit_is_error_not_resource_unknown (test_runtime.RuntimeTests.test_child_exit_is_error_not_resource_unknown) ... ok
+test_decided_results_require_bound_provenance (test_runtime.RuntimeTests.test_decided_results_require_bound_provenance) ... ok
+test_explain_infeasible (test_runtime.RuntimeTests.test_explain_infeasible) ... ok
+test_feasible_has_independent_check_and_honest_scopes (test_runtime.RuntimeTests.test_feasible_has_independent_check_and_honest_scopes) ... ok
+test_hung_worker_observed_timeout (test_runtime.RuntimeTests.test_hung_worker_observed_timeout) ... ok
+test_invalid_json_is_validation_error (test_runtime.RuntimeTests.test_invalid_json_is_validation_error) ... ok
+test_invalid_nonhashable_operation_and_huge_timeout (test_runtime.RuntimeTests.test_invalid_nonhashable_operation_and_huge_timeout) ... ok
+test_lexically_long_integer_rejected_before_json_decoder (test_runtime.RuntimeTests.test_lexically_long_integer_rejected_before_json_decoder) ... ok
+test_long_float_token_rejected_before_json_decoder (test_runtime.RuntimeTests.test_long_float_token_rejected_before_json_decoder) ... ok
+test_malformed_protocol_is_error (test_runtime.RuntimeTests.test_malformed_protocol_is_error) ... ok
+test_observed_timeout_includes_parent_verification (test_runtime.RuntimeTests.test_observed_timeout_includes_parent_verification) ... ok
+test_options_match_core_admission_caps (test_runtime.RuntimeTests.test_options_match_core_admission_caps) ... ok
+test_os_kill_is_not_guessed_as_memory_exhaustion (test_runtime.RuntimeTests.test_os_kill_is_not_guessed_as_memory_exhaustion) ... ok
+test_output_limit_is_error_not_resource_success (test_runtime.RuntimeTests.test_output_limit_is_error_not_resource_success) ... ok
+test_parent_independently_rejects_false_witness (test_runtime.RuntimeTests.test_parent_independently_rejects_false_witness) ... ok
+test_protocol_depth_and_integer_tokens_are_bounded (test_runtime.RuntimeTests.test_protocol_depth_and_integer_tokens_are_bounded) ... ok
+test_real_rlimit_blocks_allocation_after_bootstrap (test_runtime.RuntimeTests.test_real_rlimit_blocks_allocation_after_bootstrap) ... ok
+test_runtime_does_not_accept_memory_limit_ack_mismatch (test_runtime.RuntimeTests.test_runtime_does_not_accept_memory_limit_ack_mismatch) ... ok
+test_serialization_bound_reserves_cli_newline (test_runtime.RuntimeTests.test_serialization_bound_reserves_cli_newline) ... FAIL
+test_stderr_is_bounded (test_runtime.RuntimeTests.test_stderr_is_bounded) ... ok
+test_supervised_check_rejects_long_numeric_report_tokens (test_runtime.RuntimeTests.test_supervised_check_rejects_long_numeric_report_tokens) ... ok
+test_supervised_check_rejects_report_size_and_bad_json (test_runtime.RuntimeTests.test_supervised_check_rejects_report_size_and_bad_json) ... ok
+test_timeout_cleanup_kills_worker_process_group (test_runtime.RuntimeTests.test_timeout_cleanup_kills_worker_process_group) ... ok
+test_unknown_node_accounting_cannot_exceed_budget (test_runtime.RuntimeTests.test_unknown_node_accounting_cannot_exceed_budget) ... FAIL
+test_unsupported_platform_is_not_claimed_enforced (test_runtime.RuntimeTests.test_unsupported_platform_is_not_claimed_enforced) ... ok
+test_validate_uses_worker (test_runtime.RuntimeTests.test_validate_uses_worker) ... ok
+test_validation_summary_must_be_complete_and_match_input (test_runtime.RuntimeTests.test_validation_summary_must_be_complete_and_match_input) ... ok
+test_zero_node_budget (test_runtime.RuntimeTests.test_zero_node_budget) ... ok
+test_zero_timeout_observed (test_runtime.RuntimeTests.test_zero_timeout_observed) ... ok
+test_320_small_cases_against_cartesian_enumeration (test_solver.SolverTests.test_320_small_cases_against_cartesian_enumeration) ... ok
+test_deadline_and_invalid_budgets (test_solver.SolverTests.test_deadline_and_invalid_budgets) ... ok
+test_empty_requirements_and_zero_budget (test_solver.SolverTests.test_empty_requirements_and_zero_budget) ... ok
+test_fixed_budget_determinism (test_solver.SolverTests.test_fixed_budget_determinism) ... ok
+test_forged_problem_cannot_bypass_validation (test_solver.SolverTests.test_forged_problem_cannot_bypass_validation) ... ok
+test_integer_extremes_and_forced_upper_exclusion (test_solver.SolverTests.test_integer_extremes_and_forced_upper_exclusion) ... ok
+test_odd_cycle_is_infeasible (test_solver.SolverTests.test_odd_cycle_is_infeasible) ... ok
+test_repeated_bounds_are_conjunction (test_solver.SolverTests.test_repeated_bounds_are_conjunction) ... ok
+
+======================================================================
+FAIL: test_invalid_cli_arguments_are_validation_errors_not_infeasible (test_cli.CLITests.test_invalid_cli_arguments_are_validation_errors_not_infeasible) (args=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<temporary>", line 124, in test_invalid_cli_arguments_are_validation_errors_not_infeasible
+    self.assertEqual(p.returncode, 4, p.stderr + p.stdout)
+AssertionError: 2 != 4 : usage: foldcontract [-h] {validate,solve,explain,check} ...
+foldcontract: error: the following arguments are required: command
+
+
+======================================================================
+FAIL: test_invalid_cli_arguments_are_validation_errors_not_infeasible (test_cli.CLITests.test_invalid_cli_arguments_are_validation_errors_not_infeasible) (args=('unknown',))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<temporary>", line 124, in test_invalid_cli_arguments_are_validation_errors_not_infeasible
+    self.assertEqual(p.returncode, 4, p.stderr + p.stdout)
+AssertionError: 2 != 4 : usage: foldcontract [-h] {validate,solve,explain,check} ...
+foldcontract: error: argument command: invalid choice: 'unknown' (choose from validate, solve, explain, check)
+
+
+======================================================================
+FAIL: test_invalid_cli_arguments_are_validation_errors_not_infeasible (test_cli.CLITests.test_invalid_cli_arguments_are_validation_errors_not_infeasible) (args=('solve', '<temporary>', '--max-nodes', 'nope'))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<temporary>", line 124, in test_invalid_cli_arguments_are_validation_errors_not_infeasible
+    self.assertEqual(p.returncode, 4, p.stderr + p.stdout)
+AssertionError: 2 != 4 : usage: foldcontract solve [-h] [--max-nodes MAX_NODES] [--timeout TIMEOUT]
+                          [--memory-mb MEMORY_MB] [--output OUTPUT]
+                          input
+foldcontract solve: error: argument --max-nodes: invalid int value: 'nope'
+
+
+======================================================================
+FAIL: test_serialization_bound_reserves_cli_newline (test_runtime.RuntimeTests.test_serialization_bound_reserves_cli_newline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<temporary>", line 201, in test_serialization_bound_reserves_cli_newline
+    self.assertLessEqual(len(json.dumps(result, separators=(",", ":")).encode()) + 1, self.runtime.OUTPUT_LIMIT)
+AssertionError: 8388609 not less than or equal to 8388608
+
+======================================================================
+FAIL: test_unknown_node_accounting_cannot_exceed_budget (test_runtime.RuntimeTests.test_unknown_node_accounting_cannot_exceed_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<temporary>", line 189, in test_unknown_node_accounting_cannot_exceed_budget
+    self.assertEqual((r["status"], r["reason"]), ("ERROR", "WORKER_PROTOCOL"))
+AssertionError: Tuples differ: ('UNKNOWN', 'node_limit') != ('ERROR', 'WORKER_PROTOCOL')
+
+First differing element 0:
+'UNKNOWN'
+'ERROR'
+
+- ('UNKNOWN', 'node_limit')
++ ('ERROR', 'WORKER_PROTOCOL')
+
+----------------------------------------------------------------------
+Ran 163 tests in 6.515s
+
+FAILED (failures=5)

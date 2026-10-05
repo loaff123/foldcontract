@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "groups": ["large-blue", "small-red"],
+  "classes": ["blue", "red"],
+  "partitions": ["test", "train"],
+  "counts": [[4, 0], [0, 1]],
+  "requirements": [
+    {"id": "test-blue", "partition": "test", "measure": "class", "class": "blue", "lower": 1},
+    {"id": "test-capacity", "partition": "test", "measure": "records", "upper": 3}
+  ]
+}

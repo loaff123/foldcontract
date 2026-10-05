@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "cohort_sha256": "766577906c518fe1fdd28d99603dbb5227c4235fcde267f9fc15b58c914fc4cf",
+  "sgkf_source_sha256": "ed3e72f7ce5cf0708d1ddf3693f077b0b21b2c0d4604c638baf6a95734a59ed7",
+  "probe_sha256": "c620b0d598cefc8b46141a08a586bd310bdd9b06314fadc3384fa41841329a1a"
+}

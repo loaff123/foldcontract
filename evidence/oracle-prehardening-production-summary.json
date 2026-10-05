@@ -1,0 +1,102 @@
+{
+  "cases": 752,
+  "cohort_sha256": "766577906c518fe1fdd28d99603dbb5227c4235fcde267f9fc15b58c914fc4cf",
+  "fresh_cartesian_cases": 601,
+  "fresh_milp": {
+    "scipy": "1.17.0",
+    "statuses": {
+      "FEASIBLE": 342,
+      "INFEASIBLE": 410
+    },
+    "total_seconds": 3.1720170399948984
+  },
+  "groups": {
+    "historical": {
+      "cases": 1,
+      "production_total_seconds": 0.0004931559997203294,
+      "statuses": {
+        "FEASIBLE": 1
+      }
+    },
+    "medium": {
+      "cases": 120,
+      "production_total_seconds": 0.29848693299572915,
+      "statuses": {
+        "FEASIBLE": 94,
+        "INFEASIBLE": 26
+      }
+    },
+    "odd": {
+      "cases": 1,
+      "production_total_seconds": 0.00020705900078610284,
+      "statuses": {
+        "INFEASIBLE": 1
+      }
+    },
+    "small": {
+      "cases": 600,
+      "production_total_seconds": 0.27752222899835033,
+      "statuses": {
+        "FEASIBLE": 217,
+        "INFEASIBLE": 383
+      }
+    },
+    "stress": {
+      "cases": 30,
+      "production_total_seconds": 19.51622911800041,
+      "statuses": {
+        "FEASIBLE": 17,
+        "UNKNOWN": 3,
+        "UNSUPPORTED": 10
+      }
+    }
+  },
+  "max_nodes": 100000,
+  "mismatches": [],
+  "notes": [
+    "UNSUPPORTED is an evaluation disposition, not a solver status.",
+    "All 752 original rows are retained; 160-group rows exceed production admission.",
+    "Wall-time outcomes and timings are machine-dependent.",
+    "Stored medium/stress HiGHS infeasibility is numerical, not a formal certificate.",
+    "Production timings include input normalization; Cartesian checks are outside them."
+  ],
+  "production_unknown_ids": [
+    "stress-80-00",
+    "stress-80-04",
+    "stress-80-09"
+  ],
+  "python": "3.12.14",
+  "reference_sha256": "32c4668c4bc85fbb259cd1b0ed55c35da0027b99a451b6caa7d9e001117ecad5",
+  "reproduction_script_sha256": "5371f8789f59d91c37dc1d7e9b55d9947022be96f7848f92372bbcf1a7de7d96",
+  "research_unknown_retained": [
+    "medium-019",
+    "medium-045",
+    "stress-80-01",
+    "stress-80-04"
+  ],
+  "seconds_per_solve": 5.0,
+  "source_sha256": {
+    "checker.py": "1bda826561bade59e9bf138f97c3a1e7e48b2bb0efb1d77a1f125c99824b40b7",
+    "explain.py": "c712e28b8b0a65a47290e4481a1ecd063ed6c32879a609733920a5238b819cbc",
+    "model.py": "88b3ae0390e156ff35ce35a82df42984f4adf8a2c6cf89862440642829be0144",
+    "solver.py": "a433ef7d4b11f32ffdecd9ecc009c3212e4b7dbd115700f5c105df37eee06184"
+  },
+  "statuses": {
+    "FEASIBLE": 329,
+    "INFEASIBLE": 410,
+    "UNKNOWN": 3,
+    "UNSUPPORTED": 10
+  },
+  "unsupported_ids": [
+    "stress-160-00",
+    "stress-160-01",
+    "stress-160-02",
+    "stress-160-03",
+    "stress-160-04",
+    "stress-160-05",
+    "stress-160-06",
+    "stress-160-07",
+    "stress-160-08",
+    "stress-160-09"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "description": "Final independent evaluation artifacts after core-source freeze. Raw research and preliminary runs remain distinct.",
+  "files": {
+    "docs/EVALUATION.md": {
+      "bytes": 10408,
+      "sha256": "ed43262a87360bda15e6004a4cda5ba89a32280de55a8d90ee51b72731a64bc8"
+    },
+    "evidence/oracle-adversarial-results.jsonl": {
+      "bytes": 1571234,
+      "sha256": "6d376f5b6e197d86a8addcb826cd6eea8443ce71699d7e0a21111a1a4e927c25"
+    },
+    "evidence/oracle-adversarial-summary.json": {
+      "bytes": 765,
+      "sha256": "51d3203a52d8de49de1bb5691f0342d7da2eff00df9a741a8d79b0132068a6a1"
+    },
+    "evidence/oracle-authorship.json": {
+      "bytes": 428,
+      "sha256": "8bddfce6db26038676ef0ba93f96159c66c7804195dd2665d006d4f62968e19a"
+    },
+    "evidence/oracle-final-replay.log": {
+      "bytes": 3656,
+      "sha256": "4d37fb2b564dc879785a261b0320e14dc1c392c96a878cb02ed4b75dbe668281"
+    },
+    "evidence/oracle-frozen-cohort.json": {
+      "bytes": 246566,
+      "sha256": "766577906c518fe1fdd28d99603dbb5227c4235fcde267f9fc15b58c914fc4cf"
+    },
+    "evidence/oracle-prehardening-adversarial-results.jsonl": {
+      "bytes": 1571234,
+      "sha256": "6d376f5b6e197d86a8addcb826cd6eea8443ce71699d7e0a21111a1a4e927c25"
+    },
+    "evidence/oracle-prehardening-adversarial-summary.json": {
+      "bytes": 299,
+      "sha256": "940ce58b7dd4ae4a39c48f0dbc119d81425c5bfb85e47f9cd9ef933c82723b4e"
+    },
+    "evidence/oracle-prehardening-production-results.jsonl": {
+      "bytes": 563384,
+      "sha256": "58218c7e339e76aeeba6dbf33e4713941331cc7cad2601dbb4b85ec0932a1e0c"
+    },
+    "evidence/oracle-prehardening-production-summary.json": {
+      "bytes": 2772,
+      "sha256": "28dd386ba5d8fc03c7e338f2d506658632b11ec194f4f14e770f6195bdb81876"
+    },
+    "evidence/oracle-prehardening-replay-milp.log": {
+      "bytes": 2891,
+      "sha256": "458dea55070a1ee298fd063f37ea2d9acf3be46459f2e0cb8741f5e1bd7281da"
+    },
+    "evidence/oracle-prehardening-unit.log": {
+      "bytes": 1817,
+      "sha256": "114d41fbb0033afe86895445e95d2155e733c1ec0bccbec4ce6f6d8e5ca5d792"
+    },
+    "evidence/oracle-production-results.jsonl": {
+      "bytes": 563330,
+      "sha256": "58655686c04fee670604ce2f516a28507dab238c704206e81675f6e1ab9bf275"
+    },
+    "evidence/oracle-production-summary.json": {
+      "bytes": 2772,
+      "sha256": "f300a5d2f7de92754c9bf1b1f5e09f1e301eb3ee03cb1b9f73c57f1b16aaaeb7"
+    },
+    "evidence/oracle-replay-milp.log": {
+      "bytes": 2891,
+      "sha256": "458dea55070a1ee298fd063f37ea2d9acf3be46459f2e0cb8741f5e1bd7281da"
+    },
+    "evidence/oracle-replay.log": {
+      "bytes": 2567,
+      "sha256": "690b41da2b50dc1ff0cc840fa8b2ba6297164c06957f3e9f76e10e7bb9c902aa"
+    },
+    "evidence/oracle-research-cohort-freeze.json": {
+      "bytes": 138,
+      "sha256": "a112c472b5ea788247197dd9009d3c4442953806bacc2704ab32e3fa20df407c"
+    },
+    "evidence/oracle-research-comparison.json": {
+      "bytes": 2538,
+      "sha256": "72e7ec502003d3efc64733a06c3dd4009a483cf970bdcf280b32881e2c945a18"
+    },
+    "evidence/oracle-research-independent-summary.json": {
+      "bytes": 1192,
+      "sha256": "3bb720f9ea02568f97ae1b2dedbaa2d064abd6ae0312f1299e142e6298232cc2"
+    },
+    "evidence/oracle-research-independent.jsonl": {
+      "bytes": 144951,
+      "sha256": "32c4668c4bc85fbb259cd1b0ed55c35da0027b99a451b6caa7d9e001117ecad5"
+    },
+    "evidence/oracle-research-manifest.json": {
+      "bytes": 1446,
+      "sha256": "f4d98cd27baca08906b00cdf9ab547071915114c978ee91fda0a2e540b869d7c"
+    },
+    "evidence/oracle-research-probe.jsonl": {
+      "bytes": 371413,
+      "sha256": "0ec14bb5d68a7b8ce3b1f9f97f9874e32e205b754628d42ae5bdec071b40229e"
+    },
+    "evidence/oracle-research-protocol.md": {
+      "bytes": 3497,
+      "sha256": "b3ca5b359b5c263ef2caf178c8d18711034124cb0f724f728ba53b3e5e289a4b"
+    },
+    "evidence/oracle-research-runtime.json": {
+      "bytes": 354,
+      "sha256": "cfc143712b51f4f316d21f3e6bea176ef65aed57bebdb9778cd2a9ccfcf8b8ed"
+    },
+    "evidence/oracle-unit.log": {
+      "bytes": 1817,
+      "sha256": "5dda9b4c47b1992c410a1df9274e8b3b4bfb19335fb76965cd4d945da90295b4"
+    },
+    "tests/test_independent_oracle.py": {
+      "bytes": 7003,
+      "sha256": "bb7ac03d90e94f2ebcc2f9c343a5b498639e94bed919d02155e6c69106b8feaf"
+    },
+    "tools/reproduce_cohort.py": {
+      "bytes": 24154,
+      "sha256": "a52684f3e3558cf8aec491706697b08b4326916766b6c70b33781f22df1a374b"
+    }
+  }
+}

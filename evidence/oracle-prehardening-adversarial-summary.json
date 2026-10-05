@@ -1,0 +1,16 @@
+{
+  "budget_calls": 6060,
+  "budget_statuses": {
+    "FEASIBLE": 1278,
+    "INFEASIBLE": 2450,
+    "UNKNOWN": 2332
+  },
+  "cases": 1212,
+  "independently_enumerated_minimal_cores": 150,
+  "mismatches": 0,
+  "random_seed": 2026100501,
+  "statuses": {
+    "FEASIBLE": 590,
+    "INFEASIBLE": 622
+  }
+}

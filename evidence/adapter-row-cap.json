@@ -1,0 +1,12 @@
+{
+  "rows": 1000000,
+  "partitions": 8,
+  "returned_index_entries": 8000000,
+  "aggregation_seconds": 0.5169466530005593,
+  "split_seconds": 0.8794865059999211,
+  "max_rss_kib": 128472,
+  "python": "3.12.14",
+  "platform": "Linux",
+  "source_strings_reused": true,
+  "note": "Single synthetic run; not a hard memory guarantee or performance promise"
+}

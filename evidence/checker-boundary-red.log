@@ -1,0 +1,54 @@
+test_all_named_requirements_checked_with_exact_observed_values (test_checker.CheckerTests.test_all_named_requirements_checked_with_exact_observed_values) ... ok
+test_assignment_size_rejected_before_copying_or_iteration (test_checker.CheckerTests.test_assignment_size_rejected_before_copying_or_iteration) ... FAIL
+test_check_does_not_mutate_problem_report_or_assignment (test_checker.CheckerTests.test_check_does_not_mutate_problem_report_or_assignment) ... ok
+test_check_report_validates_only_feasible_matching_digest (test_checker.CheckerTests.test_check_report_validates_only_feasible_matching_digest) ... ok
+test_checker_rejects_forged_problem_objects (test_checker.CheckerTests.test_checker_rejects_forged_problem_objects) ... 
+  test_checker_rejects_forged_problem_objects (test_checker.CheckerTests.test_checker_rejects_forged_problem_objects) (problem=Problem(groups=('blue', 'green', 'red'), classes=('a', 'b'), partitions=('test', 'train'), counts=((1, 0), (0, 3), (2, 1)), requirements=(Requirement(id='coverage-a', partition='test', measure='class', class_name='a', lower=2, upper=3), Requirement(id='size', partition='test', measure='records', class_name=None, lower=0, upper=3), Requirement(id='train-groups', partition='train', measure='groups', class_name=None, lower=2, upper=3)), digest='0000000000000000000000000000000000000000000000000000000000000000')) ... FAIL
+test_checker_rejects_forged_problem_objects (test_checker.CheckerTests.test_checker_rejects_forged_problem_objects) ... FAIL
+test_counts_near_admission_limit_are_exact (test_checker.CheckerTests.test_counts_near_admission_limit_are_exact) ... ok
+test_empty_partition_is_legal_without_explicit_requirements (test_checker.CheckerTests.test_empty_partition_is_legal_without_explicit_requirements) ... ok
+test_malformed_assignment_cannot_crash_or_be_admitted (test_checker.CheckerTests.test_malformed_assignment_cannot_crash_or_be_admitted) ... ok
+test_missing_extra_duplicate_and_unknown_partition_rejected (test_checker.CheckerTests.test_missing_extra_duplicate_and_unknown_partition_rejected) ... ok
+test_repeated_bounds_conjunction_keeps_individual_names (test_checker.CheckerTests.test_repeated_bounds_conjunction_keeps_individual_names) ... ok
+test_valid_witness_has_recomputed_exact_totals (test_checker.CheckerTests.test_valid_witness_has_recomputed_exact_totals) ... ok
+
+======================================================================
+FAIL: test_assignment_size_rejected_before_copying_or_iteration (test_checker.CheckerTests.test_assignment_size_rejected_before_copying_or_iteration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 141, in test_assignment_size_rejected_before_copying_or_iteration
+    self.assertEqual([v["code"] for v in result["violations"]], ["ASSIGNMENT_SIZE"])
+AssertionError: Lists differ: ['DUPLICATE_GROUP', 'DUPLICATE_GROUP', 'DUP[1899992 chars]ION'] != ['ASSIGNMENT_SIZE']
+
+First differing element 0:
+'DUPLICATE_GROUP'
+'ASSIGNMENT_SIZE'
+
+First list contains 100001 additional elements.
+First extra element 1:
+'DUPLICATE_GROUP'
+
+Diff is 2200068 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_checker_rejects_forged_problem_objects (test_checker.CheckerTests.test_checker_rejects_forged_problem_objects) (problem=Problem(groups=('blue', 'green', 'red'), classes=('a', 'b'), partitions=('test', 'train'), counts=((1, 0), (0, 3), (2, 1)), requirements=(Requirement(id='coverage-a', partition='test', measure='class', class_name='a', lower=2, upper=3), Requirement(id='size', partition='test', measure='records', class_name=None, lower=0, upper=3), Requirement(id='train-groups', partition='train', measure='groups', class_name=None, lower=2, upper=3)), digest='0000000000000000000000000000000000000000000000000000000000000000'))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 129, in test_checker_rejects_forged_problem_objects
+    with self.subTest(problem=problem), self.assertRaises(self.model.ValidationError):
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValidationError not raised
+
+======================================================================
+FAIL: test_checker_rejects_forged_problem_objects (test_checker.CheckerTests.test_checker_rejects_forged_problem_objects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_checker.py", line 133, in test_checker_rejects_forged_problem_objects
+    with self.assertRaises(self.model.ValidationError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValidationError not raised
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.342s
+
+FAILED (failures=3)

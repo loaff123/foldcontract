@@ -1,0 +1,67 @@
+test_aggregates_rows_into_exact_canonical_counts (test_adapter.AggregateRowsTests.test_aggregates_rows_into_exact_canonical_counts) ... ok
+test_core_limits_apply_without_silent_truncation (test_adapter.AggregateRowsTests.test_core_limits_apply_without_silent_truncation) ... ok
+test_does_not_normalize_case_whitespace_or_unicode (test_adapter.AggregateRowsTests.test_does_not_normalize_case_whitespace_or_unicode) ... ok
+test_empty_rows_are_rejected (test_adapter.AggregateRowsTests.test_empty_rows_are_rejected) ... ok
+test_invalid_requirement_objects_are_not_silently_repaired (test_adapter.AggregateRowsTests.test_invalid_requirement_objects_are_not_silently_repaired) ... FAIL
+test_labels_and_groups_are_strictly_single_strings (test_adapter.AggregateRowsTests.test_labels_and_groups_are_strictly_single_strings) ... ok
+test_mismatched_source_lengths_are_rejected (test_adapter.AggregateRowsTests.test_mismatched_source_lengths_are_rejected) ... ok
+test_non_sequence_and_text_containers_are_rejected (test_adapter.AggregateRowsTests.test_non_sequence_and_text_containers_are_rejected) ... ok
+test_preserves_explicit_named_requirements (test_adapter.AggregateRowsTests.test_preserves_explicit_named_requirements) ... ok
+test_requirement_objects_preserve_the_same_named_bounds (test_adapter.AggregateRowsTests.test_requirement_objects_preserve_the_same_named_bounds) ... ok
+test_requirement_validation_remains_core_validation (test_adapter.AggregateRowsTests.test_requirement_validation_remains_core_validation) ... ok
+test_row_cap_is_checked_before_source_access (test_adapter.AggregateRowsTests.test_row_cap_is_checked_before_source_access) ... ok
+test_same_source_multiset_has_same_digest (test_adapter.AggregateRowsTests.test_same_source_multiset_has_same_digest) ... ok
+test_all_published_examples_are_strict_core_problems (test_adapter.ExampleTests.test_all_published_examples_are_strict_core_problems) ... ok
+test_explicit_preset_names_all_group_and_class_minima (test_adapter.KFoldProblemTests.test_explicit_preset_names_all_group_and_class_minima) ... ok
+test_impossible_minimum_is_well_formed_not_silently_relaxed (test_adapter.KFoldProblemTests.test_impossible_minimum_is_well_formed_not_silently_relaxed) ... ok
+test_invalid_preset_arguments_are_rejected (test_adapter.KFoldProblemTests.test_invalid_preset_arguments_are_rejected) ... ok
+test_max_length_labels_do_not_overflow_generated_requirement_ids (test_adapter.KFoldProblemTests.test_max_length_labels_do_not_overflow_generated_requirement_ids) ... ok
+test_zero_class_minimum_still_requests_one_group_per_fold (test_adapter.KFoldProblemTests.test_zero_class_minimum_still_requests_one_group_per_fold) ... ok
+test_optional_protocol_has_no_sklearn_or_numpy_dependency (test_adapter.ReportCrossValidatorTests.test_optional_protocol_has_no_sklearn_or_numpy_dependency) ... ok
+test_protocol_yields_checked_splits_and_does_not_inspect_features (test_adapter.ReportCrossValidatorTests.test_protocol_yields_checked_splits_and_does_not_inspect_features) ... ok
+test_rejects_forged_problem_before_exposing_a_validator (test_adapter.ReportCrossValidatorTests.test_rejects_forged_problem_before_exposing_a_validator) ... FAIL
+test_requires_y_and_groups_for_every_split (test_adapter.ReportCrossValidatorTests.test_requires_y_and_groups_for_every_split) ... ok
+test_snapshots_report_assignment_against_later_mutation (test_adapter.ReportCrossValidatorTests.test_snapshots_report_assignment_against_later_mutation) ... ok
+test_validates_report_before_exposing_a_validator (test_adapter.ReportCrossValidatorTests.test_validates_report_before_exposing_a_validator) ... ok
+test_all_splits_are_disjoint_groupwise_and_cover_all_rows (test_adapter.SplitIndicesTests.test_all_splits_are_disjoint_groupwise_and_cover_all_rows) ... ok
+test_checks_actual_requirements_not_only_digest_or_totals (test_adapter.SplitIndicesTests.test_checks_actual_requirements_not_only_digest_or_totals) ... ok
+test_does_not_mutate_source_rows_or_report (test_adapter.SplitIndicesTests.test_does_not_mutate_source_rows_or_report) ... ok
+test_original_row_order_with_canonical_partition_order (test_adapter.SplitIndicesTests.test_original_row_order_with_canonical_partition_order) ... ok
+test_rejects_changed_counts_and_group_mapping (test_adapter.SplitIndicesTests.test_rejects_changed_counts_and_group_mapping) ... ok
+test_rejects_empty_test_even_when_every_train_would_be_nonempty (test_adapter.SplitIndicesTests.test_rejects_empty_test_even_when_every_train_would_be_nonempty) ... ok
+test_rejects_forged_problem_digest_even_if_report_matches_it (test_adapter.SplitIndicesTests.test_rejects_forged_problem_digest_even_if_report_matches_it) ... FAIL
+test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness (test_adapter.SplitIndicesTests.test_rejects_infeasible_unknown_digest_mismatch_and_tampered_witness) ... ok
+test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem (test_adapter.SplitIndicesTests.test_rejects_valid_core_assignment_with_empty_partition_without_changing_problem) ... ok
+test_source_reordering_is_allowed_and_new_indices_are_correct (test_adapter.SplitIndicesTests.test_source_reordering_is_allowed_and_new_indices_are_correct) ... ok
+
+======================================================================
+FAIL: test_invalid_requirement_objects_are_not_silently_repaired (test_adapter.AggregateRowsTests.test_invalid_requirement_objects_are_not_silently_repaired)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_adapter.py", line 126, in test_invalid_requirement_objects_are_not_silently_repaired
+    with self.assertRaises(ValidationError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValidationError not raised
+
+======================================================================
+FAIL: test_rejects_forged_problem_before_exposing_a_validator (test_adapter.ReportCrossValidatorTests.test_rejects_forged_problem_before_exposing_a_validator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_adapter.py", line 280, in test_rejects_forged_problem_before_exposing_a_validator
+    with self.assertRaises(ValidationError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValidationError not raised
+
+======================================================================
+FAIL: test_rejects_forged_problem_digest_even_if_report_matches_it (test_adapter.SplitIndicesTests.test_rejects_forged_problem_digest_even_if_report_matches_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<source>/tests/test_adapter.py", line 254, in test_rejects_forged_problem_digest_even_if_report_matches_it
+    with self.assertRaises(ValidationError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValidationError not raised
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.038s
+
+FAILED (failures=3)

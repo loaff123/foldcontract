@@ -1,0 +1,15 @@
+test_appended_total_is_records_not_extra_class (test_independent_oracle.FrozenTranslationTests.test_appended_total_is_records_not_extra_class) ... ok
+test_corrupt_appended_total_is_not_silently_reinterpreted (test_independent_oracle.FrozenTranslationTests.test_corrupt_appended_total_is_not_silently_reinterpreted) ... ok
+test_exact_frozen_rows_and_out_of_profile_cases_are_preserved (test_independent_oracle.FrozenTranslationTests.test_exact_frozen_rows_and_out_of_profile_cases_are_preserved) ... ok
+test_translation_preserves_each_assignment_on_small_sample (test_independent_oracle.FrozenTranslationTests.test_translation_preserves_each_assignment_on_small_sample) ... ok
+test_canonical_reordering_preserves_raw_semantics (test_independent_oracle.IndependentCartesianTests.test_canonical_reordering_preserves_raw_semantics) ... ok
+test_cores_and_every_bound_removal_independently_enumerated (test_independent_oracle.IndependentCartesianTests.test_cores_and_every_bound_removal_independently_enumerated) ... ok
+test_exhaustion_never_becomes_a_false_decided_status (test_independent_oracle.IndependentCartesianTests.test_exhaustion_never_becomes_a_false_decided_status) ... ok
+test_insufficient_core_budget_retains_sufficient_infeasible_subset (test_independent_oracle.IndependentCartesianTests.test_insufficient_core_budget_retains_sufficient_infeasible_subset) ... ok
+test_production_matches_original_dictionary_enumeration (test_independent_oracle.IndependentCartesianTests.test_production_matches_original_dictionary_enumeration) ... ok
+test_raw_oracle_rejects_missing_duplicate_or_extra_groups (test_independent_oracle.IndependentCartesianTests.test_raw_oracle_rejects_missing_duplicate_or_extra_groups) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.168s
+
+OK

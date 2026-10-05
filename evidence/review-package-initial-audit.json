@@ -1,0 +1,63 @@
+{
+  "foldcontract-0.1.0a1-py3-none-any.whl": {
+    "entrypoints": "[console_scripts]\nfoldcontract = foldcontract.cli:main\n",
+    "members": [
+      "foldcontract/__init__.py",
+      "foldcontract/__main__.py",
+      "foldcontract/adapter.py",
+      "foldcontract/checker.py",
+      "foldcontract/cli.py",
+      "foldcontract/explain.py",
+      "foldcontract/model.py",
+      "foldcontract/runtime.py",
+      "foldcontract/solver.py",
+      "foldcontract/worker.py",
+      "foldcontract-0.1.0a1.dist-info/licenses/LICENSE",
+      "foldcontract-0.1.0a1.dist-info/METADATA",
+      "foldcontract-0.1.0a1.dist-info/WHEEL",
+      "foldcontract-0.1.0a1.dist-info/entry_points.txt",
+      "foldcontract-0.1.0a1.dist-info/top_level.txt",
+      "foldcontract-0.1.0a1.dist-info/RECORD"
+    ],
+    "metadata": "Metadata-Version: 2.4\nName: foldcontract\nVersion: 0.1.0a1\nSummary: Explicit bounded integer contracts for group-disjoint dataset partitions\nAuthor: FoldContract contributors\nLicense-Expression: MIT\nRequires-Python: >=3.10\nDescription-Content-Type: text/markdown\nLicense-File: LICENSE\nDynamic: license-file",
+    "name": "foldcontract-0.1.0a1-py3-none-any.whl",
+    "production_source_differences": {
+      "foldcontract/cli.py": "--- wheel/foldcontract/cli.py\n+++ source/foldcontract/cli.py\n@@ -43,8 +43,17 @@\n             \"VALIDATION_ERROR\": 4, \"ERROR\": 5}.get(report.get(\"status\"), 5)\n \n \n+class _CLIArgumentError(ValueError):\n+    pass\n+\n+\n+class _ArgumentParser(argparse.ArgumentParser):\n+    def error(self, message):\n+        raise _CLIArgumentError(message)\n+\n+\n def _parser():\n-    parser = argparse.ArgumentParser(prog=\"foldcontract\", description=\"Bounded explicit group partition contracts\")\n+    parser = _ArgumentParser(prog=\"foldcontract\", description=\"Bounded explicit group partition contracts\")\n     sub = parser.add_subparsers(dest=\"command\", required=True)\n     for command in (\"validate\", \"solve\", \"explain\", \"check\"):\n         child = sub.add_parser(command)\n@@ -64,7 +73,12 @@\n \n \n def main(argv=None):\n-    args = _parser().parse_args(argv)\n+    try:\n+        args = _parser().parse_args(argv)\n+    except _CLIArgumentError as exc:\n+        result = {\"status\": \"VALIDATION_ERROR\", \"reason\": \"INVALID_ARGUMENTS\", \"message\": str(exc)}\n+        sys.stdout.write(json.dumps(result, sort_keys=True) + \"\\n\")\n+        return 4\n     try:\n         data = _read_bounded(args.input, INPUT_LIMIT)\n         if args.command == \"check\":\n"
+    },
+    "production_sources_identical": [
+      "foldcontract/__init__.py",
+      "foldcontract/__main__.py",
+      "foldcontract/adapter.py",
+      "foldcontract/checker.py",
+      "foldcontract/explain.py",
+      "foldcontract/model.py",
+      "foldcontract/runtime.py",
+      "foldcontract/solver.py",
+      "foldcontract/worker.py"
+    ],
+    "record_hashes_valid": true,
+    "sha256": "f71ec9cdb9a9e2c94681bfc2b74db3ac901daa8f3d9823759397a3a49b722846"
+  },
+  "foldcontract-0.1.0a1.tar.gz": {
+    "different_from_current_worktree": [
+      "src/foldcontract/cli.py",
+      "tests/test_cli.py"
+    ],
+    "member_count": 73,
+    "name": "foldcontract-0.1.0a1.tar.gz",
+    "production_sources_identical": false,
+    "sha256": "b34e3d68a52c246acd69be6599bd2b71f94711fa843dff7de81aaf8e02b8409b",
+    "source_files": [
+      "src/foldcontract/__init__.py",
+      "src/foldcontract/__main__.py",
+      "src/foldcontract/adapter.py",
+      "src/foldcontract/checker.py",
+      "src/foldcontract/cli.py",
+      "src/foldcontract/explain.py",
+      "src/foldcontract/model.py",
+      "src/foldcontract/runtime.py",
+      "src/foldcontract/solver.py",
+      "src/foldcontract/worker.py"
+    ]
+  }
+}

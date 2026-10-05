@@ -1,0 +1,310 @@
+[
+  {
+    "arguments": [
+      "--help"
+    ],
+    "exitcode": 0
+  },
+  {
+    "arguments": [
+      "solve",
+      "examples/feasible-coverage.json",
+      "--output",
+      "review-smoke-result.json"
+    ],
+    "exitcode": 0
+  },
+  {
+    "arguments": [
+      "check",
+      "examples/feasible-coverage.json",
+      "review-smoke-result.json"
+    ],
+    "exitcode": 0,
+    "report": {
+      "problem_digest": "030dd84a284671ba0f0a12a76bf52b11913d210692de4d3d89b86794bf2d2856",
+      "runtime": {
+        "backend": "linux_rlimit_as",
+        "explanation_check_limit": 0,
+        "input_limit_bytes": 4194304,
+        "memory": {
+          "aggregate_process_tree_enforced": false,
+          "bootstrap_address_space_bytes": 37060608,
+          "bootstrap_enforced": false,
+          "enforced": true,
+          "limit_bytes": 536870912,
+          "parent_enforced": false,
+          "requested_mb": 512,
+          "scope": "worker_address_space"
+        },
+        "node_limit": 0,
+        "output_limit_bytes": 8388608,
+        "parent_verification": {
+          "explanation_schema_checked": false,
+          "explanation_witnesses_rechecked_in_parent": false,
+          "infeasibility_independently_proven": false,
+          "input_and_output_byte_bounds_enforced": true,
+          "memory_enforced": false,
+          "performed": true,
+          "provenance_bound": true
+        },
+        "process_cleanup": "linux_worker_process_group; escaped_descendants_unsupported",
+        "stderr_limit_bytes": 65536,
+        "unsupported": [
+          "parent_memory_limit",
+          "aggregate_process_tree_memory_limit",
+          "interpreter_bootstrap_memory_limit",
+          "absolute_publication_deadline"
+        ],
+        "wall_time": {
+          "absolute_deadline_guaranteed": false,
+          "completed_infeasibility_preserved": false,
+          "deadline_exceeded": false,
+          "includes": [
+            "worker_startup",
+            "input_parsing",
+            "normalization",
+            "solve",
+            "worker_serialization",
+            "parent_protocol_decode",
+            "parent_verification",
+            "parent_serialization_check"
+          ],
+          "limit_seconds": 10.0,
+          "limitations": [
+            "bounded_parent_steps_are_not_preempted",
+            "cleanup_and_os_scheduling_may_overrun",
+            "caller_input_creation_and_file_reading_excluded",
+            "caller_serialization_excluded"
+          ],
+          "publication_included": false,
+          "scope": "parent_observed_operation"
+        }
+      },
+      "status": "CHECKED",
+      "totals": {
+        "left": {
+          "classes": {
+            "blue": 3,
+            "red": 1
+          },
+          "groups": 2,
+          "records": 4
+        },
+        "right": {
+          "classes": {
+            "blue": 1,
+            "red": 3
+          },
+          "groups": 2,
+          "records": 4
+        }
+      },
+      "valid": true,
+      "violations": []
+    }
+  },
+  {
+    "arguments": [
+      "solve",
+      "examples/feasible-coverage.json",
+      "--max-nodes",
+      "0"
+    ],
+    "exitcode": 3,
+    "report": {
+      "engine_version": "0.1.0a1",
+      "nodes": 0,
+      "problem_digest": "030dd84a284671ba0f0a12a76bf52b11913d210692de4d3d89b86794bf2d2856",
+      "reason": "node_limit",
+      "runtime": {
+        "backend": "linux_rlimit_as",
+        "explanation_check_limit": 1024,
+        "input_limit_bytes": 4194304,
+        "memory": {
+          "aggregate_process_tree_enforced": false,
+          "bootstrap_address_space_bytes": 37060608,
+          "bootstrap_enforced": false,
+          "enforced": true,
+          "limit_bytes": 536870912,
+          "parent_enforced": false,
+          "requested_mb": 512,
+          "scope": "worker_address_space"
+        },
+        "node_limit": 0,
+        "output_limit_bytes": 8388608,
+        "parent_verification": {
+          "explanation_schema_checked": false,
+          "explanation_witnesses_rechecked_in_parent": false,
+          "infeasibility_independently_proven": false,
+          "input_and_output_byte_bounds_enforced": true,
+          "memory_enforced": false,
+          "performed": false,
+          "provenance_bound": false
+        },
+        "process_cleanup": "linux_worker_process_group; escaped_descendants_unsupported",
+        "stderr_limit_bytes": 65536,
+        "unsupported": [
+          "parent_memory_limit",
+          "aggregate_process_tree_memory_limit",
+          "interpreter_bootstrap_memory_limit",
+          "absolute_publication_deadline"
+        ],
+        "wall_time": {
+          "absolute_deadline_guaranteed": false,
+          "completed_infeasibility_preserved": false,
+          "deadline_exceeded": false,
+          "includes": [
+            "worker_startup",
+            "input_parsing",
+            "normalization",
+            "solve",
+            "worker_serialization",
+            "parent_protocol_decode",
+            "parent_verification",
+            "parent_serialization_check"
+          ],
+          "limit_seconds": 10.0,
+          "limitations": [
+            "bounded_parent_steps_are_not_preempted",
+            "cleanup_and_os_scheduling_may_overrun",
+            "caller_input_creation_and_file_reading_excluded",
+            "caller_serialization_excluded"
+          ],
+          "publication_included": false,
+          "scope": "parent_observed_operation"
+        }
+      },
+      "status": "UNKNOWN"
+    }
+  },
+  {
+    "arguments": [
+      "explain",
+      "examples/infeasible-coverage-size.json"
+    ],
+    "exitcode": 2,
+    "report": {
+      "engine_version": "0.1.0a1",
+      "explanation": {
+        "checks": 2,
+        "class_totals": {
+          "blue": 4,
+          "red": 1
+        },
+        "complete": true,
+        "minimal": true,
+        "reason": "deletion_minimal_checked",
+        "relevant_groups": [
+          "large-blue",
+          "small-red"
+        ],
+        "removal_witnesses": [
+          {
+            "assignment": [
+              {
+                "group": "large-blue",
+                "partition": "train"
+              },
+              {
+                "group": "small-red",
+                "partition": "test"
+              }
+            ],
+            "removed": "test-blue"
+          },
+          {
+            "assignment": [
+              {
+                "group": "large-blue",
+                "partition": "test"
+              },
+              {
+                "group": "small-red",
+                "partition": "train"
+              }
+            ],
+            "removed": "test-capacity"
+          }
+        ],
+        "requirement_ids": [
+          "test-blue",
+          "test-capacity"
+        ]
+      },
+      "nodes": 5,
+      "problem_digest": "4fa48684d9e8333ec83495ffada3a6d0ea77b6b9349b430b74be9e8abbd6d9fa",
+      "reason": "exhausted_search",
+      "runtime": {
+        "backend": "linux_rlimit_as",
+        "explanation_check_limit": 1024,
+        "input_limit_bytes": 4194304,
+        "memory": {
+          "aggregate_process_tree_enforced": false,
+          "bootstrap_address_space_bytes": 37060608,
+          "bootstrap_enforced": false,
+          "enforced": true,
+          "limit_bytes": 536870912,
+          "parent_enforced": false,
+          "requested_mb": 512,
+          "scope": "worker_address_space"
+        },
+        "node_limit": 100000,
+        "output_limit_bytes": 8388608,
+        "parent_verification": {
+          "explanation_schema_checked": true,
+          "explanation_witnesses_rechecked_in_parent": false,
+          "infeasibility_independently_proven": false,
+          "input_and_output_byte_bounds_enforced": true,
+          "memory_enforced": false,
+          "performed": false,
+          "provenance_bound": true
+        },
+        "process_cleanup": "linux_worker_process_group; escaped_descendants_unsupported",
+        "stderr_limit_bytes": 65536,
+        "unsupported": [
+          "parent_memory_limit",
+          "aggregate_process_tree_memory_limit",
+          "interpreter_bootstrap_memory_limit",
+          "absolute_publication_deadline"
+        ],
+        "wall_time": {
+          "absolute_deadline_guaranteed": false,
+          "completed_infeasibility_preserved": false,
+          "deadline_exceeded": false,
+          "includes": [
+            "worker_startup",
+            "input_parsing",
+            "normalization",
+            "solve",
+            "worker_serialization",
+            "parent_protocol_decode",
+            "parent_verification",
+            "parent_serialization_check"
+          ],
+          "limit_seconds": 10.0,
+          "limitations": [
+            "bounded_parent_steps_are_not_preempted",
+            "cleanup_and_os_scheduling_may_overrun",
+            "caller_input_creation_and_file_reading_excluded",
+            "caller_serialization_excluded"
+          ],
+          "publication_included": false,
+          "scope": "parent_observed_operation"
+        }
+      },
+      "status": "INFEASIBLE"
+    }
+  },
+  {
+    "arguments": [
+      "unknown"
+    ],
+    "exitcode": 4,
+    "report": {
+      "message": "argument command: invalid choice: 'unknown' (choose from validate, solve, explain, check)",
+      "reason": "INVALID_ARGUMENTS",
+      "status": "VALIDATION_ERROR"
+    }
+  }
+]
